@@ -1,0 +1,9 @@
+average_moonset_time,average_moonrise_time,mid_phase_standard_time,visibility,southern_hemisphere,northern_hemisphere,moon_phase
+,6 pm,6 am,Noon,Invisible (too close to Sun),Disc completely in Sun's shadow (lit by earthshine only),New Moon
+9 pm,9 am,3 pm,Late morning to post-dusk,"Left side, 0.1–49.9% lit disc","Right side, 0.1%–49.9% lit disc",Waxing crescent
+Midnight,Noon,6 pm,Afternoon and early evening,"Left side, 50% lit disc","Right side, 50% lit disc",First Quarter
+3 am,3 pm,9 pm,Late afternoon and most of night,"Left side, 50.1%–99.9% lit disc","Right side, 50.1%–99.9% lit disc",Waxing gibbous
+,6 am,6 pm,Midnight,Sunset to sunrise (all night),100% illuminated disc,Full Moon
+9 am,9 pm,3 am,Most of night and early morning,"Right side, 99.9%–50.1% lit disc","Left side, 99.9%–50.1% lit disc",Waning gibbous
+Noon,Midnight,6 am,Late night and morning,"Right side, 50% lit disc","Left side, 50% lit disc",Last Quarter
+3 pm,3 am,9 am,Pre-dawn to early afternoon,"Right side, 49.9%–0.1% lit disc","Left side, 49.9%–0.1% lit disc",Waning crescent
