@@ -1,3 +1,10 @@
+Tensor Flow Linear Regression Output
+Model dataset title: 2013 to 2019
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/linear_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_linear_2.csv
+
+-------
+
 Model for these predictors: 'day_index'
 Model for these targets: 'NUM_COLLISIONS'
 
