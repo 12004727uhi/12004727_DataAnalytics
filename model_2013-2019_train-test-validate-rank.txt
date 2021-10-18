@@ -1,0 +1,2850 @@
+Model for these predictors: 'day_index'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               1.6154047704894    0.186161398983698  [0]
+    2               0.38418296947982   0.193447203612174  [0]
+    3               0.655758608402513  0.188628915354016  [0]
+    4               0.509593717886641  0.198081334197323  [0]
+    5               6.27196216914291   0.188108462197758  [0]
+
+Mean RMSE for "Linear Regression Model": 1.8873804470802569
+Median RMSE for "Linear Regression Model": 0.6557586084025133
+Mean RMSE for "Mean Model": 0.19088546286899383
+Median RMSE for "Mean Model": 0.1886289153540163
+
+Validate for these predictors: 'day_index'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        5.86434477523133  [0]
+    2        5.85174068421434  [0]
+    3        5.82995283252159  [0]
+    4        5.80367553804911  [0]
+    5        5.82904487556198  [0]
+
+Mean RMSE for Validaton Data: 5.835751741115671
+Median RMSE for Validaton Data: 5.829952832521587
+
+-------
+
+Model for these predictors: 'day'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.191483744975809  0.181374219719566  [1]
+    2               0.223171765433337  0.186126569456734  [1]
+    3               0.184355492112819  0.174368310131916  [1]
+    4               0.202944054030217  0.190618969461662  [1]
+    5               0.195274867828779  0.188579536930912  [1]
+
+Mean RMSE for "Linear Regression Model": 0.19944598487619217
+Median RMSE for "Linear Regression Model": 0.19527486782877881
+Mean RMSE for "Mean Model": 0.18421352114015815
+Median RMSE for "Mean Model": 0.1861265694567341
+
+Validate for these predictors: 'day'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.162702226040149  [1]
+    2       0.185002664653104  [1]
+    3       0.188867995533356  [1]
+    4       0.187542367990898  [1]
+    5       0.171760724527718  [1]
+
+Mean RMSE for Validaton Data: 0.17917519574904492
+Median RMSE for Validaton Data: 0.18500266465310375
+
+-------
+
+Model for these predictors: 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.196114275697976  0.179408614648598  [3]
+    2               0.218746232332456  0.190616258562175  [3]
+    3               0.196462906763629  0.185057808678024  [3]
+    4               0.223236852375105  0.182020388163613  [3]
+    5               0.185842275499614  0.183253156538525  [3]
+
+Mean RMSE for "Linear Regression Model": 0.20408050853375617
+Median RMSE for "Linear Regression Model": 0.19646290676362882
+Mean RMSE for "Mean Model": 0.18407124531818705
+Median RMSE for "Mean Model": 0.18325315653852484
+
+Validate for these predictors: 'mo'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.189011084798795  [3]
+    2       0.162434078410708  [3]
+    3       0.170415969724504  [3]
+    4       0.188090959685232  [3]
+    5       0.163427103893425  [3]
+
+Mean RMSE for Validaton Data: 0.1746758393025329
+Median RMSE for Validaton Data: 0.17041596972450399
+
+-------
+
+Model for these predictors: 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.378207551753916  0.18632693441939   [4]
+    2               0.200960785354823  0.182451173566422  [4]
+    3               0.335492252288985  0.191910053476091  [4]
+    4               0.201177870540381  0.189599659041257  [4]
+    5               0.456450470833725  0.188427815389821  [4]
+
+Mean RMSE for "Linear Regression Model": 0.3144577861543659
+Median RMSE for "Linear Regression Model": 0.3354922522889851
+Mean RMSE for "Mean Model": 0.18774312717859645
+Median RMSE for "Mean Model": 0.1884278153898213
+
+Validate for these predictors: 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.437662587784696  [4]
+    2       0.422764947247731  [4]
+    3       0.435305587980428  [4]
+    4       0.417365095270741  [4]
+    5       0.440640499578778  [4]
+
+Mean RMSE for Validaton Data: 0.43074774357247475
+Median RMSE for Validaton Data: 0.4353055879804281
+
+-------
+
+Model for these predictors: 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.180480692392584  0.179898877811746  [5]
+    2               0.199937595042096  0.197154466572503  [5]
+    3               0.183456387929747  0.178080693903365  [5]
+    4               0.187215543493767  0.175859721692576  [5]
+    5               0.184423977721115  0.183067461880833  [5]
+
+Mean RMSE for "Linear Regression Model": 0.18710283931586177
+Median RMSE for "Linear Regression Model": 0.18442397772111507
+Mean RMSE for "Mean Model": 0.1828122443722046
+Median RMSE for "Mean Model": 0.17989887781174646
+
+Validate for these predictors: 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.166853102070893  [5]
+    2       0.170180826764154  [5]
+    3       0.173571890235733  [5]
+    4       0.176591765526887  [5]
+    5       0.173091812533988  [5]
+
+Mean RMSE for Validaton Data: 0.17205787942633116
+Median RMSE for Validaton Data: 0.17309181253398845
+
+-------
+
+Model for these predictors: 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.187721230587281  0.183541431327018  [6]
+    2               0.187469783417294  0.187522543952827  [6]
+    3               0.215678990372632  0.195574002490969  [6]
+    4               0.187580806376335  0.186599512355337  [6]
+    5               0.23233790522316   0.177343715344095  [6]
+
+Mean RMSE for "Linear Regression Model": 0.20215774319534044
+Median RMSE for "Linear Regression Model": 0.18772123058728113
+Mean RMSE for "Mean Model": 0.1861162410940492
+Median RMSE for "Mean Model": 0.18659951235533723
+
+Validate for these predictors: 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.229248548151026  [6]
+    2       0.237263854514951  [6]
+    3       0.23631680535108   [6]
+    4       0.204057233239386  [6]
+    5       0.233994189359319  [6]
+
+Mean RMSE for Validaton Data: 0.2281761261231523
+Median RMSE for Validaton Data: 0.2339941893593187
+
+-------
+
+Model for these predictors: 'day_index', 'day'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1              10.0123069962204    0.183636474615149  [0, 1]
+    2               0.556605374679264  0.178564007746243  [0, 1]
+    3               0.209189709027679  0.183557540873446  [0, 1]
+    4               0.213300700268303  0.184909091287466  [0, 1]
+    5               0.21397218626571   0.187264804111085  [0, 1]
+
+Mean RMSE for "Linear Regression Model": 2.241074993292276
+Median RMSE for "Linear Regression Model": 0.21397218626570982
+Mean RMSE for "Mean Model": 0.18358638372667774
+Median RMSE for "Mean Model": 0.1836364746151492
+
+Validate for these predictors: 'day_index', 'day'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.17703086434486   [0, 1]
+    2       0.263250530343789  [0, 1]
+    3       0.197246124570704  [0, 1]
+    4       0.221779064457503  [0, 1]
+    5       0.164423828758422  [0, 1]
+
+Mean RMSE for Validaton Data: 0.20474608249505538
+Median RMSE for Validaton Data: 0.1972461245707037
+
+-------
+
+Model for these predictors: 'day_index', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               1.72638647967494   0.188027456851845  [0, 2]
+    2               0.333020937587016  0.189532571253534  [0, 2]
+    3              12.6939967200585    0.1831349217419    [0, 2]
+    4               0.606799522193715  0.185448236878487  [0, 2]
+    5               0.575754490349438  0.186128506360661  [0, 2]
+
+Mean RMSE for "Linear Regression Model": 3.1871916299727268
+Median RMSE for "Linear Regression Model": 0.606799522193715
+Mean RMSE for "Mean Model": 0.18645433861728536
+Median RMSE for "Mean Model": 0.18612850636066103
+
+Validate for these predictors: 'day_index', 'year'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.631282847359309  [0, 2]
+    2       0.598291292998136  [0, 2]
+    3       0.60030694634471   [0, 2]
+    4       0.648170311663715  [0, 2]
+    5       0.623119696215978  [0, 2]
+
+Mean RMSE for Validaton Data: 0.6202342189163695
+Median RMSE for Validaton Data: 0.6231196962159778
+
+-------
+
+Model for these predictors: 'day_index', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.262854516352594  0.181572911615911  [0, 3]
+    2               3.04283160152287   0.189404053064928  [0, 3]
+    3               4.31599285491137   0.188154692713689  [0, 3]
+    4               0.199812450008074  0.186927798561698  [0, 3]
+    5               0.229607014951282  0.196808900521494  [0, 3]
+
+Mean RMSE for "Linear Regression Model": 1.6102196875492378
+Median RMSE for "Linear Regression Model": 0.2628545163525939
+Mean RMSE for "Mean Model": 0.18857367129554378
+Median RMSE for "Mean Model": 0.1881546927136894
+
+Validate for these predictors: 'day_index', 'mo'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.185889300801064  [0, 3]
+    2       0.176583556623102  [0, 3]
+    3       0.208770152475451  [0, 3]
+    4       0.178837449357647  [0, 3]
+    5       0.201663712625718  [0, 3]
+
+Mean RMSE for Validaton Data: 0.19034883437659628
+Median RMSE for Validaton Data: 0.18588930080106358
+
+-------
+
+Model for these predictors: 'day_index', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.42841674747615   0.186712459810718  [0, 4]
+    2               0.519204269045788  0.186033498284838  [0, 4]
+    3               0.930283910001492  0.188702281102683  [0, 4]
+    4               0.210359536822661  0.181553260861969  [0, 4]
+    5               0.575571476434136  0.196483290511334  [0, 4]
+
+Mean RMSE for "Linear Regression Model": 0.5327671879560456
+Median RMSE for "Linear Regression Model": 0.5192042690457882
+Mean RMSE for "Mean Model": 0.18789695811430857
+Median RMSE for "Mean Model": 0.1867124598107185
+
+Validate for these predictors: 'day_index', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.505729296872109  [0, 4]
+    2       0.562914420445554  [0, 4]
+    3       0.542580381484677  [0, 4]
+    4       0.538107559220677  [0, 4]
+    5       0.569189142119368  [0, 4]
+
+Mean RMSE for Validaton Data: 0.5437041600284772
+Median RMSE for Validaton Data: 0.542580381484677
+
+-------
+
+Model for these predictors: 'day_index', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1              21.8473990216451    0.181603489419003  [0, 5]
+    2               0.336706024773182  0.193215987288244  [0, 5]
+    3               0.187525433692319  0.181872892320211  [0, 5]
+    4               0.215336317382648  0.195888366232148  [0, 5]
+    5               7.93304009285618   0.187822324699584  [0, 5]
+
+Mean RMSE for "Linear Regression Model": 6.10400137806989
+Median RMSE for "Linear Regression Model": 0.3367060247731824
+Mean RMSE for "Mean Model": 0.1880806119918379
+Median RMSE for "Mean Model": 0.18782232469958376
+
+Validate for these predictors: 'day_index', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        7.47290751281746  [0, 5]
+    2        7.44097423540743  [0, 5]
+    3        7.46583516242951  [0, 5]
+    4        7.46115279162608  [0, 5]
+    5        7.4649824408852   [0, 5]
+
+Mean RMSE for Validaton Data: 7.461170428633137
+Median RMSE for Validaton Data: 7.464982440885204
+
+-------
+
+Model for these predictors: 'day_index', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               3.46396822972057   0.179069853028906  [0, 6]
+    2               0.263321281649542  0.186043751928569  [0, 6]
+    3               0.195565693375616  0.191335610602295  [0, 6]
+    4               0.576458043340164  0.194523653514918  [0, 6]
+    5               3.34141044616154   0.188816731493846  [0, 6]
+
+Mean RMSE for "Linear Regression Model": 1.5681447388494865
+Median RMSE for "Linear Regression Model": 0.5764580433401637
+Mean RMSE for "Mean Model": 0.18795792011370677
+Median RMSE for "Mean Model": 0.1888167314938459
+
+Validate for these predictors: 'day_index', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        3.11992965338162  [0, 6]
+    2        3.11701211828074  [0, 6]
+    3        3.15095839477531  [0, 6]
+    4        3.12854751023022  [0, 6]
+    5        3.10739677183481  [0, 6]
+
+Mean RMSE for Validaton Data: 3.1247688897005386
+Median RMSE for Validaton Data: 3.119929653381618
+
+-------
+
+Model for these predictors: 'day', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.211592684721162  0.188342597987691  [1, 3]
+    2               0.226664210422542  0.186602819986597  [1, 3]
+    3               0.200658129956806  0.193871243734753  [1, 3]
+    4               0.196544864083652  0.182673566941835  [1, 3]
+    5               0.210857724379491  0.19245070317576   [1, 3]
+
+Mean RMSE for "Linear Regression Model": 0.20926352271273055
+Median RMSE for "Linear Regression Model": 0.21085772437949094
+Mean RMSE for "Mean Model": 0.1887881863653273
+Median RMSE for "Mean Model": 0.18834259798769082
+
+Validate for these predictors: 'day', 'mo'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.188999895961702  [1, 3]
+    2       0.182238343038152  [1, 3]
+    3       0.213908150026669  [1, 3]
+    4       0.227816603981495  [1, 3]
+    5       0.187495771142155  [1, 3]
+
+Mean RMSE for Validaton Data: 0.20009175283003464
+Median RMSE for Validaton Data: 0.18899989596170202
+
+-------
+
+Model for these predictors: 'day', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.265745452347204  0.176610927621863  [1, 4]
+    2               0.244371808362211  0.184461971251916  [1, 4]
+    3               0.196400833134925  0.190896522969131  [1, 4]
+    4               0.272629401201345  0.189544537774053  [1, 4]
+    5               0.200966075277849  0.185293949834222  [1, 4]
+
+Mean RMSE for "Linear Regression Model": 0.23602271406470665
+Median RMSE for "Linear Regression Model": 0.24437180836221098
+Mean RMSE for "Mean Model": 0.18536158189023727
+Median RMSE for "Mean Model": 0.18529394983422245
+
+Validate for these predictors: 'day', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.186543991947122  [1, 4]
+    2       0.202324877934483  [1, 4]
+    3       0.189651378387731  [1, 4]
+    4       0.204941434355895  [1, 4]
+    5       0.167625870110402  [1, 4]
+
+Mean RMSE for Validaton Data: 0.19021751054712646
+Median RMSE for Validaton Data: 0.18965137838773063
+
+-------
+
+Model for these predictors: 'day', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.210862004471474  0.179614203898667  [1, 5]
+    2               0.189156698547773  0.179950579194373  [1, 5]
+    3               0.221852476352388  0.18226355168994   [1, 5]
+    4               0.21213917843727   0.190438630787239  [1, 5]
+    5               0.223513001304452  0.195374394533831  [1, 5]
+
+Mean RMSE for "Linear Regression Model": 0.21150467182267157
+Median RMSE for "Linear Regression Model": 0.21213917843727034
+Mean RMSE for "Mean Model": 0.1855282720208098
+Median RMSE for "Mean Model": 0.1822635516899397
+
+Validate for these predictors: 'day', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.181786338043578  [1, 5]
+    2       0.221371983278984  [1, 5]
+    3       0.176580718702594  [1, 5]
+    4       0.181866951480375  [1, 5]
+    5       0.205861938674026  [1, 5]
+
+Mean RMSE for Validaton Data: 0.1934935860359116
+Median RMSE for Validaton Data: 0.18186695148037535
+
+-------
+
+Model for these predictors: 'day', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.211505665431177  0.185158177043732  [1, 6]
+    2               0.195024019416855  0.188858931705104  [1, 6]
+    3               0.216650588175869  0.184322162043646  [1, 6]
+    4               0.201809793330725  0.188000419095265  [1, 6]
+    5               0.200349469085917  0.186501523161855  [1, 6]
+
+Mean RMSE for "Linear Regression Model": 0.20506790708810868
+Median RMSE for "Linear Regression Model": 0.2018097933307252
+Mean RMSE for "Mean Model": 0.18656824260992047
+Median RMSE for "Mean Model": 0.1865015231618554
+
+Validate for these predictors: 'day', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.208303452563773  [1, 6]
+    2       0.170898097082845  [1, 6]
+    3       0.18592498905795   [1, 6]
+    4       0.20521504922852   [1, 6]
+    5       0.187386482686688  [1, 6]
+
+Mean RMSE for Validaton Data: 0.19154561412395527
+Median RMSE for Validaton Data: 0.18738648268668842
+
+-------
+
+Model for these predictors: 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               3.97547991407291   0.186394613896255  [2, 3]
+    2               0.235049275729597  0.194293621971257  [2, 3]
+    3               1.56080890535582   0.18691216702132   [2, 3]
+    4               0.94433387401021   0.184983806552047  [2, 3]
+    5               0.629024731993955  0.191423032448083  [2, 3]
+
+Mean RMSE for "Linear Regression Model": 1.4689393402325002
+Median RMSE for "Linear Regression Model": 0.9443338740102096
+Mean RMSE for "Mean Model": 0.18880144837779234
+Median RMSE for "Mean Model": 0.18691216702131977
+
+Validate for these predictors: 'year', 'mo'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.638523437522032  [2, 3]
+    2       0.641841172937223  [2, 3]
+    3       0.641885051506135  [2, 3]
+    4       0.639822757245062  [2, 3]
+    5       0.642292447241082  [2, 3]
+
+Mean RMSE for Validaton Data: 0.6408729732903067
+Median RMSE for Validaton Data: 0.641841172937223
+
+-------
+
+Model for these predictors: 'year', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'year', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'year', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'mo', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.193929633585902  0.189507685751593  [3, 4]
+    2               0.212744278347339  0.186474413040778  [3, 4]
+    3               0.258650384195038  0.183623669084904  [3, 4]
+    4               0.401767560006165  0.190467276447233  [3, 4]
+    5               0.446627597761744  0.187270322357344  [3, 4]
+
+Mean RMSE for "Linear Regression Model": 0.30274389077923736
+Median RMSE for "Linear Regression Model": 0.2586503841950376
+Mean RMSE for "Mean Model": 0.1874686733363704
+Median RMSE for "Mean Model": 0.187270322357344
+
+Validate for these predictors: 'mo', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.417246374008395  [3, 4]
+    2       0.433638140149453  [3, 4]
+    3       0.460924090157673  [3, 4]
+    4       0.422295763037573  [3, 4]
+    5       0.399384502249109  [3, 4]
+
+Mean RMSE for Validaton Data: 0.4266977739204406
+Median RMSE for Validaton Data: 0.4222957630375727
+
+-------
+
+Model for these predictors: 'mo', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.20288564338346   0.188767193909538  [3, 5]
+    2               0.190980318010269  0.187480477501089  [3, 5]
+    3               0.199413431791369  0.181013065276149  [3, 5]
+    4               0.243606329747708  0.187406534401025  [3, 5]
+    5               0.212784047061417  0.189477924357599  [3, 5]
+
+Mean RMSE for "Linear Regression Model": 0.2099339539988448
+Median RMSE for "Linear Regression Model": 0.20288564338346
+Mean RMSE for "Mean Model": 0.18682903908908005
+Median RMSE for "Mean Model": 0.18748047750108923
+
+Validate for these predictors: 'mo', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.204594638069021  [3, 5]
+    2       0.190755576891062  [3, 5]
+    3       0.171886735177275  [3, 5]
+    4       0.183667227479077  [3, 5]
+    5       0.21686290135126   [3, 5]
+
+Mean RMSE for Validaton Data: 0.19355341579353896
+Median RMSE for Validaton Data: 0.19075557689106218
+
+-------
+
+Model for these predictors: 'mo', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.222048019555066  0.188876453731947  [3, 6]
+    2               0.199613622263468  0.184088719105091  [3, 6]
+    3               0.198600987925907  0.187076452768621  [3, 6]
+    4               0.215984767642378  0.192625423516634  [3, 6]
+    5               0.197269776172056  0.188421203472859  [3, 6]
+
+Mean RMSE for "Linear Regression Model": 0.2067034347117751
+Median RMSE for "Linear Regression Model": 0.19961362226346757
+Mean RMSE for "Mean Model": 0.18821765051903033
+Median RMSE for "Mean Model": 0.18842120347285893
+
+Validate for these predictors: 'mo', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.177433891625082  [3, 6]
+    2       0.167881762564863  [3, 6]
+    3       0.159279791952279  [3, 6]
+    4       0.156030347414985  [3, 6]
+    5       0.161917192059671  [3, 6]
+
+Mean RMSE for Validaton Data: 0.1645085971233759
+Median RMSE for Validaton Data: 0.16191719205967053
+
+-------
+
+Model for these predictors: 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.201584046298637  0.186415996422202  [4, 5]
+    2               0.186784162210961  0.174829660454773  [4, 5]
+    3               0.219518040104375  0.181754445776215  [4, 5]
+    4               0.376005116392314  0.182435508099747  [4, 5]
+    5               0.302680340976737  0.186165559886781  [4, 5]
+
+Mean RMSE for "Linear Regression Model": 0.2573143411966047
+Median RMSE for "Linear Regression Model": 0.2195180401043751
+Mean RMSE for "Mean Model": 0.1823202341279438
+Median RMSE for "Mean Model": 0.18243550809974735
+
+Validate for these predictors: 'temp', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.310142692826185  [4, 5]
+    2       0.301188751831672  [4, 5]
+    3       0.309818146638936  [4, 5]
+    4       0.311671710042542  [4, 5]
+    5       0.30544275915682   [4, 5]
+
+Mean RMSE for Validaton Data: 0.30765281209923107
+Median RMSE for Validaton Data: 0.3098181466389357
+
+-------
+
+Model for these predictors: 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.19162381787399   0.186889493179802  [4, 6]
+    2               0.206477950837589  0.185968906921153  [4, 6]
+    3               0.234662867093824  0.184625201346897  [4, 6]
+    4               0.325283339074909  0.182815829172099  [4, 6]
+    5               0.270366720181812  0.184680109404159  [4, 6]
+
+Mean RMSE for "Linear Regression Model": 0.24568293901242474
+Median RMSE for "Linear Regression Model": 0.23466286709382403
+Mean RMSE for "Mean Model": 0.18499590800482163
+Median RMSE for "Mean Model": 0.18468010940415877
+
+Validate for these predictors: 'temp', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.268653615469385  [4, 6]
+    2       0.27263251841081   [4, 6]
+    3       0.272952739266455  [4, 6]
+    4       0.265978124418818  [4, 6]
+    5       0.268042876273415  [4, 6]
+
+Mean RMSE for Validaton Data: 0.2696519747677768
+Median RMSE for Validaton Data: 0.26865361546938504
+
+-------
+
+Model for these predictors: 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.197377459572135  0.187558399006959  [5, 6]
+    2               0.192085253818583  0.190757496358399  [5, 6]
+    3               0.188456173514471  0.187979430446802  [5, 6]
+    4               0.19585833583218   0.179390726660107  [5, 6]
+    5               0.197551152339091  0.185922788795986  [5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.1942656750152921
+Median RMSE for "Linear Regression Model": 0.19585833583217965
+Mean RMSE for "Mean Model": 0.1863217682536505
+Median RMSE for "Mean Model": 0.18755839900695886
+
+Validate for these predictors: 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.177423578837966  [5, 6]
+    2       0.180622538291525  [5, 6]
+    3       0.180327763619429  [5, 6]
+    4       0.176757206634111  [5, 6]
+    5       0.183810139601546  [5, 6]
+
+Mean RMSE for Validaton Data: 0.17978824539691524
+Median RMSE for Validaton Data: 0.18032776361942898
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.242485414320493  0.183205676132395  [0, 1, 2]
+    2               4.85954254176668   0.186268250494936  [0, 1, 2]
+    3               5.79579073879716   0.187470879438114  [0, 1, 2]
+    4               0.888984224447557  0.196192609499994  [0, 1, 2]
+    5               0.216926142785294  0.195089757586224  [0, 1, 2]
+
+Mean RMSE for "Linear Regression Model": 2.4007458124234384
+Median RMSE for "Linear Regression Model": 0.8889842244475568
+Mean RMSE for "Mean Model": 0.18964543463033262
+Median RMSE for "Mean Model": 0.1874708794381142
+
+Validate for these predictors: 'day_index', 'day', 'year'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.187185637913906  [0, 1, 2]
+    2       0.22124071264758   [0, 1, 2]
+    3       0.153424537851861  [0, 1, 2]
+    4       0.222902751979736  [0, 1, 2]
+    5       0.154629954436597  [0, 1, 2]
+
+Mean RMSE for Validaton Data: 0.18787671896593625
+Median RMSE for Validaton Data: 0.18718563791390613
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.218223417076499  0.188530506571494  [0, 1, 4]
+    2               2.91114565802684   0.18329068047091   [0, 1, 4]
+    3               0.286899386084114  0.193880737640667  [0, 1, 4]
+    4               0.26789590804132   0.183813771372828  [0, 1, 4]
+    5              20.7906840162434    0.18999093498124   [0, 1, 4]
+
+Mean RMSE for "Linear Regression Model": 4.894969677094442
+Median RMSE for "Linear Regression Model": 0.28689938608411425
+Mean RMSE for "Mean Model": 0.1879013262074279
+Median RMSE for "Mean Model": 0.18853050657149426
+
+Validate for these predictors: 'day_index', 'day', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        19.5061265418158  [0, 1, 4]
+    2        19.4758132452217  [0, 1, 4]
+    3        19.5128992531065  [0, 1, 4]
+    4        19.5137205172471  [0, 1, 4]
+    5        19.509361730747   [0, 1, 4]
+
+Mean RMSE for Validaton Data: 19.503584257627605
+Median RMSE for Validaton Data: 19.509361730746978
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               5.87039027062371   0.183895330354553  [0, 1, 5]
+    2               0.267473038540202  0.183631622900629  [0, 1, 5]
+    3               0.317188156651048  0.181696594258106  [0, 1, 5]
+    4               1.90415010864801   0.185267218872974  [0, 1, 5]
+    5               0.292073496068809  0.189471916076279  [0, 1, 5]
+
+Mean RMSE for "Linear Regression Model": 1.7302550141063555
+Median RMSE for "Linear Regression Model": 0.317188156651048
+Mean RMSE for "Mean Model": 0.1847925364925081
+Median RMSE for "Mean Model": 0.18389533035455294
+
+Validate for these predictors: 'day_index', 'day', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.359936057573403  [0, 1, 5]
+    2       0.319760605307394  [0, 1, 5]
+    3       0.229919685048482  [0, 1, 5]
+    4       0.301882479328886  [0, 1, 5]
+    5       0.213484552888353  [0, 1, 5]
+
+Mean RMSE for Validaton Data: 0.2849966760293034
+Median RMSE for Validaton Data: 0.3018824793288856
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.213347983112581  0.199757836200097  [0, 1, 6]
+    2               0.387011854845703  0.183849361404608  [0, 1, 6]
+    3               0.261660956146994  0.189524938140787  [0, 1, 6]
+    4               0.236837734983358  0.183413531458706  [0, 1, 6]
+    5               0.612667210096276  0.186056250215589  [0, 1, 6]
+
+Mean RMSE for "Linear Regression Model": 0.34230514783698246
+Median RMSE for "Linear Regression Model": 0.2616609561469945
+Mean RMSE for "Mean Model": 0.18852038348395744
+Median RMSE for "Mean Model": 0.18605625021558886
+
+Validate for these predictors: 'day_index', 'day', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.584290698198111  [0, 1, 6]
+    2       0.537032956588685  [0, 1, 6]
+    3       0.561565199269834  [0, 1, 6]
+    4       0.528889393640352  [0, 1, 6]
+    5       0.555996453528579  [0, 1, 6]
+
+Mean RMSE for Validaton Data: 0.5535549402451124
+Median RMSE for Validaton Data: 0.5559964535285793
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               1.84104806084417   0.181838947873168  [0, 2, 5]
+    2               0.467157090229784  0.182940528954683  [0, 2, 5]
+    3               0.549694179523125  0.196585296938695  [0, 2, 5]
+    4               0.556015968526557  0.189331236240189  [0, 2, 5]
+    5               1.30819200153695   0.180927376255013  [0, 2, 5]
+
+Mean RMSE for "Linear Regression Model": 0.9444214601321163
+Median RMSE for "Linear Regression Model": 0.5560159685265574
+Mean RMSE for "Mean Model": 0.18632467725234933
+Median RMSE for "Mean Model": 0.18294052895468263
+
+Validate for these predictors: 'day_index', 'year', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        1.26950407947845  [0, 2, 5]
+    2        1.26236194942755  [0, 2, 5]
+    3        1.27568377181202  [0, 2, 5]
+    4        1.26142084429647  [0, 2, 5]
+    5        1.27114200187188  [0, 2, 5]
+
+Mean RMSE for Validaton Data: 1.2680225293772744
+Median RMSE for Validaton Data: 1.269504079478446
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'mo', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.272896419307818  0.188524174514877  [0, 3, 4]
+    2               0.243981246691369  0.180130902006806  [0, 3, 4]
+    3               0.971821732554449  0.190187368774576  [0, 3, 4]
+    4               0.2207452333356    0.193713921667814  [0, 3, 4]
+    5               0.234291640744162  0.188125003991844  [0, 3, 4]
+
+Mean RMSE for "Linear Regression Model": 0.3887472545266796
+Median RMSE for "Linear Regression Model": 0.24398124669136903
+Mean RMSE for "Mean Model": 0.1881362741911834
+Median RMSE for "Mean Model": 0.18852417451487744
+
+Validate for these predictors: 'day_index', 'mo', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.209084420063348  [0, 3, 4]
+    2       0.220232581392031  [0, 3, 4]
+    3       0.207130118829105  [0, 3, 4]
+    4       0.218312401686815  [0, 3, 4]
+    5       0.210073325090974  [0, 3, 4]
+
+Mean RMSE for Validaton Data: 0.2129665694124545
+Median RMSE for Validaton Data: 0.21007332509097396
+
+-------
+
+Model for these predictors: 'day_index', 'mo', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.508695012299049  0.181874215535143  [0, 3, 5]
+    2               6.62259146943384   0.187002603368252  [0, 3, 5]
+    3               0.444742064288686  0.191757443150491  [0, 3, 5]
+    4               0.281077047493474  0.188105276432115  [0, 3, 5]
+    5               1.99814195932222   0.190018499385463  [0, 3, 5]
+
+Mean RMSE for "Linear Regression Model": 1.9710495105674546
+Median RMSE for "Linear Regression Model": 0.5086950122990492
+Mean RMSE for "Mean Model": 0.18775160757429282
+Median RMSE for "Mean Model": 0.1881052764321155
+
+Validate for these predictors: 'day_index', 'mo', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        1.89418553501522  [0, 3, 5]
+    2        1.8717335153384   [0, 3, 5]
+    3        1.8083262483717   [0, 3, 5]
+    4        1.83161220047301  [0, 3, 5]
+    5        1.86281363793426  [0, 3, 5]
+
+Mean RMSE for Validaton Data: 1.8537342274265185
+Median RMSE for Validaton Data: 1.8628136379342608
+
+-------
+
+Model for these predictors: 'day_index', 'mo', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               5.41553305061101   0.177023703612272  [0, 4, 5]
+    2               2.92318948819446   0.185241851312469  [0, 4, 5]
+    3               0.205751423146121  0.198600869194558  [0, 4, 5]
+    4               0.354894148723409  0.182513705406963  [0, 4, 5]
+    5               0.208168478701331  0.19044176004277   [0, 4, 5]
+
+Mean RMSE for "Linear Regression Model": 1.821507317875266
+Median RMSE for "Linear Regression Model": 0.354894148723409
+Mean RMSE for "Mean Model": 0.18676437791380648
+Median RMSE for "Mean Model": 0.18524185131246865
+
+Validate for these predictors: 'day_index', 'temp', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.166452484662135  [0, 4, 5]
+    2       0.174230701256112  [0, 4, 5]
+    3       0.196510217580768  [0, 4, 5]
+    4       0.192199872828418  [0, 4, 5]
+    5       0.210221181037964  [0, 4, 5]
+
+Mean RMSE for Validaton Data: 0.18792289147307945
+Median RMSE for Validaton Data: 0.1921998728284183
+
+-------
+
+Model for these predictors: 'day_index', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'mo', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.299326661906978  0.183096074584362  [1, 3, 4]
+    2               0.197436671057113  0.183084620683095  [1, 3, 4]
+    3               0.216749638632466  0.191363966100062  [1, 3, 4]
+    4               0.261930852589273  0.190705258935742  [1, 3, 4]
+    5               0.221294797112144  0.18292827072387   [1, 3, 4]
+
+Mean RMSE for "Linear Regression Model": 0.23934772425959464
+Median RMSE for "Linear Regression Model": 0.2212947971121443
+Mean RMSE for "Mean Model": 0.18623563820542613
+Median RMSE for "Mean Model": 0.18309607458436183
+
+Validate for these predictors: 'day', 'mo', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.234674009954229  [1, 3, 4]
+    2       0.218681755289386  [1, 3, 4]
+    3       0.199104984835897  [1, 3, 4]
+    4       0.205753304561153  [1, 3, 4]
+    5       0.226279851013743  [1, 3, 4]
+
+Mean RMSE for Validaton Data: 0.2168987811308818
+Median RMSE for Validaton Data: 0.21868175528938627
+
+-------
+
+Model for these predictors: 'day', 'mo', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.218198421967993  0.194105103316219  [1, 3, 5]
+    2               0.210320685266472  0.19654917931866   [1, 3, 5]
+    3               0.202874543135429  0.191392176333647  [1, 3, 5]
+    4               0.20104068821757   0.190989677622836  [1, 3, 5]
+    5               0.199613333801664  0.183468857788177  [1, 3, 5]
+
+Mean RMSE for "Linear Regression Model": 0.20640953447782556
+Median RMSE for "Linear Regression Model": 0.20287454313542924
+Mean RMSE for "Mean Model": 0.19130099887590785
+Median RMSE for "Mean Model": 0.19139217633364677
+
+Validate for these predictors: 'day', 'mo', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.179351995494281  [1, 3, 5]
+    2       0.179678409486675  [1, 3, 5]
+    3       0.166270568246346  [1, 3, 5]
+    4       0.20072141433231   [1, 3, 5]
+    5       0.206414502837362  [1, 3, 5]
+
+Mean RMSE for Validaton Data: 0.1864873780793947
+Median RMSE for Validaton Data: 0.17967840948667493
+
+-------
+
+Model for these predictors: 'day', 'mo', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.288253901502588  0.188010966037196  [1, 3, 6]
+    2               0.210553710728558  0.181874728177787  [1, 3, 6]
+    3               0.229808620897115  0.18735997847101   [1, 3, 6]
+    4               0.237639092284599  0.186255422537486  [1, 3, 6]
+    5               0.251331652775957  0.18526477351704   [1, 3, 6]
+
+Mean RMSE for "Linear Regression Model": 0.24351739563776328
+Median RMSE for "Linear Regression Model": 0.23763909228459887
+Mean RMSE for "Mean Model": 0.1857531737481038
+Median RMSE for "Mean Model": 0.18625542253748592
+
+Validate for these predictors: 'day', 'mo', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.241518841943734  [1, 3, 6]
+    2       0.202590641918352  [1, 3, 6]
+    3       0.206165888893142  [1, 3, 6]
+    4       0.226657511614036  [1, 3, 6]
+    5       0.225775627565386  [1, 3, 6]
+
+Mean RMSE for Validaton Data: 0.22054170238692997
+Median RMSE for Validaton Data: 0.22577562756538588
+
+-------
+
+Model for these predictors: 'day', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.349369498029804  0.186724479633999  [1, 4, 5]
+    2               0.189176428752875  0.174281338530614  [1, 4, 5]
+    3               0.205600784981981  0.190256655537791  [1, 4, 5]
+    4               0.228349362687811  0.183670152614377  [1, 4, 5]
+    5               0.343443703774955  0.189852627328275  [1, 4, 5]
+
+Mean RMSE for "Linear Regression Model": 0.26318795564548525
+Median RMSE for "Linear Regression Model": 0.22834936268781098
+Mean RMSE for "Mean Model": 0.18495705072901103
+Median RMSE for "Mean Model": 0.18672447963399874
+
+Validate for these predictors: 'day', 'temp', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.350442986116486  [1, 4, 5]
+    2       0.349040593562005  [1, 4, 5]
+    3       0.345118433192189  [1, 4, 5]
+    4       0.353468822788138  [1, 4, 5]
+    5       0.348849693856623  [1, 4, 5]
+
+Mean RMSE for Validaton Data: 0.3493841059030883
+Median RMSE for Validaton Data: 0.34904059356200534
+
+-------
+
+Model for these predictors: 'day', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.326885626802366  0.197761193444962  [1, 4, 6]
+    2               0.33078615786246   0.191927874203195  [1, 4, 6]
+    3               0.268069390805206  0.18226023792203   [1, 4, 6]
+    4               0.204417209111416  0.180564516250798  [1, 4, 6]
+    5               0.293555821854721  0.179622704865846  [1, 4, 6]
+
+Mean RMSE for "Linear Regression Model": 0.28474284128723365
+Median RMSE for "Linear Regression Model": 0.2935558218547208
+Mean RMSE for "Mean Model": 0.1864273053373658
+Median RMSE for "Mean Model": 0.1822602379220297
+
+Validate for these predictors: 'day', 'temp', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.271828272017095  [1, 4, 6]
+    2       0.253641148593882  [1, 4, 6]
+    3       0.289668833470042  [1, 4, 6]
+    4       0.324544129888377  [1, 4, 6]
+    5       0.305370282592866  [1, 4, 6]
+
+Mean RMSE for Validaton Data: 0.2890105333124525
+Median RMSE for Validaton Data: 0.28966883347004246
+
+-------
+
+Model for these predictors: 'day', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.240319951466546  0.183592063799116  [1, 5, 6]
+    2               0.205318284952341  0.183600998873931  [1, 5, 6]
+    3               0.22691854562933   0.183411465580463  [1, 5, 6]
+    4               0.250781875879404  0.190126203547336  [1, 5, 6]
+    5               0.19208811261812   0.181451715048248  [1, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.22308535410914807
+Median RMSE for "Linear Regression Model": 0.22691854562932964
+Mean RMSE for "Mean Model": 0.1844364893698186
+Median RMSE for "Mean Model": 0.1835920637991158
+
+Validate for these predictors: 'day', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.18235957789014   [1, 5, 6]
+    2       0.175317307996053  [1, 5, 6]
+    3       0.187586018910005  [1, 5, 6]
+    4       0.185712547564258  [1, 5, 6]
+    5       0.192512426620196  [1, 5, 6]
+
+Mean RMSE for Validaton Data: 0.1846975757961305
+Median RMSE for Validaton Data: 0.1857125475642583
+
+-------
+
+Model for these predictors: 'year', 'mo', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'year', 'mo', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'year', 'mo', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'year', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'year', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'year', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'mo', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.200098698666398  0.1854156826984    [3, 4, 5]
+    2               0.45553457641595   0.18073000714154   [3, 4, 5]
+    3               0.320613945111987  0.188684529687822  [3, 4, 5]
+    4               0.318443418647431  0.184324586992748  [3, 4, 5]
+    5               0.288073105298894  0.189084788466011  [3, 4, 5]
+
+Mean RMSE for "Linear Regression Model": 0.316552748828132
+Median RMSE for "Linear Regression Model": 0.31844341864743064
+Mean RMSE for "Mean Model": 0.18564791899730426
+Median RMSE for "Mean Model": 0.18541568269840028
+
+Validate for these predictors: 'mo', 'temp', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.272627840367746  [3, 4, 5]
+    2       0.267480978496212  [3, 4, 5]
+    3       0.261718847718225  [3, 4, 5]
+    4       0.294714687945888  [3, 4, 5]
+    5       0.257678011992588  [3, 4, 5]
+
+Mean RMSE for Validaton Data: 0.2708440733041318
+Median RMSE for Validaton Data: 0.2674809784962124
+
+-------
+
+Model for these predictors: 'mo', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.317790474397076  0.187694820158739  [3, 4, 6]
+    2               0.226911009746831  0.188581530688729  [3, 4, 6]
+    3               0.292903587851088  0.200096762099554  [3, 4, 6]
+    4               0.371809462636512  0.183808143866617  [3, 4, 6]
+    5               0.193746074212546  0.189360321376539  [3, 4, 6]
+
+Mean RMSE for "Linear Regression Model": 0.28063212176881086
+Median RMSE for "Linear Regression Model": 0.29290358785108833
+Mean RMSE for "Mean Model": 0.18990831563803565
+Median RMSE for "Mean Model": 0.1885815306887287
+
+Validate for these predictors: 'mo', 'temp', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.158919352467498  [3, 4, 6]
+    2       0.187306533579722  [3, 4, 6]
+    3       0.18788665198223   [3, 4, 6]
+    4       0.178806084817831  [3, 4, 6]
+    5       0.188609390199278  [3, 4, 6]
+
+Mean RMSE for Validaton Data: 0.18030560260931167
+Median RMSE for Validaton Data: 0.187306533579722
+
+-------
+
+Model for these predictors: 'mo', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.199443916112812  0.189111459947903  [3, 5, 6]
+    2               0.208019290669194  0.18701084652401   [3, 5, 6]
+    3               0.19067417362719   0.187049625122282  [3, 5, 6]
+    4               0.204263133073205  0.188290259501889  [3, 5, 6]
+    5               0.201372567380836  0.183967216152247  [3, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.20075461617264737
+Median RMSE for "Linear Regression Model": 0.20137256738083598
+Mean RMSE for "Mean Model": 0.18708588144966606
+Median RMSE for "Mean Model": 0.18704962512228188
+
+Validate for these predictors: 'mo', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.195220249613055  [3, 5, 6]
+    2       0.196782837811347  [3, 5, 6]
+    3       0.188574789172957  [3, 5, 6]
+    4       0.190810324622957  [3, 5, 6]
+    5       0.183538755266305  [3, 5, 6]
+
+Mean RMSE for Validaton Data: 0.190985391297324
+Median RMSE for Validaton Data: 0.19081032462295663
+
+-------
+
+Model for these predictors: 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.180778890008438  0.179610700627394  [4, 5, 6]
+    2               0.241527876556801  0.198353752693334  [4, 5, 6]
+    3               0.202900419563855  0.191924201832395  [4, 5, 6]
+    4               0.222350664857545  0.193584939062709  [4, 5, 6]
+    5               0.237085453820385  0.175830981154465  [4, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.21692866096140478
+Median RMSE for "Linear Regression Model": 0.2223506648575446
+Mean RMSE for "Mean Model": 0.18786091507405941
+Median RMSE for "Mean Model": 0.1919242018323949
+
+Validate for these predictors: 'temp', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.23471755769096   [4, 5, 6]
+    2       0.235278463755493  [4, 5, 6]
+    3       0.228551039242715  [4, 5, 6]
+    4       0.220891235088157  [4, 5, 6]
+    5       0.249559425952706  [4, 5, 6]
+
+Mean RMSE for Validaton Data: 0.233799544346006
+Median RMSE for Validaton Data: 0.23471755769095962
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.266832332189059  0.192025483757338  [0, 1, 2, 5]
+    2               0.534362856590966  0.192682335777718  [0, 1, 2, 5]
+    3               0.303447931247617  0.187678130185718  [0, 1, 2, 5]
+    4               5.82820153289009   0.187579509472805  [0, 1, 2, 5]
+    5               1.63439368712752   0.182048602475994  [0, 1, 2, 5]
+
+Mean RMSE for "Linear Regression Model": 1.7134476680090487
+Median RMSE for "Linear Regression Model": 0.5343628565909662
+Mean RMSE for "Mean Model": 0.1884028123339148
+Median RMSE for "Mean Model": 0.18767813018571788
+
+Validate for these predictors: 'day_index', 'day', 'year', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        1.62817737996232  [0, 1, 2, 5]
+    2        1.61097861680413  [0, 1, 2, 5]
+    3        1.61208435165056  [0, 1, 2, 5]
+    4        1.62072103488628  [0, 1, 2, 5]
+    5        1.60515775633418  [0, 1, 2, 5]
+
+Mean RMSE for Validaton Data: 1.6154238279274924
+Median RMSE for Validaton Data: 1.6120843516505576
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'mo', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               6.98043636237813   0.190638587097351  [0, 1, 3, 4]
+    2               0.364507656791806  0.198872227070432  [0, 1, 3, 4]
+    3               0.368430617575252  0.186105342055298  [0, 1, 3, 4]
+    4               0.235027127619434  0.187623914691464  [0, 1, 3, 4]
+    5               0.757327077395055  0.183633165739857  [0, 1, 3, 4]
+
+Mean RMSE for "Linear Regression Model": 1.7411457683519356
+Median RMSE for "Linear Regression Model": 0.3684306175752518
+Mean RMSE for "Mean Model": 0.18937464733088033
+Median RMSE for "Mean Model": 0.18762391469146414
+
+Validate for these predictors: 'day_index', 'day', 'mo', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.620003823963622  [0, 1, 3, 4]
+    2       0.71349297211214   [0, 1, 3, 4]
+    3       0.653653018665577  [0, 1, 3, 4]
+    4       0.686852681981034  [0, 1, 3, 4]
+    5       0.726483923033378  [0, 1, 3, 4]
+
+Mean RMSE for Validaton Data: 0.6800972839511503
+Median RMSE for Validaton Data: 0.6868526819810341
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'mo', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.467155461661985  0.180715809801381  [0, 1, 3, 5]
+    2               0.946116097201159  0.186547579393382  [0, 1, 3, 5]
+    3               0.862774480377696  0.192345595835469  [0, 1, 3, 5]
+    4               4.48286108076508   0.182786238516489  [0, 1, 3, 5]
+    5               0.210581718435358  0.176136487596674  [0, 1, 3, 5]
+
+Mean RMSE for "Linear Regression Model": 1.3938977676882558
+Median RMSE for "Linear Regression Model": 0.8627744803776956
+Mean RMSE for "Mean Model": 0.18370634222867877
+Median RMSE for "Mean Model": 0.18278623851648856
+
+Validate for these predictors: 'day_index', 'day', 'mo', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.168701024430767  [0, 1, 3, 5]
+    2       0.220890076690323  [0, 1, 3, 5]
+    3       0.182399756025875  [0, 1, 3, 5]
+    4       0.191518079422887  [0, 1, 3, 5]
+    5       0.212774360502866  [0, 1, 3, 5]
+
+Mean RMSE for Validaton Data: 0.1952566594145433
+Median RMSE for Validaton Data: 0.19151807942288665
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'mo', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.427483554831882  0.194027088036575  [0, 1, 3, 6]
+    2               0.20395028068504   0.188261062932693  [0, 1, 3, 6]
+    3               0.222222422794844  0.18882752032459   [0, 1, 3, 6]
+    4               1.93348382593847   0.187949982839079  [0, 1, 3, 6]
+    5               0.214193735093268  0.198594778737709  [0, 1, 3, 6]
+
+Mean RMSE for "Linear Regression Model": 0.6002667638687005
+Median RMSE for "Linear Regression Model": 0.22222242279484442
+Mean RMSE for "Mean Model": 0.19153208657412932
+Median RMSE for "Mean Model": 0.1888275203245905
+
+Validate for these predictors: 'day_index', 'day', 'mo', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.152775893860184  [0, 1, 3, 6]
+    2       0.214196810291839  [0, 1, 3, 6]
+    3       0.205974704284851  [0, 1, 3, 6]
+    4       0.216609369820672  [0, 1, 3, 6]
+    5       0.221780641246599  [0, 1, 3, 6]
+
+Mean RMSE for Validaton Data: 0.20226748390082908
+Median RMSE for Validaton Data: 0.2141968102918388
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.22340027182668   0.188297614435497  [0, 1, 4, 5]
+    2               0.421844779976741  0.189163322803828  [0, 1, 4, 5]
+    3               0.844648613172265  0.183793346975954  [0, 1, 4, 5]
+    4               0.198715002978849  0.165881384943228  [0, 1, 4, 5]
+    5               0.458186275281972  0.185931356891899  [0, 1, 4, 5]
+
+Mean RMSE for "Linear Regression Model": 0.4293589886473015
+Median RMSE for "Linear Regression Model": 0.4218447799767411
+Mean RMSE for "Mean Model": 0.18261340521008113
+Median RMSE for "Mean Model": 0.185931356891899
+
+Validate for these predictors: 'day_index', 'day', 'temp', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.439893453197083  [0, 1, 4, 5]
+    2       0.430354392784822  [0, 1, 4, 5]
+    3       0.428837959949722  [0, 1, 4, 5]
+    4       0.496750786301665  [0, 1, 4, 5]
+    5       0.440615221992333  [0, 1, 4, 5]
+
+Mean RMSE for Validaton Data: 0.44729036284512497
+Median RMSE for Validaton Data: 0.43989345319708295
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.309373950408004  0.190159578601147  [0, 1, 4, 6]
+    2               4.51967611252553   0.180994551671834  [0, 1, 4, 6]
+    3               1.75399414476643   0.184852495482188  [0, 1, 4, 6]
+    4               0.630459551514312  0.193447710541751  [0, 1, 4, 6]
+    5               0.231631456090749  0.187451323955988  [0, 1, 4, 6]
+
+Mean RMSE for "Linear Regression Model": 1.4890270430610042
+Median RMSE for "Linear Regression Model": 0.6304595515143118
+Mean RMSE for "Mean Model": 0.18738113205058154
+Median RMSE for "Mean Model": 0.1874513239559879
+
+Validate for these predictors: 'day_index', 'day', 'temp', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.208165099362128  [0, 1, 4, 6]
+    2       0.230158134270696  [0, 1, 4, 6]
+    3       0.1631537187346    [0, 1, 4, 6]
+    4       0.208912901576856  [0, 1, 4, 6]
+    5       0.241425424582989  [0, 1, 4, 6]
+
+Mean RMSE for Validaton Data: 0.21036305570545366
+Median RMSE for Validaton Data: 0.20891290157685577
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               1.27201215539168   0.194894723431452  [0, 1, 5, 6]
+    2               0.644931603240408  0.174262729640139  [0, 1, 5, 6]
+    3               0.247606913835975  0.194719364954786  [0, 1, 5, 6]
+    4               5.56853970308188   0.186223648061506  [0, 1, 5, 6]
+    5               0.573400978672922  0.178133290304441  [0, 1, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 1.6612982708445745
+Median RMSE for "Linear Regression Model": 0.6449316032404083
+Mean RMSE for "Mean Model": 0.18564675127846458
+Median RMSE for "Mean Model": 0.18622364806150563
+
+Validate for these predictors: 'day_index', 'day', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.498293282109615  [0, 1, 5, 6]
+    2       0.481734483574187  [0, 1, 5, 6]
+    3       0.456589201895693  [0, 1, 5, 6]
+    4       0.576746189366625  [0, 1, 5, 6]
+    5       0.552219720573913  [0, 1, 5, 6]
+
+Mean RMSE for Validaton Data: 0.5131165755040066
+Median RMSE for Validaton Data: 0.49829328210961504
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'mo', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.606284542337508  0.189658230056103  [0, 2, 3, 4]
+    2               0.230693743449142  0.1789662648058    [0, 2, 3, 4]
+    3               0.225837084469857  0.189660290801538  [0, 2, 3, 4]
+    4               0.208955896164792  0.190837123641489  [0, 2, 3, 4]
+    5              13.2652809931539    0.180953973613442  [0, 2, 3, 4]
+
+Mean RMSE for "Linear Regression Model": 2.9074104519150348
+Median RMSE for "Linear Regression Model": 0.2306937434491424
+Mean RMSE for "Mean Model": 0.18601517658367436
+Median RMSE for "Mean Model": 0.1896582300561031
+
+Validate for these predictors: 'day_index', 'year', 'mo', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        12.8121833478901  [0, 2, 3, 4]
+    2        12.8392805789138  [0, 2, 3, 4]
+    3        12.8061260478685  [0, 2, 3, 4]
+    4        12.8065521428774  [0, 2, 3, 4]
+    5        12.8271216390547  [0, 2, 3, 4]
+
+Mean RMSE for Validaton Data: 12.818252751320884
+Median RMSE for Validaton Data: 12.812183347890095
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'mo', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'mo', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'mo', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.456194622748532  0.190533875737202  [0, 3, 4, 5]
+    2               0.321216099853559  0.181704683149174  [0, 3, 4, 5]
+    3               0.45365591652109   0.184519014475956  [0, 3, 4, 5]
+    4               0.262874712787154  0.187466760275358  [0, 3, 4, 5]
+    5               0.27641740257146   0.180557542732061  [0, 3, 4, 5]
+
+Mean RMSE for "Linear Regression Model": 0.354071750896359
+Median RMSE for "Linear Regression Model": 0.3212160998535587
+Mean RMSE for "Mean Model": 0.18495637527395029
+Median RMSE for "Mean Model": 0.1845190144759559
+
+Validate for these predictors: 'day_index', 'mo', 'temp', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.259679113420161  [0, 3, 4, 5]
+    2       0.235389800137934  [0, 3, 4, 5]
+    3       0.264254206220971  [0, 3, 4, 5]
+    4       0.258555967599084  [0, 3, 4, 5]
+    5       0.235934193543775  [0, 3, 4, 5]
+
+Mean RMSE for Validaton Data: 0.2507626561843853
+Median RMSE for Validaton Data: 0.2585559675990842
+
+-------
+
+Model for these predictors: 'day_index', 'mo', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.207599015588985  0.189365569310133  [0, 3, 4, 6]
+    2               0.195815646622551  0.182828575412594  [0, 3, 4, 6]
+    3               9.20384586290322   0.186015728855304  [0, 3, 4, 6]
+    4               0.200693027092758  0.190605793795527  [0, 3, 4, 6]
+    5               4.27205466431217   0.179578058502469  [0, 3, 4, 6]
+
+Mean RMSE for "Linear Regression Model": 2.816001643303936
+Median RMSE for "Linear Regression Model": 0.20759901558898525
+Mean RMSE for "Mean Model": 0.1856787451752055
+Median RMSE for "Mean Model": 0.18601572885530362
+
+Validate for these predictors: 'day_index', 'mo', 'temp', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        4.07610922553847  [0, 3, 4, 6]
+    2        4.00586961710175  [0, 3, 4, 6]
+    3        4.05915354875289  [0, 3, 4, 6]
+    4        4.0278927526606   [0, 3, 4, 6]
+    5        4.07057125621633  [0, 3, 4, 6]
+
+Mean RMSE for Validaton Data: 4.047919280054006
+Median RMSE for Validaton Data: 4.059153548752889
+
+-------
+
+Model for these predictors: 'day_index', 'mo', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               2.61944969815535   0.189516463292146  [0, 4, 5, 6]
+    2               0.353973793471349  0.194223915468519  [0, 4, 5, 6]
+    3               0.367870083252479  0.193332265121605  [0, 4, 5, 6]
+    4               1.59933553588449   0.193909622734137  [0, 4, 5, 6]
+    5               0.403123126015922  0.182512112229963  [0, 4, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 1.0687504473559175
+Median RMSE for "Linear Regression Model": 0.40312312601592154
+Mean RMSE for "Mean Model": 0.19069887576927394
+Median RMSE for "Mean Model": 0.19333226512160454
+
+Validate for these predictors: 'day_index', 'temp', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.302935515227683  [0, 4, 5, 6]
+    2       0.397238945531927  [0, 4, 5, 6]
+    3       0.39415215914273   [0, 4, 5, 6]
+    4       0.350315962682443  [0, 4, 5, 6]
+    5       0.381909287125249  [0, 4, 5, 6]
+
+Mean RMSE for Validaton Data: 0.3653103739420066
+Median RMSE for Validaton Data: 0.3819092871252491
+
+-------
+
+Model for these predictors: 'day', 'year', 'mo', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.547487002967142  0.180703029310316  [1, 2, 3, 4]
+    2               1.88608306486681   0.187685015972822  [1, 2, 3, 4]
+    3               4.63150071417388   0.186575004100125  [1, 2, 3, 4]
+    4               0.772704627894262  0.181922393734877  [1, 2, 3, 4]
+    5               0.266209773035335  0.190307336475361  [1, 2, 3, 4]
+
+Mean RMSE for "Linear Regression Model": 1.620797036587485
+Median RMSE for "Linear Regression Model": 0.7727046278942616
+Mean RMSE for "Mean Model": 0.18543855591870015
+Median RMSE for "Mean Model": 0.1865750041001247
+
+Validate for these predictors: 'day', 'year', 'mo', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.260553610007903  [1, 2, 3, 4]
+    2       0.223136260127894  [1, 2, 3, 4]
+    3       0.252768029607481  [1, 2, 3, 4]
+    4       0.254996157131752  [1, 2, 3, 4]
+    5       0.226364392380964  [1, 2, 3, 4]
+
+Mean RMSE for Validaton Data: 0.24356368985119886
+Median RMSE for Validaton Data: 0.2527680296074805
+
+-------
+
+Model for these predictors: 'day', 'year', 'mo', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'mo', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'mo', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.231329548824915  0.184006069925711  [1, 3, 4, 5]
+    2               0.248127427392768  0.182527285110153  [1, 3, 4, 5]
+    3               0.210389451896688  0.179426342860884  [1, 3, 4, 5]
+    4               0.268557602508017  0.177648854084179  [1, 3, 4, 5]
+    5               0.305618519453288  0.184932006725781  [1, 3, 4, 5]
+
+Mean RMSE for "Linear Regression Model": 0.2528045100151354
+Median RMSE for "Linear Regression Model": 0.24812742739276844
+Mean RMSE for "Mean Model": 0.18170811174134172
+Median RMSE for "Mean Model": 0.18252728511015268
+
+Validate for these predictors: 'day', 'mo', 'temp', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.313611464663105  [1, 3, 4, 5]
+    2       0.318506199472124  [1, 3, 4, 5]
+    3       0.303392370300827  [1, 3, 4, 5]
+    4       0.311787134102893  [1, 3, 4, 5]
+    5       0.304828024227232  [1, 3, 4, 5]
+
+Mean RMSE for Validaton Data: 0.3104250385532364
+Median RMSE for Validaton Data: 0.31178713410289344
+
+-------
+
+Model for these predictors: 'day', 'mo', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.350596236900605  0.180862490569917  [1, 3, 4, 6]
+    2               0.218446881747749  0.187118471097407  [1, 3, 4, 6]
+    3               0.260569697579774  0.190924225076783  [1, 3, 4, 6]
+    4               0.225050478133325  0.188968855633655  [1, 3, 4, 6]
+    5               0.241437911429605  0.183868102085209  [1, 3, 4, 6]
+
+Mean RMSE for "Linear Regression Model": 0.25922024115821174
+Median RMSE for "Linear Regression Model": 0.24143791142960544
+Mean RMSE for "Mean Model": 0.1863484288925944
+Median RMSE for "Mean Model": 0.18711847109740726
+
+Validate for these predictors: 'day', 'mo', 'temp', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.193151596980192  [1, 3, 4, 6]
+    2       0.195973071673166  [1, 3, 4, 6]
+    3       0.250142626243864  [1, 3, 4, 6]
+    4       0.234931071306291  [1, 3, 4, 6]
+    5       0.213748744721846  [1, 3, 4, 6]
+
+Mean RMSE for Validaton Data: 0.2175894221850719
+Median RMSE for Validaton Data: 0.21374874472184605
+
+-------
+
+Model for these predictors: 'day', 'mo', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.21236810029191   0.184890422557164  [1, 3, 5, 6]
+    2               0.200275409392631  0.185204923563231  [1, 3, 5, 6]
+    3               0.255317016312457  0.185277029046143  [1, 3, 5, 6]
+    4               0.246525862536686  0.190159984469994  [1, 3, 5, 6]
+    5               0.217639488300869  0.189714841223033  [1, 3, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.22642517536691065
+Median RMSE for "Linear Regression Model": 0.2176394883008692
+Mean RMSE for "Mean Model": 0.18704944017191302
+Median RMSE for "Mean Model": 0.18527702904614338
+
+Validate for these predictors: 'day', 'mo', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.194697146370474  [1, 3, 5, 6]
+    2       0.171690439822777  [1, 3, 5, 6]
+    3       0.189883896161409  [1, 3, 5, 6]
+    4       0.215596544204828  [1, 3, 5, 6]
+    5       0.221877091353633  [1, 3, 5, 6]
+
+Mean RMSE for Validaton Data: 0.1987490235826243
+Median RMSE for Validaton Data: 0.19469714637047375
+
+-------
+
+Model for these predictors: 'day', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.343284411079294  0.186821674989251  [1, 4, 5, 6]
+    2               0.237646403588347  0.18363564658964   [1, 4, 5, 6]
+    3               0.300599604069833  0.178698199554458  [1, 4, 5, 6]
+    4               0.202302513204437  0.18100255684129   [1, 4, 5, 6]
+    5               0.232831728770461  0.186475880098458  [1, 4, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.26333293214247433
+Median RMSE for "Linear Regression Model": 0.23764640358834702
+Mean RMSE for "Mean Model": 0.1833267916146194
+Median RMSE for "Mean Model": 0.18363564658963982
+
+Validate for these predictors: 'day', 'temp', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.246762489312024  [1, 4, 5, 6]
+    2       0.232083835286299  [1, 4, 5, 6]
+    3       0.22862904150502   [1, 4, 5, 6]
+    4       0.226470944669649  [1, 4, 5, 6]
+    5       0.211972901335611  [1, 4, 5, 6]
+
+Mean RMSE for Validaton Data: 0.2291838424217206
+Median RMSE for Validaton Data: 0.22862904150501986
+
+-------
+
+Model for these predictors: 'year', 'mo', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'year', 'mo', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               3.50684751113611   0.179601713229515  [2, 3, 4, 6]
+    2               0.474324291868239  0.185003237249683  [2, 3, 4, 6]
+    3               0.414371080453493  0.176675560346402  [2, 3, 4, 6]
+    4               0.191217911491488  0.179912039967152  [2, 3, 4, 6]
+    5               2.40839304403549   0.186070116166547  [2, 3, 4, 6]
+
+Mean RMSE for "Linear Regression Model": 1.3990307677969631
+Median RMSE for "Linear Regression Model": 0.4743242918682387
+Mean RMSE for "Mean Model": 0.18145253339185963
+Median RMSE for "Mean Model": 0.1799120399671516
+
+Validate for these predictors: 'year', 'mo', 'temp', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        2.40246979067625  [2, 3, 4, 6]
+    2        2.39601474240245  [2, 3, 4, 6]
+    3        2.39900920595996  [2, 3, 4, 6]
+    4        2.40239255800084  [2, 3, 4, 6]
+    5        2.39603596826494  [2, 3, 4, 6]
+
+Mean RMSE for Validaton Data: 2.3991844530608857
+Median RMSE for Validaton Data: 2.3990092059599566
+
+-------
+
+Model for these predictors: 'year', 'mo', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               1.61319838968941   0.180792262844166  [2, 3, 5, 6]
+    2               0.564967488841142  0.188213240046942  [2, 3, 5, 6]
+    3               0.202519835140103  0.173411433569326  [2, 3, 5, 6]
+    4               3.17023985718814   0.18451201483685   [2, 3, 5, 6]
+    5               0.333563677837236  0.18804069109839   [2, 3, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 1.1768978497392064
+Median RMSE for "Linear Regression Model": 0.5649674888411417
+Mean RMSE for "Mean Model": 0.1829939284791348
+Median RMSE for "Mean Model": 0.18451201483684984
+
+Validate for these predictors: 'year', 'mo', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.309589966047726  [2, 3, 5, 6]
+    2       0.320362084574396  [2, 3, 5, 6]
+    3       0.31470193209266   [2, 3, 5, 6]
+    4       0.32204272842406   [2, 3, 5, 6]
+    5       0.304810423408389  [2, 3, 5, 6]
+
+Mean RMSE for Validaton Data: 0.3143014269094463
+Median RMSE for Validaton Data: 0.3147019320926603
+
+-------
+
+Model for these predictors: 'year', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.289890565428659  0.193292910222182  [2, 4, 5, 6]
+    2               0.530963396840061  0.187247087349638  [2, 4, 5, 6]
+    3               2.1382034838064    0.182785842833523  [2, 4, 5, 6]
+    4               0.534124501663052  0.179019923121915  [2, 4, 5, 6]
+    5               0.731830469114809  0.180063769755784  [2, 4, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.8450024833705957
+Median RMSE for "Linear Regression Model": 0.5341245016630517
+Mean RMSE for "Mean Model": 0.1844819066566083
+Median RMSE for "Mean Model": 0.18278584283352273
+
+Validate for these predictors: 'year', 'temp', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.732175707455284  [2, 4, 5, 6]
+    2       0.733124926815773  [2, 4, 5, 6]
+    3       0.732486820642603  [2, 4, 5, 6]
+    4       0.733069715812936  [2, 4, 5, 6]
+    5       0.733255495678637  [2, 4, 5, 6]
+
+Mean RMSE for Validaton Data: 0.7328225332810467
+Median RMSE for Validaton Data: 0.7330697158129363
+
+-------
+
+Model for these predictors: 'mo', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.286357435662517  0.191994925342307  [3, 4, 5, 6]
+    2               0.320245682555526  0.189460869776295  [3, 4, 5, 6]
+    3               0.230165604499931  0.18758070746458   [3, 4, 5, 6]
+    4               0.328061717687133  0.188225573624995  [3, 4, 5, 6]
+    5               0.240575713091336  0.188649155694685  [3, 4, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.2810812306992885
+Median RMSE for "Linear Regression Model": 0.2863574356625166
+Mean RMSE for "Mean Model": 0.18918224638057232
+Median RMSE for "Mean Model": 0.1886491556946851
+
+Validate for these predictors: 'mo', 'temp', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.22117586434223   [3, 4, 5, 6]
+    2       0.20301088750806   [3, 4, 5, 6]
+    3       0.22794119086835   [3, 4, 5, 6]
+    4       0.226128242090577  [3, 4, 5, 6]
+    5       0.225640997233582  [3, 4, 5, 6]
+
+Mean RMSE for Validaton Data: 0.22077943640856001
+Median RMSE for Validaton Data: 0.2256409972335823
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'mo', 'temp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.226602423170284  0.190368951540012  [0, 1, 2, 3, 4]
+    2               0.298457574040578  0.183193899481233  [0, 1, 2, 3, 4]
+    3               0.556549796805937  0.188282920776305  [0, 1, 2, 3, 4]
+    4               0.279562610399818  0.18010384004892   [0, 1, 2, 3, 4]
+    5               0.458471344813389  0.183463675042329  [0, 1, 2, 3, 4]
+
+Mean RMSE for "Linear Regression Model": 0.36392874984600154
+Median RMSE for "Linear Regression Model": 0.2984575740405784
+Mean RMSE for "Mean Model": 0.18508265737775983
+Median RMSE for "Mean Model": 0.1834636750423291
+
+Validate for these predictors: 'day_index', 'day', 'year', 'mo', 'temp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.458305943119772  [0, 1, 2, 3, 4]
+    2       0.401623895228389  [0, 1, 2, 3, 4]
+    3       0.413465583990234  [0, 1, 2, 3, 4]
+    4       0.422073165179766  [0, 1, 2, 3, 4]
+    5       0.403791388751419  [0, 1, 2, 3, 4]
+
+Mean RMSE for Validaton Data: 0.419851995253916
+Median RMSE for Validaton Data: 0.4134655839902338
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'mo', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.554836256078635  0.190372808520231  [0, 1, 2, 3, 5]
+    2               0.90738892645037   0.179386115365503  [0, 1, 2, 3, 5]
+    3              19.9496677404205    0.18754240914271   [0, 1, 2, 3, 5]
+    4               2.0099277984753    0.18200171056856   [0, 1, 2, 3, 5]
+    5               0.251981049772513  0.181088273205824  [0, 1, 2, 3, 5]
+
+Mean RMSE for "Linear Regression Model": 4.734760354239468
+Median RMSE for "Linear Regression Model": 0.9073889264503704
+Mean RMSE for "Mean Model": 0.18407826336056562
+Median RMSE for "Mean Model": 0.18200171056855968
+
+Validate for these predictors: 'day_index', 'day', 'year', 'mo', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.211524197787849  [0, 1, 2, 3, 5]
+    2       0.207978777411578  [0, 1, 2, 3, 5]
+    3       0.190478030962207  [0, 1, 2, 3, 5]
+    4       0.252834563037614  [0, 1, 2, 3, 5]
+    5       0.199778279505632  [0, 1, 2, 3, 5]
+
+Mean RMSE for Validaton Data: 0.2125187697409761
+Median RMSE for Validaton Data: 0.2079787774115777
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'mo', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.563273766382755  0.190390949408775  [0, 1, 2, 3, 6]
+    2               3.84915417046976   0.18613262311161   [0, 1, 2, 3, 6]
+    3               0.765320046813057  0.1958827553702    [0, 1, 2, 3, 6]
+    4               0.206015290624265  0.191348137804713  [0, 1, 2, 3, 6]
+    5               0.214390907552752  0.183927880259117  [0, 1, 2, 3, 6]
+
+Mean RMSE for "Linear Regression Model": 1.1196308363685183
+Median RMSE for "Linear Regression Model": 0.5632737663827553
+Mean RMSE for "Mean Model": 0.18953646919088296
+Median RMSE for "Mean Model": 0.19039094940877527
+
+Validate for these predictors: 'day_index', 'day', 'year', 'mo', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.254425724819376  [0, 1, 2, 3, 6]
+    2       0.193745914351839  [0, 1, 2, 3, 6]
+    3       0.176143315981879  [0, 1, 2, 3, 6]
+    4       0.235172877260609  [0, 1, 2, 3, 6]
+    5       0.243066409572194  [0, 1, 2, 3, 6]
+
+Mean RMSE for Validaton Data: 0.22051084839717938
+Median RMSE for Validaton Data: 0.2351728772606088
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'mo', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               1.16158117472748   0.182519573582393  [0, 1, 3, 4, 5]
+    2               0.213193435959035  0.196011428086942  [0, 1, 3, 4, 5]
+    3               0.225186501865962  0.186943594719941  [0, 1, 3, 4, 5]
+    4               0.520905271286134  0.18469466936886   [0, 1, 3, 4, 5]
+    5               0.934988687812207  0.178718520816926  [0, 1, 3, 4, 5]
+
+Mean RMSE for "Linear Regression Model": 0.6111710143301636
+Median RMSE for "Linear Regression Model": 0.5209052712861336
+Mean RMSE for "Mean Model": 0.1857775573150125
+Median RMSE for "Mean Model": 0.18469466936885998
+
+Validate for these predictors: 'day_index', 'day', 'mo', 'temp', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.862407729676872  [0, 1, 3, 4, 5]
+    2       0.864161894796075  [0, 1, 3, 4, 5]
+    3       0.880772096189988  [0, 1, 3, 4, 5]
+    4       0.840911409400065  [0, 1, 3, 4, 5]
+    5       0.885234030217307  [0, 1, 3, 4, 5]
+
+Mean RMSE for Validaton Data: 0.8666974320560614
+Median RMSE for Validaton Data: 0.8641618947960747
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'mo', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.287320540184458  0.186214639466699  [0, 1, 3, 4, 6]
+    2               0.474141769760061  0.18530556708521   [0, 1, 3, 4, 6]
+    3               1.21014810505752   0.176650391580635  [0, 1, 3, 4, 6]
+    4               0.255938338887162  0.185242037811172  [0, 1, 3, 4, 6]
+    5               0.879491052352386  0.186403070375785  [0, 1, 3, 4, 6]
+
+Mean RMSE for "Linear Regression Model": 0.6214079612483181
+Median RMSE for "Linear Regression Model": 0.47414176976006106
+Mean RMSE for "Mean Model": 0.18396314126390007
+Median RMSE for "Mean Model": 0.18530556708520984
+
+Validate for these predictors: 'day_index', 'day', 'mo', 'temp', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.719056725673123  [0, 1, 3, 4, 6]
+    2       0.741839577985463  [0, 1, 3, 4, 6]
+    3       0.734865415331047  [0, 1, 3, 4, 6]
+    4       0.794314899302733  [0, 1, 3, 4, 6]
+    5       0.754522519998053  [0, 1, 3, 4, 6]
+
+Mean RMSE for Validaton Data: 0.748919827658084
+Median RMSE for Validaton Data: 0.7418395779854631
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'mo', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.441015987746331  0.182980587297427  [0, 1, 3, 5, 6]
+    2               0.364004648097799  0.189590285992772  [0, 1, 3, 5, 6]
+    3               0.221027231867011  0.189924114643266  [0, 1, 3, 5, 6]
+    4               0.220094929684839  0.188226422683235  [0, 1, 3, 5, 6]
+    5              10.0549551534949    0.17633515181111   [0, 1, 3, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 2.2602195901781856
+Median RMSE for "Linear Regression Model": 0.36400464809779853
+Mean RMSE for "Mean Model": 0.18541131248556186
+Median RMSE for "Mean Model": 0.1882264226832347
+
+Validate for these predictors: 'day_index', 'day', 'mo', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        9.29932463348751  [0, 1, 3, 5, 6]
+    2        9.24340791986331  [0, 1, 3, 5, 6]
+    3        9.24024280956396  [0, 1, 3, 5, 6]
+    4        9.25472110362536  [0, 1, 3, 5, 6]
+    5        9.21586514322526  [0, 1, 3, 5, 6]
+
+Mean RMSE for Validaton Data: 9.25071232195308
+Median RMSE for Validaton Data: 9.243407919863314
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.200644764873667  0.183670443574326  [0, 1, 4, 5, 6]
+    2               0.682476728818727  0.193504137980957  [0, 1, 4, 5, 6]
+    3               0.266434455570538  0.185992892536035  [0, 1, 4, 5, 6]
+    4               1.26606353352434   0.182545865270091  [0, 1, 4, 5, 6]
+    5               0.245464827735162  0.171621564052177  [0, 1, 4, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.5322168621044876
+Median RMSE for "Linear Regression Model": 0.2664344555705379
+Mean RMSE for "Mean Model": 0.18346698068271702
+Median RMSE for "Mean Model": 0.18367044357432574
+
+Validate for these predictors: 'day_index', 'day', 'temp', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.24037020574947   [0, 1, 4, 5, 6]
+    2       0.233341010182284  [0, 1, 4, 5, 6]
+    3       0.239298134624354  [0, 1, 4, 5, 6]
+    4       0.223443990641155  [0, 1, 4, 5, 6]
+    5       0.238983657407977  [0, 1, 4, 5, 6]
+
+Mean RMSE for Validaton Data: 0.2350873997210478
+Median RMSE for Validaton Data: 0.23898365740797695
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'mo', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'mo', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'mo', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'mo', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'mo', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.3863622538719    0.181036890374775  [1, 2, 3, 4, 5]
+    2               1.06134791006793   0.190288457392671  [1, 2, 3, 4, 5]
+    3               0.223383158314117  0.188021394799636  [1, 2, 3, 4, 5]
+    4               0.260468478504217  0.167484507436802  [1, 2, 3, 4, 5]
+    5               6.68983680510575   0.189657252048909  [1, 2, 3, 4, 5]
+
+Mean RMSE for "Linear Regression Model": 1.7242797211727816
+Median RMSE for "Linear Regression Model": 0.3863622538718999
+Mean RMSE for "Mean Model": 0.1832977004105585
+Median RMSE for "Mean Model": 0.1880213947996356
+
+Validate for these predictors: 'day', 'year', 'mo', 'temp', 'visib'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        6.70881976915825  [1, 2, 3, 4, 5]
+    2        6.70721104954801  [1, 2, 3, 4, 5]
+    3        6.70871443929161  [1, 2, 3, 4, 5]
+    4        6.70988614691786  [1, 2, 3, 4, 5]
+    5        6.70897997541412  [1, 2, 3, 4, 5]
+
+Mean RMSE for Validaton Data: 6.708722276065973
+Median RMSE for Validaton Data: 6.708819769158254
+
+-------
+
+Model for these predictors: 'day', 'year', 'mo', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'mo', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'year', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day', 'mo', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.430580330170755  0.188119041601724  [1, 3, 4, 5, 6]
+    2               0.219969835340955  0.189300436321132  [1, 3, 4, 5, 6]
+    3               0.220651193245723  0.183969284396213  [1, 3, 4, 5, 6]
+    4               0.410308413296003  0.188706332269611  [1, 3, 4, 5, 6]
+    5               0.207572618690724  0.19042742568869   [1, 3, 4, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 0.2978164781488319
+Median RMSE for "Linear Regression Model": 0.22065119324572255
+Mean RMSE for "Mean Model": 0.1881045040554741
+Median RMSE for "Mean Model": 0.18870633226961137
+
+Validate for these predictors: 'day', 'mo', 'temp', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.158937051314174  [1, 3, 4, 5, 6]
+    2       0.160792179149459  [1, 3, 4, 5, 6]
+    3       0.219467844154083  [1, 3, 4, 5, 6]
+    4       0.165158545445774  [1, 3, 4, 5, 6]
+    5       0.196262955000722  [1, 3, 4, 5, 6]
+
+Mean RMSE for Validaton Data: 0.18012371501284238
+Median RMSE for Validaton Data: 0.16515854544577419
+
+-------
+
+Model for these predictors: 'year', 'mo', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'mo', 'temp', 'visib'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'mo', 'temp', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.222070726054372  0.188294637404023  [0, 1, 2, 3, 4, 6]
+    2               7.05584766117763   0.192455328997823  [0, 1, 2, 3, 4, 6]
+    3               0.482971200179481  0.191800380236415  [0, 1, 2, 3, 4, 6]
+    4               0.379577144524374  0.188611209341694  [0, 1, 2, 3, 4, 6]
+    5              12.978030286121     0.186201339612186  [0, 1, 2, 3, 4, 6]
+
+Mean RMSE for "Linear Regression Model": 4.223699403611372
+Median RMSE for "Linear Regression Model": 0.482971200179481
+Mean RMSE for "Mean Model": 0.18947257911842813
+Median RMSE for "Mean Model": 0.18861120934169434
+
+Validate for these predictors: 'day_index', 'day', 'year', 'mo', 'temp', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1        12.5026768930416  [0, 1, 2, 3, 4, 6]
+    2        12.5055354314849  [0, 1, 2, 3, 4, 6]
+    3        12.4633763771457  [0, 1, 2, 3, 4, 6]
+    4        12.498392147827   [0, 1, 2, 3, 4, 6]
+    5        12.5196067758005  [0, 1, 2, 3, 4, 6]
+
+Mean RMSE for Validaton Data: 12.497917525059933
+Median RMSE for Validaton Data: 12.502676893041587
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'mo', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'mo', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1              10.9688767115059    0.179760197990375  [0, 1, 3, 4, 5, 6]
+    2               6.56262923447455   0.184504800918039  [0, 1, 3, 4, 5, 6]
+    3               0.255388156567134  0.189796310072845  [0, 1, 3, 4, 5, 6]
+    4               0.238901311391974  0.186777208138443  [0, 1, 3, 4, 5, 6]
+    5               0.243587052525381  0.184345690987444  [0, 1, 3, 4, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 3.6538764932929815
+Median RMSE for "Linear Regression Model": 0.2553881565671339
+Mean RMSE for "Mean Model": 0.18503684162142925
+Median RMSE for "Mean Model": 0.18450480091803892
+
+Validate for these predictors: 'day_index', 'day', 'mo', 'temp', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.272763139731695  [0, 1, 3, 4, 5, 6]
+    2       0.274467347215488  [0, 1, 3, 4, 5, 6]
+    3       0.277952098657259  [0, 1, 3, 4, 5, 6]
+    4       0.232508673108594  [0, 1, 3, 4, 5, 6]
+    5       0.225772385655841  [0, 1, 3, 4, 5, 6]
+
+Mean RMSE for Validaton Data: 0.25669272887377537
+Median RMSE for Validaton Data: 0.2727631397316951
+
+-------
+
+Model for these predictors: 'day_index', 'year', 'mo', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    Linear Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ------------------------------  -----------------  --------------------
+    1               0.191421195081873  0.183122767516482  [0, 2, 3, 4, 5, 6]
+    2               1.05361233864444   0.185271048516928  [0, 2, 3, 4, 5, 6]
+    3               3.86150496662647   0.180410224439364  [0, 2, 3, 4, 5, 6]
+    4               0.771862617258571  0.183628273307031  [0, 2, 3, 4, 5, 6]
+    5               0.677203777394417  0.186282342441863  [0, 2, 3, 4, 5, 6]
+
+Mean RMSE for "Linear Regression Model": 1.3111209790011547
+Median RMSE for "Linear Regression Model": 0.7718626172585711
+Mean RMSE for "Mean Model": 0.18374293124433347
+Median RMSE for "Mean Model": 0.18362827330703138
+
+Validate for these predictors: 'day_index', 'year', 'mo', 'temp', 'visib', 'wdsp'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------
+    1       0.689739689161041  [0, 2, 3, 4, 5, 6]
+    2       0.693388921326773  [0, 2, 3, 4, 5, 6]
+    3       0.660981394532263  [0, 2, 3, 4, 5, 6]
+    4       0.663152785200446  [0, 2, 3, 4, 5, 6]
+    5       0.698086731275651  [0, 2, 3, 4, 5, 6]
+
+Mean RMSE for Validaton Data: 0.6810699042992348
+Median RMSE for Validaton Data: 0.6897396891610408
+
+-------
+
+Model for these predictors: 'day', 'year', 'mo', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+Model for these predictors: 'day_index', 'day', 'year', 'mo', 'temp', 'visib', 'wdsp'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median Linear Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+
+--------------------------------------------------------------
+Rank Table of Median RMSE Results for Linear Regression Models
+--------------------------------------------------------------
+
+       Median RMSE (Ranked)  Model Predictors                               Model Runs    Mean Validation RMSE    Validation Runs
+---  ----------------------  -------------------------------------------  ------------  ----------------------  -----------------
+  0       0.184423977721115  visib                                                   5       0.173091812533988                  5
+  1       0.187721230587281  wdsp                                                    5       0.233994189359319                  5
+  2       0.195274867828779  day                                                     5       0.185002664653104                  5
+  3       0.19585833583218   visib, wdsp                                             5       0.180327763619429                  5
+  4       0.196462906763629  mo                                                      5       0.170415969724504                  5
+  5       0.199613622263468  mo, wdsp                                                5       0.161917192059671                  5
+  6       0.201372567380836  mo, visib, wdsp                                         5       0.190810324622957                  5
+  7       0.201809793330725  day, wdsp                                               5       0.187386482686688                  5
+  8       0.202874543135429  day, mo, visib                                          5       0.179678409486675                  5
+  9       0.20288564338346   mo, visib                                               5       0.190755576891062                  5
+ 10       0.207599015588985  day_index, mo, temp, wdsp                               5       4.05915354875289                   5
+ 11       0.210857724379491  day, mo                                                 5       0.188999895961702                  5
+ 12       0.21213917843727   day, visib                                              5       0.181866951480375                  5
+ 13       0.21397218626571   day_index, day                                          5       0.197246124570704                  5
+ 14       0.217639488300869  day, mo, visib, wdsp                                    5       0.194697146370474                  5
+ 15       0.219518040104375  temp, visib                                             5       0.309818146638936                  5
+ 16       0.220651193245723  day, mo, temp, visib, wdsp                              5       0.165158545445774                  5
+ 17       0.221294797112144  day, mo, temp                                           5       0.218681755289386                  5
+ 18       0.222222422794844  day_index, day, mo, wdsp                                5       0.214196810291839                  5
+ 19       0.222350664857545  temp, visib, wdsp                                       5       0.23471755769096                   5
+ 20       0.22691854562933   day, visib, wdsp                                        5       0.185712547564258                  5
+ 21       0.228349362687811  day, temp, visib                                        5       0.349040593562005                  5
+ 22       0.230693743449142  day_index, year, mo, temp                               5      12.8121833478901                    5
+ 23       0.234662867093824  temp, wdsp                                              5       0.268653615469385                  5
+ 24       0.237639092284599  day, mo, wdsp                                           5       0.225775627565386                  5
+ 25       0.237646403588347  day, temp, visib, wdsp                                  5       0.22862904150502                   5
+ 26       0.241437911429605  day, mo, temp, wdsp                                     5       0.213748744721846                  5
+ 27       0.243981246691369  day_index, mo, temp                                     5       0.210073325090974                  5
+ 28       0.244371808362211  day, temp                                               5       0.189651378387731                  5
+ 29       0.248127427392768  day, mo, temp, visib                                    5       0.311787134102893                  5
+ 30       0.255388156567134  day_index, day, mo, temp, visib, wdsp                   5       0.272763139731695                  5
+ 31       0.258650384195038  mo, temp                                                5       0.422295763037573                  5
+ 32       0.261660956146994  day_index, day, wdsp                                    5       0.555996453528579                  5
+ 33       0.262854516352594  day_index, mo                                           5       0.185889300801064                  5
+ 34       0.266434455570538  day_index, day, temp, visib, wdsp                       5       0.238983657407977                  5
+ 35       0.286357435662517  mo, temp, visib, wdsp                                   5       0.225640997233582                  5
+ 36       0.286899386084114  day_index, day, temp                                    5      19.509361730747                     5
+ 37       0.292903587851088  mo, temp, wdsp                                          5       0.187306533579722                  5
+ 38       0.293555821854721  day, temp, wdsp                                         5       0.289668833470042                  5
+ 39       0.298457574040578  day_index, day, year, mo, temp                          5       0.413465583990234                  5
+ 40       0.317188156651048  day_index, day, visib                                   5       0.301882479328886                  5
+ 41       0.318443418647431  mo, temp, visib                                         5       0.267480978496212                  5
+ 42       0.321216099853559  day_index, mo, temp, visib                              5       0.258555967599084                  5
+ 43       0.335492252288985  temp                                                    5       0.435305587980428                  5
+ 44       0.336706024773182  day_index, visib                                        5       7.4649824408852                    5
+ 45       0.354894148723409  day_index, temp, visib                                  5       0.192199872828418                  5
+ 46       0.364004648097799  day_index, day, mo, visib, wdsp                         5       9.24340791986331                   5
+ 47       0.368430617575252  day_index, day, mo, temp                                5       0.686852681981034                  5
+ 48       0.3863622538719    day, year, mo, temp, visib                              5       6.70881976915825                   5
+ 49       0.403123126015922  day_index, temp, visib, wdsp                            5       0.381909287125249                  5
+ 50       0.421844779976741  day_index, day, temp, visib                             5       0.439893453197083                  5
+ 51       0.474141769760061  day_index, day, mo, temp, wdsp                          5       0.741839577985463                  5
+ 52       0.474324291868239  year, mo, temp, wdsp                                    5       2.39900920595996                   5
+ 53       0.482971200179481  day_index, day, year, mo, temp, wdsp                    5      12.5026768930416                    5
+ 54       0.508695012299049  day_index, mo, visib                                    5       1.86281363793426                   5
+ 55       0.519204269045788  day_index, temp                                         5       0.542580381484677                  5
+ 56       0.520905271286134  day_index, day, mo, temp, visib                         5       0.864161894796075                  5
+ 57       0.534124501663052  year, temp, visib, wdsp                                 5       0.733069715812936                  5
+ 58       0.534362856590966  day_index, day, year, visib                             5       1.61208435165056                   5
+ 59       0.556015968526557  day_index, year, visib                                  5       1.26950407947845                   5
+ 60       0.563273766382755  day_index, day, year, mo, wdsp                          5       0.235172877260609                  5
+ 61       0.564967488841142  year, mo, visib, wdsp                                   5       0.31470193209266                   5
+ 62       0.576458043340164  day_index, wdsp                                         5       3.11992965338162                   5
+ 63       0.606799522193715  day_index, year                                         5       0.623119696215978                  5
+ 64       0.630459551514312  day_index, day, temp, wdsp                              5       0.208912901576856                  5
+ 65       0.644931603240408  day_index, day, visib, wdsp                             5       0.498293282109615                  5
+ 66       0.655758608402513  day_index                                               5       5.82995283252159                   5
+ 67       0.771862617258571  day_index, year, mo, temp, visib, wdsp                  5       0.689739689161041                  5
+ 68       0.772704627894262  day, year, mo, temp                                     5       0.252768029607481                  5
+ 69       0.862774480377696  day_index, day, mo, visib                               5       0.191518079422887                  5
+ 70       0.888984224447557  day_index, day, year                                    5       0.187185637913906                  5
+ 71       0.90738892645037   day_index, day, year, mo, visib                         5       0.207978777411578                  5
+ 72       0.94433387401021   year, mo                                                5       0.641841172937223                  5
+ 73       1.00622718889448   day, year, wdsp                                         5       0.411810586942686                  5
+ 74       1.01312716289335   day_index, year, mo, wdsp                               5      10.6104144407689                    5
+ 75       1.05575458865186   day, year, visib                                        5       0.598896495685142                  5
+ 76       1.08421807009198   year, temp, visib                                       5       0.74787674232634                   5
+ 77       1.09130414816529   day_index, day, year, mo, visib, wdsp                   5       4.41643750072615                   5
+ 78       1.14529243813266   day_index, year, mo, visib                              5       9.98018620791717                   5
+ 79       1.16881122527947   day_index, day, year, temp, wdsp                        5       8.22831539146183                   5
+ 80       1.19358868767086   day_index, year, temp, wdsp                             5       1.13620218008311                   5
+ 81       1.22800585015757   day_index, day, year, temp                              5       0.825244082433084                  5
+ 82       1.28982863212039   day_index, year, temp, visib                            5       0.25409233192865                   5
+ 83       1.31690487189357   year, mo, temp                                          5       1.41794037146025                   5
+ 84       1.36102280936992   year, mo, visib                                         5       0.559528811901909                  5
+ 85       1.38649619613779   year, wdsp                                              5       1.38750475782539                   5
+ 86       1.3963212810581    day_index, mo, wdsp                                     5       1.90687295048792                   5
+ 87       1.40622276118816   day_index, mo, temp, visib, wdsp                        5      14.7628862287288                    5
+ 88       1.41313738008258   day, year, temp, wdsp                                   5      11.2074488200277                    5
+ 89       1.56481052742513   day_index, day, year, temp, visib                       5       1.50701817780414                   5
+ 90       1.5944867312645    year, mo, temp, visib                                   5       6.72547557833719                   5
+ 91       1.75060140021233   day, year, mo                                           5       0.199381639759551                  5
+ 92       1.75355520113167   day_index, day, year, temp, visib, wdsp                 5       1.4961992694341                    5
+ 93       1.77072306912824   day, year, mo, temp, wdsp                               5       6.85321895329148                   5
+ 94       1.79211373943402   day, year, temp                                         5       0.6020818211877                    5
+ 95       1.79393575721513   day_index, day, year, mo                                5       2.33593477656609                   5
+ 96       1.85661196421455   day, year, mo, wdsp                                     5       2.53387818977161                   5
+ 97       1.93941962190986   day_index, day, year, visib, wdsp                       5       1.24815423974298                   5
+ 98       1.94455992766194   day_index, year, mo                                     5       2.39185310800399                   5
+ 99       2.01129620901719   day_index, year, wdsp                                   5       6.62855623837248                   5
+100       2.0117997273561    day_index, year, temp                                   5       0.315626323996877                  5
+101       2.05162307664977   day, year, mo, temp, visib, wdsp                        5       1.74467340889854                   5
+102       2.05237800523415   day, year, temp, visib, wdsp                            5       0.941420755950222                  5
+103       2.12767261326096   day_index, year, mo, visib, wdsp                        5       7.14285597085975                   5
+104       2.13101170002601   day_index, day, year, mo, temp, visib                   5       6.21694244150591                   5
+105       2.236855455479     day_index, day, mo                                      5       8.41666730446123                   5
+106       2.26533676606082   day_index, year, mo, temp, visib                        5       5.57655768764359                   5
+107       2.27499427764766   year, temp                                              5       3.78203767241833                   5
+108       2.28910001691943   day, year, mo, visib                                    5       0.984463535316003                  5
+109       2.33743693200894   year                                                    5       0.181349541585834                  5
+110       2.39368867535077   day_index, year, temp, visib, wdsp                      5       1.15412562601539                   5
+111       2.46272030120884   year, mo, wdsp                                          5       5.96076571429171                   5
+112       2.5425556583876    day, year, visib, wdsp                                  5       2.51962808763988                   5
+113       2.64676530537491   day_index, year, mo, temp, wdsp                         5      12.6562225900445                    5
+114       2.99877632424899   year, visib, wdsp                                       5       9.70980361384914                   5
+115       3.14838926474057   day, year, mo, visib, wdsp                              5       0.339520094961671                  5
+116       3.18020722344119   day, year, temp, visib                                  5       3.20425801931662                   5
+117       3.29574965240296   year, visib                                             5       7.03350062178836                   5
+118       3.65059818699831   day_index, temp, wdsp                                   5       3.38661434434767                   5
+119       3.66420432851057   year, temp, wdsp                                        5       3.66602558985764                   5
+120       4.65560805598104   day, year                                               5       9.14725397551514                   5
+121       4.96313706727517   day_index, day, year, mo, temp, visib, wdsp             5       4.88137884461632                   5
+122       4.97022750362567   day_index, mo, visib, wdsp                              5       0.454875890649891                  5
+123       5.55402260023446   year, mo, temp, visib, wdsp                             5       6.88134107003831                   5
+124       5.69429981210574   day_index, visib, wdsp                                  5       5.83608719253602                   5
+125       5.76140965675209   day_index, year, visib, wdsp                            5       7.36379224039459                   5
+126       6.67343413579548   day_index, day, year, wdsp                              5       6.90423791739203                   5
+
+--------------------------------------------------------------
