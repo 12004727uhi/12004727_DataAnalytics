@@ -1,0 +1,67 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1            0.189806978696641  0.189647883085863  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2            0.190759425073396  0.190059967188683  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3            0.179306963541161  0.178974786588276  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4            0.188346361546691  0.187047025967591  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5            0.182804686382995  0.182885453944501  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Mean RMSE for "DNN Regression Model": 0.1862048830481769
+Median RMSE for "DNN Regression Model": 0.1883463615466913
+Mean RMSE for "Mean Model": 0.18572302335498256
+Median RMSE for "Mean Model": 0.1870470259675905
+
+Validate for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ----------------------------------
+    1       0.226559784016187  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2       0.227496330147702  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3       0.243730917191372  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4       0.24938099880321   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5       0.238039086506853  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Mean RMSE for Validaton Data: 0.2370414233330648
+Median RMSE for Validaton Data: 0.23803908650685274
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+===================+====================+==============+=========+=====================+==============+
+|  0 | 0.188346361546691 |  0.187047025967591 | temp         |       5 |   0.238039086506853 |            5 |
+|    |                   |                    | dewp         |         |                     |              |
+|    |                   |                    | slp          |         |                     |              |
+|    |                   |                    | visib        |         |                     |              |
+|    |                   |                    | wdsp         |         |                     |              |
+|    |                   |                    | gust         |         |                     |              |
+|    |                   |                    | max          |         |                     |              |
+|    |                   |                    | min          |         |                     |              |
+|    |                   |                    | prcp         |         |                     |              |
+|    |                   |                    | sndp         |         |                     |              |
+|    |                   |                    | fog          |         |                     |              |
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+

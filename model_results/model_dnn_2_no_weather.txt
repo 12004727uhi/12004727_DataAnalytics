@@ -1,0 +1,78 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.193405952578641  0.192771284045338  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.194199702280294  0.194140786280925  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.183238628240384  0.183170333382989  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            0.187265838359889  0.187263161375781  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.186757030752188  0.185445004029227  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+
+Mean RMSE for "DNN Regression Model": 0.18897343044227927
+Median RMSE for "DNN Regression Model": 0.1872658383598892
+Mean RMSE for "Mean Model": 0.18855811382285176
+Median RMSE for "Mean Model": 0.1872631613757805
+
+Validate for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------
+    1       0.244046816860906  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2       0.246508738861011  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3       0.233344921948149  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4       0.235247675495191  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5       0.225170885317228  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+
+Mean RMSE for Validaton Data: 0.23686380769649693
+Median RMSE for Validaton Data: 0.23524767549519104
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+===================+====================+==============+=========+=====================+==============+
+|  0 | 0.187265838359889 |  0.187263161375781 | Fri          |       5 |   0.235247675495191 |            5 |
+|    |                   |                    | Mon          |         |                     |              |
+|    |                   |                    | Sat          |         |                     |              |
+|    |                   |                    | Sun          |         |                     |              |
+|    |                   |                    | Thu          |         |                     |              |
+|    |                   |                    | Tue          |         |                     |              |
+|    |                   |                    | Wed          |         |                     |              |
+|    |                   |                    | Apr          |         |                     |              |
+|    |                   |                    | Aug          |         |                     |              |
+|    |                   |                    | Dec          |         |                     |              |
+|    |                   |                    | Feb          |         |                     |              |
+|    |                   |                    | Jan          |         |                     |              |
+|    |                   |                    | Jul          |         |                     |              |
+|    |                   |                    | Jun          |         |                     |              |
+|    |                   |                    | Mar          |         |                     |              |
+|    |                   |                    | May          |         |                     |              |
+|    |                   |                    | Nov          |         |                     |              |
+|    |                   |                    | Oct          |         |                     |              |
+|    |                   |                    | Sep          |         |                     |              |
+|    |                   |                    | day_index    |         |                     |              |
+|    |                   |                    | day_of_year  |         |                     |              |
+|    |                   |                    | year         |         |                     |              |
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
