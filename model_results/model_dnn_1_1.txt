@@ -1,0 +1,72 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - No One-hot Encoding [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------
+    1            0.187359158771987  0.187352195137939  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    2            0.192959141938445  0.192500927119459  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    3            0.190813501969996  0.190475750033927  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    4            0.194413400233309  0.193115800834247  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    5            0.195068863757835  0.193449907120569  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+Mean RMSE for "DNN Regression Model": 0.19212281333431439
+Median RMSE for "DNN Regression Model": 0.1929591419384448
+Mean RMSE for "Mean Model": 0.19137891604922816
+Median RMSE for "Mean Model": 0.19250092711945893
+
+Validate for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------
+    1       0.159090558315287  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    2       0.160417601831217  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    3       0.159807858998226  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    4       0.1638174163213    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    5       0.158177766478268  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+Mean RMSE for Validaton Data: 0.16026224038885953
+Median RMSE for Validaton Data: 0.15980785899822617
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - No One-hot Encoding [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+===================+====================+==============+=========+=====================+==============+
+|  0 | 0.192959141938445 |  0.192500927119459 | day_index    |       5 |   0.159807858998226 |            5 |
+|    |                   |                    | day_of_year  |         |                     |              |
+|    |                   |                    | day          |         |                     |              |
+|    |                   |                    | year         |         |                     |              |
+|    |                   |                    | mo           |         |                     |              |
+|    |                   |                    | temp         |         |                     |              |
+|    |                   |                    | dewp         |         |                     |              |
+|    |                   |                    | slp          |         |                     |              |
+|    |                   |                    | visib        |         |                     |              |
+|    |                   |                    | wdsp         |         |                     |              |
+|    |                   |                    | gust         |         |                     |              |
+|    |                   |                    | max          |         |                     |              |
+|    |                   |                    | min          |         |                     |              |
+|    |                   |                    | prcp         |         |                     |              |
+|    |                   |                    | sndp         |         |                     |              |
+|    |                   |                    | fog          |         |                     |              |
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
