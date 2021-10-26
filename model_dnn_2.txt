@@ -1,0 +1,777 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------------------------------------------------------------------------------------------
+    1            0.184664128418556  0.1847498571433    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2            0.186926549221047  0.184857040292038  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3            0.193577991300187  0.19277770346526   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4            0.182585135015294  0.181750010492815  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5            0.182591227416576  0.182352771345044  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for "DNN Regression Model": 0.1860690062743317
+Median RMSE for "DNN Regression Model": 0.18466412841855562
+Mean RMSE for "Mean Model": 0.18529747654769135
+Median RMSE for "Mean Model": 0.18474985714330017
+
+Validate for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------------------------------------------------------------------------------------------------------------
+    1       0.237233156485228  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2       0.213435624146566  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3       0.246784544864555  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4       0.227295896397184  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5       0.242184164512442  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for Validaton Data: 0.23338667728119508
+Median RMSE for Validaton Data: 0.23723315648522827
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+===================+====================+==============+=========+=====================+==============+
+|  0 | 0.184664128418556 |    0.1847498571433 | Fri          |       5 |   0.237233156485228 |            5 |
+|    |                   |                    | Mon          |         |                     |              |
+|    |                   |                    | Sat          |         |                     |              |
+|    |                   |                    | Sun          |         |                     |              |
+|    |                   |                    | Thu          |         |                     |              |
+|    |                   |                    | Tue          |         |                     |              |
+|    |                   |                    | Wed          |         |                     |              |
+|    |                   |                    | Apr          |         |                     |              |
+|    |                   |                    | Aug          |         |                     |              |
+|    |                   |                    | Dec          |         |                     |              |
+|    |                   |                    | Feb          |         |                     |              |
+|    |                   |                    | Jan          |         |                     |              |
+|    |                   |                    | Jul          |         |                     |              |
+|    |                   |                    | Jun          |         |                     |              |
+|    |                   |                    | Mar          |         |                     |              |
+|    |                   |                    | May          |         |                     |              |
+|    |                   |                    | Nov          |         |                     |              |
+|    |                   |                    | Oct          |         |                     |              |
+|    |                   |                    | Sep          |         |                     |              |
+|    |                   |                    | day_index    |         |                     |              |
+|    |                   |                    | day_of_year  |         |                     |              |
+|    |                   |                    | year         |         |                     |              |
+|    |                   |                    | temp         |         |                     |              |
+|    |                   |                    | dewp         |         |                     |              |
+|    |                   |                    | slp          |         |                     |              |
+|    |                   |                    | visib        |         |                     |              |
+|    |                   |                    | wdsp         |         |                     |              |
+|    |                   |                    | gust         |         |                     |              |
+|    |                   |                    | max          |         |                     |              |
+|    |                   |                    | min          |         |                     |              |
+|    |                   |                    | prcp         |         |                     |              |
+|    |                   |                    | sndp         |         |                     |              |
+|    |                   |                    | fog          |         |                     |              |
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------------------------------------------------------------------------------------------
+    1            0.183446602610095  0.1836014712371    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2            5.29416531251462   0.191661147805921  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3            0.187938426659471  0.187972365602077  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4            0.196585785439107  0.196129033376145  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5            0.21536322288806   0.189170698295216  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for "DNN Regression Model": 1.2154998700222708
+Median RMSE for "DNN Regression Model": 0.19658578543910693
+Mean RMSE for "Mean Model": 0.1897069432632918
+Median RMSE for "Mean Model": 0.18917069829521588
+
+Validate for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------------------------------------------------------------------------------------------------------------
+    1       0.232981517605424  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2       0.243743470392221  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3       0.236115159701923  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4       0.24167927550822   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5       0.211157762227638  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for Validaton Data: 0.23313543708708506
+Median RMSE for Validaton Data: 0.23611515970192326
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+===================+====================+==============+=========+=====================+==============+
+|  0 | 0.196585785439107 |  0.189170698295216 | Fri          |       5 |   0.236115159701923 |            5 |
+|    |                   |                    | Mon          |         |                     |              |
+|    |                   |                    | Sat          |         |                     |              |
+|    |                   |                    | Sun          |         |                     |              |
+|    |                   |                    | Thu          |         |                     |              |
+|    |                   |                    | Tue          |         |                     |              |
+|    |                   |                    | Wed          |         |                     |              |
+|    |                   |                    | Apr          |         |                     |              |
+|    |                   |                    | Aug          |         |                     |              |
+|    |                   |                    | Dec          |         |                     |              |
+|    |                   |                    | Feb          |         |                     |              |
+|    |                   |                    | Jan          |         |                     |              |
+|    |                   |                    | Jul          |         |                     |              |
+|    |                   |                    | Jun          |         |                     |              |
+|    |                   |                    | Mar          |         |                     |              |
+|    |                   |                    | May          |         |                     |              |
+|    |                   |                    | Nov          |         |                     |              |
+|    |                   |                    | Oct          |         |                     |              |
+|    |                   |                    | Sep          |         |                     |              |
+|    |                   |                    | day_index    |         |                     |              |
+|    |                   |                    | day_of_year  |         |                     |              |
+|    |                   |                    | year         |         |                     |              |
+|    |                   |                    | temp         |         |                     |              |
+|    |                   |                    | dewp         |         |                     |              |
+|    |                   |                    | slp          |         |                     |              |
+|    |                   |                    | visib        |         |                     |              |
+|    |                   |                    | wdsp         |         |                     |              |
+|    |                   |                    | gust         |         |                     |              |
+|    |                   |                    | max          |         |                     |              |
+|    |                   |                    | min          |         |                     |              |
+|    |                   |                    | prcp         |         |                     |              |
+|    |                   |                    | sndp         |         |                     |              |
+|    |                   |                    | fog          |         |                     |              |
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------------------------------------------------------------------------------------------
+    1            0.18920847888181   0.189227223905288  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2            0.185961995431972  0.182209558695488  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3            0.181948036390527  0.181946606918105  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4            0.175279737677645  0.175277598483585  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5            0.182418680299241  0.182403226931521  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for "DNN Regression Model": 0.18296338573623896
+Median RMSE for "DNN Regression Model": 0.18241868029924127
+Mean RMSE for "Mean Model": 0.1822128429867974
+Median RMSE for "Mean Model": 0.18220955869548774
+
+Validate for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------------------------------------------------------------------------------------------------------------
+    1       0.236918929467931  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2       0.267139041984161  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3       0.235136592010658  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4       0.23616483394584   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5       0.23681439881899   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for Validaton Data: 0.2424347592455157
+Median RMSE for Validaton Data: 0.23681439881898952
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+===================+====================+==============+=========+=====================+==============+
+|  0 | 0.182418680299241 |  0.182209558695488 | Fri          |       5 |    0.23681439881899 |            5 |
+|    |                   |                    | Mon          |         |                     |              |
+|    |                   |                    | Sat          |         |                     |              |
+|    |                   |                    | Sun          |         |                     |              |
+|    |                   |                    | Thu          |         |                     |              |
+|    |                   |                    | Tue          |         |                     |              |
+|    |                   |                    | Wed          |         |                     |              |
+|    |                   |                    | Apr          |         |                     |              |
+|    |                   |                    | Aug          |         |                     |              |
+|    |                   |                    | Dec          |         |                     |              |
+|    |                   |                    | Feb          |         |                     |              |
+|    |                   |                    | Jan          |         |                     |              |
+|    |                   |                    | Jul          |         |                     |              |
+|    |                   |                    | Jun          |         |                     |              |
+|    |                   |                    | Mar          |         |                     |              |
+|    |                   |                    | May          |         |                     |              |
+|    |                   |                    | Nov          |         |                     |              |
+|    |                   |                    | Oct          |         |                     |              |
+|    |                   |                    | Sep          |         |                     |              |
+|    |                   |                    | day_index    |         |                     |              |
+|    |                   |                    | day_of_year  |         |                     |              |
+|    |                   |                    | year         |         |                     |              |
+|    |                   |                    | temp         |         |                     |              |
+|    |                   |                    | dewp         |         |                     |              |
+|    |                   |                    | slp          |         |                     |              |
+|    |                   |                    | visib        |         |                     |              |
+|    |                   |                    | wdsp         |         |                     |              |
+|    |                   |                    | gust         |         |                     |              |
+|    |                   |                    | max          |         |                     |              |
+|    |                   |                    | min          |         |                     |              |
+|    |                   |                    | prcp         |         |                     |              |
+|    |                   |                    | sndp         |         |                     |              |
+|    |                   |                    | fog          |         |                     |              |
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------------------------------------------------------------------------------------------
+    1            0.179401776915552  0.17946401184897   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2            0.183181632234667  0.182456280611679  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3            0.18379360906003   0.183611879743813  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4            0.256971606282762  0.187575524230937  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5            0.204172467489615  0.19754957645916   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for "DNN Regression Model": 0.2015042183965253
+Median RMSE for "DNN Regression Model": 0.18379360906003034
+Mean RMSE for "Mean Model": 0.18613145457891173
+Median RMSE for "Mean Model": 0.18361187974381296
+
+Validate for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------------------------------------------------------------------------------------------------------------
+    1       0.235627928681543  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2       0.22776039693334   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3       0.23049460119045   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4       0.244930858479966  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5       0.22754765950958   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for Validaton Data: 0.23327228895897587
+Median RMSE for Validaton Data: 0.23049460119044968
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |           Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |             RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+==================+====================+==============+=========+=====================+==============+
+|  0 | 0.18379360906003 |  0.183611879743813 | Fri          |       5 |    0.23049460119045 |            5 |
+|    |                  |                    | Mon          |         |                     |              |
+|    |                  |                    | Sat          |         |                     |              |
+|    |                  |                    | Sun          |         |                     |              |
+|    |                  |                    | Thu          |         |                     |              |
+|    |                  |                    | Tue          |         |                     |              |
+|    |                  |                    | Wed          |         |                     |              |
+|    |                  |                    | Apr          |         |                     |              |
+|    |                  |                    | Aug          |         |                     |              |
+|    |                  |                    | Dec          |         |                     |              |
+|    |                  |                    | Feb          |         |                     |              |
+|    |                  |                    | Jan          |         |                     |              |
+|    |                  |                    | Jul          |         |                     |              |
+|    |                  |                    | Jun          |         |                     |              |
+|    |                  |                    | Mar          |         |                     |              |
+|    |                  |                    | May          |         |                     |              |
+|    |                  |                    | Nov          |         |                     |              |
+|    |                  |                    | Oct          |         |                     |              |
+|    |                  |                    | Sep          |         |                     |              |
+|    |                  |                    | day_index    |         |                     |              |
+|    |                  |                    | day_of_year  |         |                     |              |
+|    |                  |                    | year         |         |                     |              |
+|    |                  |                    | temp         |         |                     |              |
+|    |                  |                    | dewp         |         |                     |              |
+|    |                  |                    | slp          |         |                     |              |
+|    |                  |                    | visib        |         |                     |              |
+|    |                  |                    | wdsp         |         |                     |              |
+|    |                  |                    | gust         |         |                     |              |
+|    |                  |                    | max          |         |                     |              |
+|    |                  |                    | min          |         |                     |              |
+|    |                  |                    | prcp         |         |                     |              |
+|    |                  |                    | sndp         |         |                     |              |
+|    |                  |                    | fog          |         |                     |              |
++----+------------------+--------------------+--------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------------------------------------------------------------------------------------------
+    1            2.08914823100606   0.191965807933327  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2            0.41657004088739   0.179697372029598  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3            0.206731272258499  0.190977777474639  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4            0.189581855160453  0.184791871111244  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5            0.181129700326598  0.1811289448632    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for "DNN Regression Model": 0.6166322199277998
+Median RMSE for "DNN Regression Model": 0.2067312722584987
+Mean RMSE for "Mean Model": 0.1857123546824016
+Median RMSE for "Mean Model": 0.18479187111124434
+
+Validate for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------------------------------------------------------------------------------------------------------------
+    1       0.293095521681267  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2       0.156773535125806  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3       0.216367376486619  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4       0.228940940654838  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5       0.235824583301652  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for Validaton Data: 0.22620039145003648
+Median RMSE for Validaton Data: 0.22894094065483803
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+===================+====================+==============+=========+=====================+==============+
+|  0 | 0.206731272258499 |  0.184791871111244 | Fri          |       5 |   0.228940940654838 |            5 |
+|    |                   |                    | Mon          |         |                     |              |
+|    |                   |                    | Sat          |         |                     |              |
+|    |                   |                    | Sun          |         |                     |              |
+|    |                   |                    | Thu          |         |                     |              |
+|    |                   |                    | Tue          |         |                     |              |
+|    |                   |                    | Wed          |         |                     |              |
+|    |                   |                    | Apr          |         |                     |              |
+|    |                   |                    | Aug          |         |                     |              |
+|    |                   |                    | Dec          |         |                     |              |
+|    |                   |                    | Feb          |         |                     |              |
+|    |                   |                    | Jan          |         |                     |              |
+|    |                   |                    | Jul          |         |                     |              |
+|    |                   |                    | Jun          |         |                     |              |
+|    |                   |                    | Mar          |         |                     |              |
+|    |                   |                    | May          |         |                     |              |
+|    |                   |                    | Nov          |         |                     |              |
+|    |                   |                    | Oct          |         |                     |              |
+|    |                   |                    | Sep          |         |                     |              |
+|    |                   |                    | day_index    |         |                     |              |
+|    |                   |                    | day_of_year  |         |                     |              |
+|    |                   |                    | year         |         |                     |              |
+|    |                   |                    | temp         |         |                     |              |
+|    |                   |                    | dewp         |         |                     |              |
+|    |                   |                    | slp          |         |                     |              |
+|    |                   |                    | visib        |         |                     |              |
+|    |                   |                    | wdsp         |         |                     |              |
+|    |                   |                    | gust         |         |                     |              |
+|    |                   |                    | max          |         |                     |              |
+|    |                   |                    | min          |         |                     |              |
+|    |                   |                    | prcp         |         |                     |              |
+|    |                   |                    | sndp         |         |                     |              |
+|    |                   |                    | fog          |         |                     |              |
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------------------------------------------------------------------------------------------
+    1            0.238586791284785  0.194290491520408  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2            0.240266884890024  0.181509849191979  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3            0.184892939722108  0.18488733810486   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4            0.239010622086863  0.194428542399786  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5            0.20190483425971   0.201912300126198  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for "DNN Regression Model": 0.2209324144486981
+Median RMSE for "DNN Regression Model": 0.23858679128478527
+Mean RMSE for "Mean Model": 0.19140570426864645
+Median RMSE for "Mean Model": 0.19429049152040817
+
+Validate for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------------------------------------------------------------------------------------------------------------
+    1       0.178648126208277  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2       0.22467566378854   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3       0.234718771169048  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4       0.172925189062552  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5       0.234348201305339  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for Validaton Data: 0.20906319030675125
+Median RMSE for Validaton Data: 0.22467566378854045
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+===================+====================+==============+=========+=====================+==============+
+|  0 | 0.238586791284785 |  0.194290491520408 | Fri          |       5 |    0.22467566378854 |            5 |
+|    |                   |                    | Mon          |         |                     |              |
+|    |                   |                    | Sat          |         |                     |              |
+|    |                   |                    | Sun          |         |                     |              |
+|    |                   |                    | Thu          |         |                     |              |
+|    |                   |                    | Tue          |         |                     |              |
+|    |                   |                    | Wed          |         |                     |              |
+|    |                   |                    | Apr          |         |                     |              |
+|    |                   |                    | Aug          |         |                     |              |
+|    |                   |                    | Dec          |         |                     |              |
+|    |                   |                    | Feb          |         |                     |              |
+|    |                   |                    | Jan          |         |                     |              |
+|    |                   |                    | Jul          |         |                     |              |
+|    |                   |                    | Jun          |         |                     |              |
+|    |                   |                    | Mar          |         |                     |              |
+|    |                   |                    | May          |         |                     |              |
+|    |                   |                    | Nov          |         |                     |              |
+|    |                   |                    | Oct          |         |                     |              |
+|    |                   |                    | Sep          |         |                     |              |
+|    |                   |                    | day_index    |         |                     |              |
+|    |                   |                    | day_of_year  |         |                     |              |
+|    |                   |                    | year         |         |                     |              |
+|    |                   |                    | temp         |         |                     |              |
+|    |                   |                    | dewp         |         |                     |              |
+|    |                   |                    | slp          |         |                     |              |
+|    |                   |                    | visib        |         |                     |              |
+|    |                   |                    | wdsp         |         |                     |              |
+|    |                   |                    | gust         |         |                     |              |
+|    |                   |                    | max          |         |                     |              |
+|    |                   |                    | min          |         |                     |              |
+|    |                   |                    | prcp         |         |                     |              |
+|    |                   |                    | sndp         |         |                     |              |
+|    |                   |                    | fog          |         |                     |              |
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median DNN Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |           Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |             RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+==================+====================+==============+=========+=====================+==============+
+|  0 | 1.16722716868764 |  0.187091010349212 | Fri          |       5 |   0.257097179285723 |            5 |
+|    |                  |                    | Mon          |         |                     |              |
+|    |                  |                    | Sat          |         |                     |              |
+|    |                  |                    | Sun          |         |                     |              |
+|    |                  |                    | Thu          |         |                     |              |
+|    |                  |                    | Tue          |         |                     |              |
+|    |                  |                    | Wed          |         |                     |              |
+|    |                  |                    | Apr          |         |                     |              |
+|    |                  |                    | Aug          |         |                     |              |
+|    |                  |                    | Dec          |         |                     |              |
+|    |                  |                    | Feb          |         |                     |              |
+|    |                  |                    | Jan          |         |                     |              |
+|    |                  |                    | Jul          |         |                     |              |
+|    |                  |                    | Jun          |         |                     |              |
+|    |                  |                    | Mar          |         |                     |              |
+|    |                  |                    | May          |         |                     |              |
+|    |                  |                    | Nov          |         |                     |              |
+|    |                  |                    | Oct          |         |                     |              |
+|    |                  |                    | Sep          |         |                     |              |
+|    |                  |                    | day_index    |         |                     |              |
+|    |                  |                    | day_of_year  |         |                     |              |
+|    |                  |                    | year         |         |                     |              |
+|    |                  |                    | temp         |         |                     |              |
+|    |                  |                    | dewp         |         |                     |              |
+|    |                  |                    | slp          |         |                     |              |
+|    |                  |                    | visib        |         |                     |              |
+|    |                  |                    | wdsp         |         |                     |              |
+|    |                  |                    | gust         |         |                     |              |
+|    |                  |                    | max          |         |                     |              |
+|    |                  |                    | min          |         |                     |              |
+|    |                  |                    | prcp         |         |                     |              |
+|    |                  |                    | sndp         |         |                     |              |
+|    |                  |                    | fog          |         |                     |              |
++----+------------------+--------------------+--------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------------------------------------------------------------------------------------------
+    1           24.2257944813198    0.182306146565565  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2            0.350395148444522  0.192516163211881  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3            0.288005245319251  0.181023578237753  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4            0.230301176259344  0.193702596640766  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5            0.223797467195689  0.182580812475685  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for "DNN Regression Model": 5.063658703707722
+Median RMSE for "DNN Regression Model": 0.2880052453192514
+Mean RMSE for "Mean Model": 0.18642585942633
+Median RMSE for "Mean Model": 0.18258081247568486
+
+Validate for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------------------------------------------------------------------------------------------------------------
+    1       0.186979823189275  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    2       0.302002397103102  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    3       0.21035570116506   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    4       0.196165552419074  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    5       0.265814530458445  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+
+Mean RMSE for Validaton Data: 0.23226360086699133
+Median RMSE for Validaton Data: 0.21035570116506047
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+===================+====================+==============+=========+=====================+==============+
+|  0 | 0.288005245319251 |  0.182580812475685 | Fri          |       5 |    0.21035570116506 |            5 |
+|    |                   |                    | Mon          |         |                     |              |
+|    |                   |                    | Sat          |         |                     |              |
+|    |                   |                    | Sun          |         |                     |              |
+|    |                   |                    | Thu          |         |                     |              |
+|    |                   |                    | Tue          |         |                     |              |
+|    |                   |                    | Wed          |         |                     |              |
+|    |                   |                    | Apr          |         |                     |              |
+|    |                   |                    | Aug          |         |                     |              |
+|    |                   |                    | Dec          |         |                     |              |
+|    |                   |                    | Feb          |         |                     |              |
+|    |                   |                    | Jan          |         |                     |              |
+|    |                   |                    | Jul          |         |                     |              |
+|    |                   |                    | Jun          |         |                     |              |
+|    |                   |                    | Mar          |         |                     |              |
+|    |                   |                    | May          |         |                     |              |
+|    |                   |                    | Nov          |         |                     |              |
+|    |                   |                    | Oct          |         |                     |              |
+|    |                   |                    | Sep          |         |                     |              |
+|    |                   |                    | day_index    |         |                     |              |
+|    |                   |                    | day_of_year  |         |                     |              |
+|    |                   |                    | year         |         |                     |              |
+|    |                   |                    | temp         |         |                     |              |
+|    |                   |                    | dewp         |         |                     |              |
+|    |                   |                    | slp          |         |                     |              |
+|    |                   |                    | visib        |         |                     |              |
+|    |                   |                    | wdsp         |         |                     |              |
+|    |                   |                    | gust         |         |                     |              |
+|    |                   |                    | max          |         |                     |              |
+|    |                   |                    | min          |         |                     |              |
+|    |                   |                    | prcp         |         |                     |              |
+|    |                   |                    | sndp         |         |                     |              |
+|    |                   |                    | fog          |         |                     |              |
++----+-------------------+--------------------+--------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median DNN Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-hot Encoding [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+------------------+--------------------+--------------+---------+---------------------+--------------+
+|    |           Median |             Median | Model        |   Model |   Median Validation |   Validation |
+|    |             RMSE |   'Mean Model'RMSE | Predictors   |    Runs |                RMSE |         Runs |
++====+==================+====================+==============+=========+=====================+==============+
+|  0 | 5.74538221853277 |  0.189120421536687 | Fri          |       5 |   0.312431720877666 |            5 |
+|    |                  |                    | Mon          |         |                     |              |
+|    |                  |                    | Sat          |         |                     |              |
+|    |                  |                    | Sun          |         |                     |              |
+|    |                  |                    | Thu          |         |                     |              |
+|    |                  |                    | Tue          |         |                     |              |
+|    |                  |                    | Wed          |         |                     |              |
+|    |                  |                    | Apr          |         |                     |              |
+|    |                  |                    | Aug          |         |                     |              |
+|    |                  |                    | Dec          |         |                     |              |
+|    |                  |                    | Feb          |         |                     |              |
+|    |                  |                    | Jan          |         |                     |              |
+|    |                  |                    | Jul          |         |                     |              |
+|    |                  |                    | Jun          |         |                     |              |
+|    |                  |                    | Mar          |         |                     |              |
+|    |                  |                    | May          |         |                     |              |
+|    |                  |                    | Nov          |         |                     |              |
+|    |                  |                    | Oct          |         |                     |              |
+|    |                  |                    | Sep          |         |                     |              |
+|    |                  |                    | day_index    |         |                     |              |
+|    |                  |                    | day_of_year  |         |                     |              |
+|    |                  |                    | year         |         |                     |              |
+|    |                  |                    | temp         |         |                     |              |
+|    |                  |                    | dewp         |         |                     |              |
+|    |                  |                    | slp          |         |                     |              |
+|    |                  |                    | visib        |         |                     |              |
+|    |                  |                    | wdsp         |         |                     |              |
+|    |                  |                    | gust         |         |                     |              |
+|    |                  |                    | max          |         |                     |              |
+|    |                  |                    | min          |         |                     |              |
+|    |                  |                    | prcp         |         |                     |              |
+|    |                  |                    | sndp         |         |                     |              |
+|    |                  |                    | fog          |         |                     |              |
++----+------------------+--------------------+--------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
