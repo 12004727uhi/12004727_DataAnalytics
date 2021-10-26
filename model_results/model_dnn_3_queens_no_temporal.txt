@@ -1,0 +1,70 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.124811399117857  0.124604774012488  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.132246199487107  0.1322190926748    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.131066160394185  0.130850110657357  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.133817282738372  0.13265038028659   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.129562797591969  0.130021339223126  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+Mean RMSE for "DNN Regression Model": 0.130300767865898
+Median RMSE for "DNN Regression Model": 0.13106616039418487
+Mean RMSE for "Mean Model": 0.13006913937087208
+Median RMSE for "Mean Model": 0.1308501106573569
+
+Validate for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  --------------------------------------
+    1       0.122896233185856  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2       0.124997377769331  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3       0.117150488834954  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4       0.112707784635887  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5       0.132326686424996  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+Mean RMSE for Validaton Data: 0.1220157141702048
+Median RMSE for Validaton Data: 0.1228962331858562
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+---------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model         |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |                RMSE |         Runs |
++====+===================+====================+===============+=========+=====================+==============+
+|  0 | 0.131066160394185 |  0.130850110657357 | Queens County |       5 |   0.122896233185856 |            5 |
+|    |                   |                    | temp          |         |                     |              |
+|    |                   |                    | dewp          |         |                     |              |
+|    |                   |                    | slp           |         |                     |              |
+|    |                   |                    | visib         |         |                     |              |
+|    |                   |                    | wdsp          |         |                     |              |
+|    |                   |                    | gust          |         |                     |              |
+|    |                   |                    | max           |         |                     |              |
+|    |                   |                    | min           |         |                     |              |
+|    |                   |                    | prcp          |         |                     |              |
+|    |                   |                    | sndp          |         |                     |              |
+|    |                   |                    | fog           |         |                     |              |
++----+-------------------+--------------------+---------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------

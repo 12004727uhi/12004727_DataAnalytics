@@ -1,0 +1,836 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.120292472552039  0.120390135121201  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.120475774520713  0.119013118146752  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.123063362781577  0.123016556933413  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.128056783058126  0.128019392219686  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.120544758819137  0.120539680834309  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for "DNN Regression Model": 0.1224866303463181
+Median RMSE for "DNN Regression Model": 0.12054475881913682
+Mean RMSE for "Mean Model": 0.12219577665107237
+Median RMSE for "Mean Model": 0.12053968083430908
+
+Validate for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------------------------------------------------------
+    1       0.124087318258841  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2       0.128585076728397  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3       0.124627926996456  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4       0.12376688578738   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5       0.124490713297338  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for Validaton Data: 0.1251115842136823
+Median RMSE for Validaton Data: 0.12449071329733782
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model           |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |                RMSE |         Runs |
++====+===================+====================+=================+=========+=====================+==============+
+|  0 | 0.120544758819137 |  0.120539680834309 | New York County |       5 |   0.124490713297338 |            5 |
+|    |                   |                    | Fri             |         |                     |              |
+|    |                   |                    | Mon             |         |                     |              |
+|    |                   |                    | Sat             |         |                     |              |
+|    |                   |                    | Sun             |         |                     |              |
+|    |                   |                    | Thu             |         |                     |              |
+|    |                   |                    | Tue             |         |                     |              |
+|    |                   |                    | Wed             |         |                     |              |
+|    |                   |                    | Apr             |         |                     |              |
+|    |                   |                    | Aug             |         |                     |              |
+|    |                   |                    | Dec             |         |                     |              |
+|    |                   |                    | Feb             |         |                     |              |
+|    |                   |                    | Jan             |         |                     |              |
+|    |                   |                    | Jul             |         |                     |              |
+|    |                   |                    | Jun             |         |                     |              |
+|    |                   |                    | Mar             |         |                     |              |
+|    |                   |                    | May             |         |                     |              |
+|    |                   |                    | Nov             |         |                     |              |
+|    |                   |                    | Oct             |         |                     |              |
+|    |                   |                    | Sep             |         |                     |              |
+|    |                   |                    | day_index       |         |                     |              |
+|    |                   |                    | day_of_year     |         |                     |              |
+|    |                   |                    | year            |         |                     |              |
+|    |                   |                    | temp            |         |                     |              |
+|    |                   |                    | dewp            |         |                     |              |
+|    |                   |                    | slp             |         |                     |              |
+|    |                   |                    | visib           |         |                     |              |
+|    |                   |                    | wdsp            |         |                     |              |
+|    |                   |                    | gust            |         |                     |              |
+|    |                   |                    | max             |         |                     |              |
+|    |                   |                    | min             |         |                     |              |
+|    |                   |                    | prcp            |         |                     |              |
+|    |                   |                    | sndp            |         |                     |              |
+|    |                   |                    | fog             |         |                     |              |
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.123756833935208  0.123568357135472  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.119489560924454  0.119207186322207  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.124523586033734  0.124357067714867  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.123036811926784  0.121324024923221  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.124524953098335  0.119517338928094  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for "DNN Regression Model": 0.12306634918370296
+Median RMSE for "DNN Regression Model": 0.12375683393520766
+Mean RMSE for "Mean Model": 0.12159479500477229
+Median RMSE for "Mean Model": 0.12132402492322117
+
+Validate for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------------------------------------------------------
+    1       0.125256189031152  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2       0.127444423250337  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3       0.125734922159469  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4       0.128321241995658  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5       0.121969448353551  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for Validaton Data: 0.12574524495803344
+Median RMSE for Validaton Data: 0.1257349221594692
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model           |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |                RMSE |         Runs |
++====+===================+====================+=================+=========+=====================+==============+
+|  0 | 0.123756833935208 |  0.121324024923221 | New York County |       5 |   0.125734922159469 |            5 |
+|    |                   |                    | Fri             |         |                     |              |
+|    |                   |                    | Mon             |         |                     |              |
+|    |                   |                    | Sat             |         |                     |              |
+|    |                   |                    | Sun             |         |                     |              |
+|    |                   |                    | Thu             |         |                     |              |
+|    |                   |                    | Tue             |         |                     |              |
+|    |                   |                    | Wed             |         |                     |              |
+|    |                   |                    | Apr             |         |                     |              |
+|    |                   |                    | Aug             |         |                     |              |
+|    |                   |                    | Dec             |         |                     |              |
+|    |                   |                    | Feb             |         |                     |              |
+|    |                   |                    | Jan             |         |                     |              |
+|    |                   |                    | Jul             |         |                     |              |
+|    |                   |                    | Jun             |         |                     |              |
+|    |                   |                    | Mar             |         |                     |              |
+|    |                   |                    | May             |         |                     |              |
+|    |                   |                    | Nov             |         |                     |              |
+|    |                   |                    | Oct             |         |                     |              |
+|    |                   |                    | Sep             |         |                     |              |
+|    |                   |                    | day_index       |         |                     |              |
+|    |                   |                    | day_of_year     |         |                     |              |
+|    |                   |                    | year            |         |                     |              |
+|    |                   |                    | temp            |         |                     |              |
+|    |                   |                    | dewp            |         |                     |              |
+|    |                   |                    | slp             |         |                     |              |
+|    |                   |                    | visib           |         |                     |              |
+|    |                   |                    | wdsp            |         |                     |              |
+|    |                   |                    | gust            |         |                     |              |
+|    |                   |                    | max             |         |                     |              |
+|    |                   |                    | min             |         |                     |              |
+|    |                   |                    | prcp            |         |                     |              |
+|    |                   |                    | sndp            |         |                     |              |
+|    |                   |                    | fog             |         |                     |              |
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1           11.987999815519     0.117267431047266  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.124155943660591  0.123969304584724  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.124605878011516  0.124665604036729  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.12660273881539   0.126589051235977  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.120407112530721  0.120432807845489  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for "DNN Regression Model": 2.4967542977074415
+Median RMSE for "DNN Regression Model": 0.12460587801151622
+Mean RMSE for "Mean Model": 0.12258483975003712
+Median RMSE for "Mean Model": 0.1239693045847241
+
+Validate for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------------------------------------------------------
+    1       0.122359123373897  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2       0.123441789714884  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3       0.124661383398089  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4       0.123847464181105  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5       0.124373826432927  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for Validaton Data: 0.12373671742018041
+Median RMSE for Validaton Data: 0.12384746418110484
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model           |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |                RMSE |         Runs |
++====+===================+====================+=================+=========+=====================+==============+
+|  0 | 0.124605878011516 |  0.123969304584724 | New York County |       5 |   0.123847464181105 |            5 |
+|    |                   |                    | Fri             |         |                     |              |
+|    |                   |                    | Mon             |         |                     |              |
+|    |                   |                    | Sat             |         |                     |              |
+|    |                   |                    | Sun             |         |                     |              |
+|    |                   |                    | Thu             |         |                     |              |
+|    |                   |                    | Tue             |         |                     |              |
+|    |                   |                    | Wed             |         |                     |              |
+|    |                   |                    | Apr             |         |                     |              |
+|    |                   |                    | Aug             |         |                     |              |
+|    |                   |                    | Dec             |         |                     |              |
+|    |                   |                    | Feb             |         |                     |              |
+|    |                   |                    | Jan             |         |                     |              |
+|    |                   |                    | Jul             |         |                     |              |
+|    |                   |                    | Jun             |         |                     |              |
+|    |                   |                    | Mar             |         |                     |              |
+|    |                   |                    | May             |         |                     |              |
+|    |                   |                    | Nov             |         |                     |              |
+|    |                   |                    | Oct             |         |                     |              |
+|    |                   |                    | Sep             |         |                     |              |
+|    |                   |                    | day_index       |         |                     |              |
+|    |                   |                    | day_of_year     |         |                     |              |
+|    |                   |                    | year            |         |                     |              |
+|    |                   |                    | temp            |         |                     |              |
+|    |                   |                    | dewp            |         |                     |              |
+|    |                   |                    | slp             |         |                     |              |
+|    |                   |                    | visib           |         |                     |              |
+|    |                   |                    | wdsp            |         |                     |              |
+|    |                   |                    | gust            |         |                     |              |
+|    |                   |                    | max             |         |                     |              |
+|    |                   |                    | min             |         |                     |              |
+|    |                   |                    | prcp            |         |                     |              |
+|    |                   |                    | sndp            |         |                     |              |
+|    |                   |                    | fog             |         |                     |              |
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.173618591830876  0.120788084345047  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.123041214047508  0.123035349003136  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.132965535577201  0.116753629358676  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.155993806494797  0.117684636373857  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.127009157777958  0.118775242255132  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for "DNN Regression Model": 0.1425256611456678
+Median RMSE for "DNN Regression Model": 0.132965535577201
+Mean RMSE for "Mean Model": 0.11940738826716946
+Median RMSE for "Mean Model": 0.11877524225513249
+
+Validate for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------------------------------------------------------
+    1       0.155533242604607  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2       0.124011772894884  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3       0.132548031788588  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4       0.149066265520605  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5       0.143247533091951  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for Validaton Data: 0.14088136918012711
+Median RMSE for Validaton Data: 0.14324753309195143
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model           |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |                RMSE |         Runs |
++====+===================+====================+=================+=========+=====================+==============+
+|  0 | 0.132965535577201 |  0.118775242255132 | New York County |       5 |   0.143247533091951 |            5 |
+|    |                   |                    | Fri             |         |                     |              |
+|    |                   |                    | Mon             |         |                     |              |
+|    |                   |                    | Sat             |         |                     |              |
+|    |                   |                    | Sun             |         |                     |              |
+|    |                   |                    | Thu             |         |                     |              |
+|    |                   |                    | Tue             |         |                     |              |
+|    |                   |                    | Wed             |         |                     |              |
+|    |                   |                    | Apr             |         |                     |              |
+|    |                   |                    | Aug             |         |                     |              |
+|    |                   |                    | Dec             |         |                     |              |
+|    |                   |                    | Feb             |         |                     |              |
+|    |                   |                    | Jan             |         |                     |              |
+|    |                   |                    | Jul             |         |                     |              |
+|    |                   |                    | Jun             |         |                     |              |
+|    |                   |                    | Mar             |         |                     |              |
+|    |                   |                    | May             |         |                     |              |
+|    |                   |                    | Nov             |         |                     |              |
+|    |                   |                    | Oct             |         |                     |              |
+|    |                   |                    | Sep             |         |                     |              |
+|    |                   |                    | day_index       |         |                     |              |
+|    |                   |                    | day_of_year     |         |                     |              |
+|    |                   |                    | year            |         |                     |              |
+|    |                   |                    | temp            |         |                     |              |
+|    |                   |                    | dewp            |         |                     |              |
+|    |                   |                    | slp             |         |                     |              |
+|    |                   |                    | visib           |         |                     |              |
+|    |                   |                    | wdsp            |         |                     |              |
+|    |                   |                    | gust            |         |                     |              |
+|    |                   |                    | max             |         |                     |              |
+|    |                   |                    | min             |         |                     |              |
+|    |                   |                    | prcp            |         |                     |              |
+|    |                   |                    | sndp            |         |                     |              |
+|    |                   |                    | fog             |         |                     |              |
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            2.64184364660196   0.126280767343995  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.130779607202351  0.130135160560263  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.184554910650959  0.11623735095687   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.157210374547839  0.123775643826079  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.218737542833616  0.122094001044764  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for "DNN Regression Model": 0.6666252163673451
+Median RMSE for "DNN Regression Model": 0.18455491065095933
+Mean RMSE for "Mean Model": 0.12370458474639419
+Median RMSE for "Mean Model": 0.12377564382607852
+
+Validate for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------------------------------------------------------
+    1       0.217398094190673  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2       0.122634528715842  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3       0.198662990589989  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4       0.135425040849259  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5       0.209803733608036  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for Validaton Data: 0.17678487759075986
+Median RMSE for Validaton Data: 0.1986629905899894
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model           |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |                RMSE |         Runs |
++====+===================+====================+=================+=========+=====================+==============+
+|  0 | 0.184554910650959 |  0.123775643826079 | New York County |       5 |   0.198662990589989 |            5 |
+|    |                   |                    | Fri             |         |                     |              |
+|    |                   |                    | Mon             |         |                     |              |
+|    |                   |                    | Sat             |         |                     |              |
+|    |                   |                    | Sun             |         |                     |              |
+|    |                   |                    | Thu             |         |                     |              |
+|    |                   |                    | Tue             |         |                     |              |
+|    |                   |                    | Wed             |         |                     |              |
+|    |                   |                    | Apr             |         |                     |              |
+|    |                   |                    | Aug             |         |                     |              |
+|    |                   |                    | Dec             |         |                     |              |
+|    |                   |                    | Feb             |         |                     |              |
+|    |                   |                    | Jan             |         |                     |              |
+|    |                   |                    | Jul             |         |                     |              |
+|    |                   |                    | Jun             |         |                     |              |
+|    |                   |                    | Mar             |         |                     |              |
+|    |                   |                    | May             |         |                     |              |
+|    |                   |                    | Nov             |         |                     |              |
+|    |                   |                    | Oct             |         |                     |              |
+|    |                   |                    | Sep             |         |                     |              |
+|    |                   |                    | day_index       |         |                     |              |
+|    |                   |                    | day_of_year     |         |                     |              |
+|    |                   |                    | year            |         |                     |              |
+|    |                   |                    | temp            |         |                     |              |
+|    |                   |                    | dewp            |         |                     |              |
+|    |                   |                    | slp             |         |                     |              |
+|    |                   |                    | visib           |         |                     |              |
+|    |                   |                    | wdsp            |         |                     |              |
+|    |                   |                    | gust            |         |                     |              |
+|    |                   |                    | max             |         |                     |              |
+|    |                   |                    | min             |         |                     |              |
+|    |                   |                    | prcp            |         |                     |              |
+|    |                   |                    | sndp            |         |                     |              |
+|    |                   |                    | fog             |         |                     |              |
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.128793673851711  0.122673137762814  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.126890298300391  0.11833221812634   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.121469977290927  0.121479138054474  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.296617808184442  0.125680898104469  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.123678557076497  0.123674761846319  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for "DNN Regression Model": 0.15949006294079343
+Median RMSE for "DNN Regression Model": 0.12689029830039056
+Mean RMSE for "Mean Model": 0.12236803077888325
+Median RMSE for "Mean Model": 0.12267313776281434
+
+Validate for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------------------------------------------------------
+    1       0.135115818535659  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2       0.136380166776453  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3       0.124219423901563  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4       0.324688223347562  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5       0.124063008584776  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for Validaton Data: 0.16889332822920228
+Median RMSE for Validaton Data: 0.1351158185356588
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model           |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |                RMSE |         Runs |
++====+===================+====================+=================+=========+=====================+==============+
+|  0 | 0.126890298300391 |  0.122673137762814 | New York County |       5 |   0.135115818535659 |            5 |
+|    |                   |                    | Fri             |         |                     |              |
+|    |                   |                    | Mon             |         |                     |              |
+|    |                   |                    | Sat             |         |                     |              |
+|    |                   |                    | Sun             |         |                     |              |
+|    |                   |                    | Thu             |         |                     |              |
+|    |                   |                    | Tue             |         |                     |              |
+|    |                   |                    | Wed             |         |                     |              |
+|    |                   |                    | Apr             |         |                     |              |
+|    |                   |                    | Aug             |         |                     |              |
+|    |                   |                    | Dec             |         |                     |              |
+|    |                   |                    | Feb             |         |                     |              |
+|    |                   |                    | Jan             |         |                     |              |
+|    |                   |                    | Jul             |         |                     |              |
+|    |                   |                    | Jun             |         |                     |              |
+|    |                   |                    | Mar             |         |                     |              |
+|    |                   |                    | May             |         |                     |              |
+|    |                   |                    | Nov             |         |                     |              |
+|    |                   |                    | Oct             |         |                     |              |
+|    |                   |                    | Sep             |         |                     |              |
+|    |                   |                    | day_index       |         |                     |              |
+|    |                   |                    | day_of_year     |         |                     |              |
+|    |                   |                    | year            |         |                     |              |
+|    |                   |                    | temp            |         |                     |              |
+|    |                   |                    | dewp            |         |                     |              |
+|    |                   |                    | slp             |         |                     |              |
+|    |                   |                    | visib           |         |                     |              |
+|    |                   |                    | wdsp            |         |                     |              |
+|    |                   |                    | gust            |         |                     |              |
+|    |                   |                    | max             |         |                     |              |
+|    |                   |                    | min             |         |                     |              |
+|    |                   |                    | prcp            |         |                     |              |
+|    |                   |                    | sndp            |         |                     |              |
+|    |                   |                    | fog             |         |                     |              |
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            4.82428002776355   0.125478365117115  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.120485703491635  0.120501667382834  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.267568918552648  0.119637347639056  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.135511792166541  0.124131605195265  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.301115349038648  0.122507485812859  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for "DNN Regression Model": 1.129792358202605
+Median RMSE for "DNN Regression Model": 0.26756891855264814
+Mean RMSE for "Mean Model": 0.12245129422942609
+Median RMSE for "Mean Model": 0.12250748581285938
+
+Validate for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------------------------------------------------------
+    1       0.188470443393526  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2       0.124254605905219  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3       0.280582062356654  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4       0.130065193868466  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5       0.168349831549632  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for Validaton Data: 0.1783444274146994
+Median RMSE for Validaton Data: 0.16834983154963157
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model           |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |                RMSE |         Runs |
++====+===================+====================+=================+=========+=====================+==============+
+|  0 | 0.267568918552648 |  0.122507485812859 | New York County |       5 |   0.168349831549632 |            5 |
+|    |                   |                    | Fri             |         |                     |              |
+|    |                   |                    | Mon             |         |                     |              |
+|    |                   |                    | Sat             |         |                     |              |
+|    |                   |                    | Sun             |         |                     |              |
+|    |                   |                    | Thu             |         |                     |              |
+|    |                   |                    | Tue             |         |                     |              |
+|    |                   |                    | Wed             |         |                     |              |
+|    |                   |                    | Apr             |         |                     |              |
+|    |                   |                    | Aug             |         |                     |              |
+|    |                   |                    | Dec             |         |                     |              |
+|    |                   |                    | Feb             |         |                     |              |
+|    |                   |                    | Jan             |         |                     |              |
+|    |                   |                    | Jul             |         |                     |              |
+|    |                   |                    | Jun             |         |                     |              |
+|    |                   |                    | Mar             |         |                     |              |
+|    |                   |                    | May             |         |                     |              |
+|    |                   |                    | Nov             |         |                     |              |
+|    |                   |                    | Oct             |         |                     |              |
+|    |                   |                    | Sep             |         |                     |              |
+|    |                   |                    | day_index       |         |                     |              |
+|    |                   |                    | day_of_year     |         |                     |              |
+|    |                   |                    | year            |         |                     |              |
+|    |                   |                    | temp            |         |                     |              |
+|    |                   |                    | dewp            |         |                     |              |
+|    |                   |                    | slp             |         |                     |              |
+|    |                   |                    | visib           |         |                     |              |
+|    |                   |                    | wdsp            |         |                     |              |
+|    |                   |                    | gust            |         |                     |              |
+|    |                   |                    | max             |         |                     |              |
+|    |                   |                    | min             |         |                     |              |
+|    |                   |                    | prcp            |         |                     |              |
+|    |                   |                    | sndp            |         |                     |              |
+|    |                   |                    | fog             |         |                     |              |
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.237228303795923  0.128317111148975  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.254912672479744  0.119660644890609  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.244806253308351  0.125937933376747  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.141899644361541  0.118544993050285  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.218881608155639  0.124048478547403  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for "DNN Regression Model": 0.21954569642023936
+Median RMSE for "DNN Regression Model": 0.2372283037959226
+Mean RMSE for "Mean Model": 0.12330183220280358
+Median RMSE for "Mean Model": 0.12404847854740281
+
+Validate for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------------------------------------------------------
+    1       0.176420724390833  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2       0.208666334088763  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3       0.250950001627454  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4       0.140807532304396  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5       0.131084410617534  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for Validaton Data: 0.181585800605796
+Median RMSE for Validaton Data: 0.17642072439083334
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model           |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |                RMSE |         Runs |
++====+===================+====================+=================+=========+=====================+==============+
+|  0 | 0.237228303795923 |  0.124048478547403 | New York County |       5 |   0.176420724390833 |            5 |
+|    |                   |                    | Fri             |         |                     |              |
+|    |                   |                    | Mon             |         |                     |              |
+|    |                   |                    | Sat             |         |                     |              |
+|    |                   |                    | Sun             |         |                     |              |
+|    |                   |                    | Thu             |         |                     |              |
+|    |                   |                    | Tue             |         |                     |              |
+|    |                   |                    | Wed             |         |                     |              |
+|    |                   |                    | Apr             |         |                     |              |
+|    |                   |                    | Aug             |         |                     |              |
+|    |                   |                    | Dec             |         |                     |              |
+|    |                   |                    | Feb             |         |                     |              |
+|    |                   |                    | Jan             |         |                     |              |
+|    |                   |                    | Jul             |         |                     |              |
+|    |                   |                    | Jun             |         |                     |              |
+|    |                   |                    | Mar             |         |                     |              |
+|    |                   |                    | May             |         |                     |              |
+|    |                   |                    | Nov             |         |                     |              |
+|    |                   |                    | Oct             |         |                     |              |
+|    |                   |                    | Sep             |         |                     |              |
+|    |                   |                    | day_index       |         |                     |              |
+|    |                   |                    | day_of_year     |         |                     |              |
+|    |                   |                    | year            |         |                     |              |
+|    |                   |                    | temp            |         |                     |              |
+|    |                   |                    | dewp            |         |                     |              |
+|    |                   |                    | slp             |         |                     |              |
+|    |                   |                    | visib           |         |                     |              |
+|    |                   |                    | wdsp            |         |                     |              |
+|    |                   |                    | gust            |         |                     |              |
+|    |                   |                    | max             |         |                     |              |
+|    |                   |                    | min             |         |                     |              |
+|    |                   |                    | prcp            |         |                     |              |
+|    |                   |                    | sndp            |         |                     |              |
+|    |                   |                    | fog             |         |                     |              |
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            9.63679715003376   0.122631452509422  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2           14.447247710961     0.116961742349836  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.974850487337228  0.126584385716548  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.261379417732358  0.122168746251443  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.194255518723433  0.119761823844019  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for "DNN Regression Model": 5.102906056957554
+Median RMSE for "DNN Regression Model": 0.974850487337228
+Mean RMSE for "Mean Model": 0.12162163013425328
+Median RMSE for "Mean Model": 0.12216874625144278
+
+Validate for these predictors: 'New York County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Validate for these targets: 'NUM_COLLISIONS'
+
+  Run    Validation Test RMSE  Predictors Columns
+-----  ----------------------  ------------------------------------------------------------------------------------------------------------------------------
+    1       0.18661982561522   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2       0.215332435337708  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3       0.820553471746239  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4       0.215167186078979  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5       0.198080130552529  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+
+Mean RMSE for Validaton Data: 0.32715060986613514
+Median RMSE for Validaton Data: 0.21516718607897872
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - New York County [dnn_3_new_york.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_new_york.csv
+Model validation dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_new_york.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+|    |            Median |             Median | Model           |   Model |   Median Validation |   Validation |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |                RMSE |         Runs |
++====+===================+====================+=================+=========+=====================+==============+
+|  0 | 0.974850487337228 |  0.122168746251443 | New York County |       5 |   0.215167186078979 |            5 |
+|    |                   |                    | Fri             |         |                     |              |
+|    |                   |                    | Mon             |         |                     |              |
+|    |                   |                    | Sat             |         |                     |              |
+|    |                   |                    | Sun             |         |                     |              |
+|    |                   |                    | Thu             |         |                     |              |
+|    |                   |                    | Tue             |         |                     |              |
+|    |                   |                    | Wed             |         |                     |              |
+|    |                   |                    | Apr             |         |                     |              |
+|    |                   |                    | Aug             |         |                     |              |
+|    |                   |                    | Dec             |         |                     |              |
+|    |                   |                    | Feb             |         |                     |              |
+|    |                   |                    | Jan             |         |                     |              |
+|    |                   |                    | Jul             |         |                     |              |
+|    |                   |                    | Jun             |         |                     |              |
+|    |                   |                    | Mar             |         |                     |              |
+|    |                   |                    | May             |         |                     |              |
+|    |                   |                    | Nov             |         |                     |              |
+|    |                   |                    | Oct             |         |                     |              |
+|    |                   |                    | Sep             |         |                     |              |
+|    |                   |                    | day_index       |         |                     |              |
+|    |                   |                    | day_of_year     |         |                     |              |
+|    |                   |                    | year            |         |                     |              |
+|    |                   |                    | temp            |         |                     |              |
+|    |                   |                    | dewp            |         |                     |              |
+|    |                   |                    | slp             |         |                     |              |
+|    |                   |                    | visib           |         |                     |              |
+|    |                   |                    | wdsp            |         |                     |              |
+|    |                   |                    | gust            |         |                     |              |
+|    |                   |                    | max             |         |                     |              |
+|    |                   |                    | min             |         |                     |              |
+|    |                   |                    | prcp            |         |                     |              |
+|    |                   |                    | sndp            |         |                     |              |
+|    |                   |                    | fog             |         |                     |              |
++----+-------------------+--------------------+-----------------+---------+---------------------+--------------+
+
+------------------------------------------------------------------------------
