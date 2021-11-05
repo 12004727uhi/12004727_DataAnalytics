@@ -1,19 +1,3 @@
-TensorFlow 1.x selected.
-day_index	day	year	mo	temp	visib	wdsp	NUM_COLLISIONS
-44	1	2	2013	1	35.4	2.6	4.9	0.365234
-47	2	7	2013	1	45.4	4.3	5.8	0.035156
-50	3	3	2013	1	39.9	6.8	5.3	0.257812
-54	4	5	2013	1	38.0	10.0	5.4	0.595703
-68	5	6	2013	1	42.7	7.1	7.9	0.234375
-day_index	day	year	mo	temp	visib	wdsp	NUM_COLLISIONS
-1445	525	6	2014	6	66.5	4.8	5.7	0.600446
-344	1496	5	2017	2	30.9	10.0	9.0	0.490231
-578	1522	2	2017	3	40.7	5.0	8.7	0.460036
-1229	1232	1	2016	5	59.4	10.0	9.6	0.566075
-658	1534	6	2017	3	42.9	8.2	13.1	0.422735
-Predictors columns: 127
-Tensor flow version: 1.15.2
-
 Tensor Flow Linear Regression Output
 Model dataset title: 2013 to 2019 - First 175 Days of Years [linear_4.csv]
 Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/linear_4.csv

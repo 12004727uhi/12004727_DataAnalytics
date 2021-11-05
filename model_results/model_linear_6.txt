@@ -1,19 +1,3 @@
-TensorFlow 1.x selected.
-day_index	day	year	mo	county	temp	visib	wdsp	NUM_COLLISIONS
-375	5	2	2013	1	Bronx County	38.0	10.0	15.0	0.127193
-382	7	3	2013	1	Bronx County	27.5	10.0	12.4	0.232456
-395	15	4	2013	1	Bronx County	21.8	10.0	9.8	0.258772
-401	16	5	2013	1	Bronx County	32.2	10.0	11.3	0.241228
-411	21	6	2013	1	Bronx County	37.3	10.0	13.2	0.171053
-day_index	day	year	mo	county	temp	visib	wdsp	NUM_COLLISIONS
-14576	1642	6	2017	11	Kings County	50.1	10.0	7.8	0.519651
-731	1897	1	2018	1	Bronx County	31.6	9.1	15.4	0.308370
-6302	987	2	2015	5	Kings County	57.1	9.8	11.0	0.723214
-9131	2372	2	2019	7	Bronx County	67.9	10.0	9.1	0.360515
-14202	2283	4	2019	11	Kings County	51.4	9.8	7.8	0.798283
-Predictors columns: 127
-Tensor flow version: 1.15.2
-
 Tensor Flow Linear Regression Output
 Model dataset title: 2013 to 2019 with Spatial Data - Bronx County [linear_6.csv]
 Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/linear_6.csv
