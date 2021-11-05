@@ -1,0 +1,584 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1            0.196624134049746  0.196484526108673  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2            0.194213435260321  0.190534624677298  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3            0.18704379247475   0.182692602715657  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4            0.189686985348959  0.1885658210751    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5            0.18665878095792   0.187722026442635  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for "DNN Regression Model": 0.18968698534895945
+Median RMSE for "Mean Model": 0.1885658210750998
+
+Test for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------
+    1  0.159466686351345  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2  0.166207577312318  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3  0.169367825421177  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4  0.167729984075969  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5  0.161457813179555  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for Test Data: 0.16620757731231806
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.189686985348959 |    0.1885658210751 | temp         |       5 | 0.166207577312318 |         5 |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1            0.191177967535289  0.189900114721501  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2            0.184617143076981  0.184620026270043  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3            0.188106248879663  0.185938199101475  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4            0.184994901961294  0.187149211130811  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5            0.187928873379561  0.187662787885901  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for "DNN Regression Model": 0.18792887337956085
+Median RMSE for "Mean Model": 0.1871492111308111
+
+Test for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------
+    1  0.157985921222607  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2  0.158754958284577  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3  0.163939212832297  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4  0.175305674307999  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5  0.159684445124577  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for Test Data: 0.15968444512457683
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.187928873379561 |  0.187149211130811 | temp         |       5 | 0.159684445124577 |         5 |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1            0.179426535273591  0.179386063029622  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2            0.197053290212583  0.1957840761284    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3            0.183473248111604  0.182973660788577  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4            0.192512077842642  0.191922454191808  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5          134.791398721259     0.180329489978919  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for "DNN Regression Model": 0.19251207784264168
+Median RMSE for "Mean Model": 0.18297366078857735
+
+Test for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------
+    1  0.159214852469784  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2  0.158023404389015  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3  0.157976249424881  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4  0.160228544466912  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5  0.170023090852164  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for Test Data: 0.15921485246978428
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.192512077842642 |  0.182973660788577 | temp         |       5 | 0.159214852469784 |         5 |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1           57.5685242576056    0.198105662445756  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2            0.195507668229155  0.195708783313752  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3            0.184299289889185  0.184569479559291  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4           28.5374153821816    0.180654188147942  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5            0.184934051452786  0.186403881282183  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for "DNN Regression Model": 0.19550766822915525
+Median RMSE for "Mean Model": 0.18640388128218302
+
+Test for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------
+    1  0.156783299972824  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2  0.158893666510733  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3  0.158178070742844  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4  0.158623638658584  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5  0.156871909945694  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for Test Data: 0.15817807074284443
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.195507668229155 |  0.186403881282183 | temp         |       5 | 0.158178070742844 |         5 |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1            0.182969421856956  0.182657987293396  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2            0.182304295321726  0.189833209293409  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3            4.04482958742617   0.175604128268226  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4            0.205645566993199  0.198232059215386  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5            0.213279810990243  0.186032248799468  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for "DNN Regression Model": 0.20564556699319939
+Median RMSE for "Mean Model": 0.18603224879946778
+
+Test for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------
+    1  0.170297059281443  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2  0.164821653606575  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3  0.163258904136408  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4  0.164089293630274  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5  0.216049104869187  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for Test Data: 0.16482165360657516
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.205645566993199 |  0.186032248799468 | temp         |       5 | 0.164821653606575 |         5 |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1            0.189914817975331  0.192064541111396  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2            0.175143660123167  0.181262827981727  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3           17.6447149639413    0.191756999986306  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4            0.187023120233666  0.187022325533422  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5            0.201839056018794  0.188566718701406  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for "DNN Regression Model": 0.18991481797533127
+Median RMSE for "Mean Model": 0.18856671870140568
+
+Test for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------
+    1  0.154970230365917  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2  0.161002175323818  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3  0.165310068071351  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4  0.158956075120596  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5  0.171352031766383  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for Test Data: 0.1610021753238178
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.189914817975331 |  0.188566718701406 | temp         |       5 | 0.161002175323818 |         5 |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1            0.332433574472185  0.191408191599295  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2           34.8125711210606    0.193286372273386  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3            0.1869115184641    0.185999909668776  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4            0.189987692564588  0.189905325013258  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5            0.20464364608622   0.185680392167959  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for "DNN Regression Model": 0.20464364608622018
+Median RMSE for "Mean Model": 0.1899053250132577
+
+Test for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------
+    1  0.283952351451029  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2  0.649685331777538  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3  0.185580971869188  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4  0.176571128967302  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5  0.158063675077823  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for Test Data: 0.18558097186918757
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |           Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |             RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+==================+====================+==============+=========+===================+===========+
+|  0 | 0.20464364608622 |  0.189905325013258 | temp         |       5 | 0.185580971869188 |         5 |
+|    |                  |                    | dewp         |         |                   |           |
+|    |                  |                    | slp          |         |                   |           |
+|    |                  |                    | visib        |         |                   |           |
+|    |                  |                    | wdsp         |         |                   |           |
+|    |                  |                    | gust         |         |                   |           |
+|    |                  |                    | max          |         |                   |           |
+|    |                  |                    | min          |         |                   |           |
+|    |                  |                    | prcp         |         |                   |           |
+|    |                  |                    | sndp         |         |                   |           |
+|    |                  |                    | fog          |         |                   |           |
++----+------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1           33.3818975028614    0.185380622686813  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2            0.392484429707479  0.188287578481209  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3           10.6200168758658    0.186536205080118  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4            0.206650039559933  0.190589702867552  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5            0.218475988370496  0.177759993925146  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for "DNN Regression Model": 0.3924844297074789
+Median RMSE for "Mean Model": 0.18653620508011753
+
+Test for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------
+    1  0.903855560145532  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2  0.359589220710305  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3  0.200162637050863  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4  0.165609285547348  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5  0.185431317448184  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for Test Data: 0.20016263705086268
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.392484429707479 |  0.186536205080118 | temp         |       5 | 0.200162637050863 |         5 |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------
+    1            5.6220187177022    0.195628742902132  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2            0.522917335039055  0.193903690996573  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3            0.228920314602827  0.186149250098913  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4            0.746081449023431  0.183847656860142  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5            0.320692898594417  0.188787113392456  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for "DNN Regression Model": 0.522917335039055
+Median RMSE for "Mean Model": 0.18878711339245577
+
+Test for these predictors: 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------
+    1  0.336932903426303  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    2  0.493419082364196  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    3  0.206109343751667  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    4  0.760554988511611  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    5  0.324558527501997  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Median RMSE for Test Data: 0.33693290342630267
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.522917335039055 |  0.188787113392456 | temp         |       5 | 0.336932903426303 |         5 |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------

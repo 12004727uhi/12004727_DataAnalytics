@@ -1,0 +1,683 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.192894486591464  0.193110143183398  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.187495332874117  0.18621913684012   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.182537297864194  0.181650713653547  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            0.189144231536483  0.188903436237006  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.196124803219923  0.196095506092026  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for "DNN Regression Model": 0.18914423153648258
+Median RMSE for "Mean Model": 0.18890343623700556
+
+Test for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------
+    1  0.248064674392638  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2  0.24957941524852   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3  0.252649511797328  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4  0.231436828007955  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5  0.230202991461372  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for Test Data: 0.2480646743926376
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.189144231536483 |  0.188903436237006 | Fri          |       5 | 0.248064674392638 |         5 |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.194206928553051  0.194185715392178  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.187058023924389  0.185897166822941  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.19974705593101   0.181433601486693  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            0.199954562385572  0.200126869273899  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.181512114548882  0.181516064947464  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for "DNN Regression Model": 0.19420692855305063
+Median RMSE for "Mean Model": 0.1858971668229415
+
+Test for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------
+    1  0.233342585113035  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2  0.225105317946963  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3  0.184936274574954  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4  0.234603777806119  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5  0.235090350020656  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for Test Data: 0.2333425851130349
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.194206928553051 |  0.185897166822941 | Fri          |       5 | 0.233342585113035 |         5 |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.186701946645641  0.186173773784694  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.181508887912305  0.182218149974569  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.186067072089653  0.18588945084423   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            0.195027408886133  0.19545180828902   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.179990887546556  0.179950324662446  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for "DNN Regression Model": 0.18606707208965304
+Median RMSE for "Mean Model": 0.18588945084423034
+
+Test for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------
+    1  0.221841226810239  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2  0.250872348360242  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3  0.166445896258237  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4  0.222495263032237  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5  0.232703950604155  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for Test Data: 0.2224952630322367
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.186067072089653 |   0.18588945084423 | Fri          |       5 | 0.222495263032237 |         5 |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.185931145140358  0.18580905966397   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.17750770940319   0.185736821130236  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.184225226179855  0.184196307764402  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            0.177974579365792  0.179823685955735  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.177103028729728  0.182801480033984  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for "DNN Regression Model": 0.17797457936579206
+Median RMSE for "Mean Model": 0.1841963077644021
+
+Test for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------
+    1  0.238823173744648  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2  0.176429540578493  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3  0.238759707119731  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4  0.238415149781795  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5  0.18243902696825   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for Test Data: 0.23841514978179454
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.177974579365792 |  0.184196307764402 | Fri          |       5 | 0.238415149781795 |         5 |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.156594235431737  0.183241020803474  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.182411265257039  0.188241128192865  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.189503042294889  0.189587770314443  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            0.19287503911768   0.192917213786946  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.138786533386579  0.184218066935781  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for "DNN Regression Model": 0.18241126525703913
+Median RMSE for "Mean Model": 0.18824112819286493
+
+Test for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------
+    1  0.232997889017757  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2  0.189714543077481  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3  0.235545009176838  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4  0.237254222403883  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5  0.134421805060803  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for Test Data: 0.23299788901775748
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.182411265257039 |  0.188241128192865 | Fri          |       5 | 0.232997889017757 |         5 |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.189732514205551  0.177484531688729  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.190837876638252  0.194907371518577  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.154684113919443  0.187370861693824  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            0.18437692390757   0.190840714468085  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.147342693546122  0.183231146016407  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for "DNN Regression Model": 0.18437692390757002
+Median RMSE for "Mean Model": 0.18737086169382386
+
+Test for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------
+    1  0.211647377955643  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2  0.180346821645263  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3  0.107214091855181  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4  0.106263089137256  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5  0.163281909299392  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for Test Data: 0.16328190929939207
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |           Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |             RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+==================+====================+==============+=========+===================+===========+
+|  0 | 0.18437692390757 |  0.187370861693824 | Fri          |       5 | 0.163281909299392 |         5 |
+|    |                  |                    | Mon          |         |                   |           |
+|    |                  |                    | Sat          |         |                   |           |
+|    |                  |                    | Sun          |         |                   |           |
+|    |                  |                    | Thu          |         |                   |           |
+|    |                  |                    | Tue          |         |                   |           |
+|    |                  |                    | Wed          |         |                   |           |
+|    |                  |                    | Apr          |         |                   |           |
+|    |                  |                    | Aug          |         |                   |           |
+|    |                  |                    | Dec          |         |                   |           |
+|    |                  |                    | Feb          |         |                   |           |
+|    |                  |                    | Jan          |         |                   |           |
+|    |                  |                    | Jul          |         |                   |           |
+|    |                  |                    | Jun          |         |                   |           |
+|    |                  |                    | Mar          |         |                   |           |
+|    |                  |                    | May          |         |                   |           |
+|    |                  |                    | Nov          |         |                   |           |
+|    |                  |                    | Oct          |         |                   |           |
+|    |                  |                    | Sep          |         |                   |           |
+|    |                  |                    | day_index    |         |                   |           |
+|    |                  |                    | day_of_year  |         |                   |           |
+|    |                  |                    | year         |         |                   |           |
++----+------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.161141560056645  0.177882041801996  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.188885244686439  0.185785692005768  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.183764970356664  0.188886333446119  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            0.298994450984228  0.193391973280678  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.345716000178788  0.185799355512238  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for "DNN Regression Model": 0.18888524468643905
+Median RMSE for "Mean Model": 0.1857993555122384
+
+Test for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------
+    1  0.114161731938693  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2  0.185272871491753  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3  0.209260937315456  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4  0.257282716910764  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5  0.387791004915881  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for Test Data: 0.20926093731545595
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.188885244686439 |  0.185799355512238 | Fri          |       5 | 0.209260937315456 |         5 |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.50336487473704   0.180026101626969  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.209237902944383  0.180332479793505  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.43545177620262   0.192311130511762  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            1.00164348741156   0.195459864672982  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.463284586576782  0.192202392459324  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for "DNN Regression Model": 0.4632845865767823
+Median RMSE for "Mean Model": 0.19220239245932444
+
+Test for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------
+    1  0.359883294197764  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2  0.204276108215625  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3  0.550700407175126  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4  1.00408736122766   [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5  0.226459836320773  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for Test Data: 0.359883294197764
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.463284586576782 |  0.192202392459324 | Fri          |       5 | 0.359883294197764 |         5 |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------
+    1            0.434357751615346  0.198408881795036  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2            0.37446678617663   0.186015521516584  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3            0.280101951955016  0.194030908778634  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4            0.228803986924846  0.176661018600307  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5            0.247620523765496  0.177648594589511  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for "DNN Regression Model": 0.2801019519550158
+Median RMSE for "Mean Model": 0.18601552151658365
+
+Test for these predictors: 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------
+    1  0.453189438332902  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    2  0.270721333476842  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    3  0.231111853390314  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    4  0.253792000622375  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+    5  0.341310755565921  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
+Median RMSE for Test Data: 0.27072133347684196
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - One-Hot Encoded [dnn_2.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_2.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_2.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.280101951955016 |  0.186015521516584 | Fri          |       5 | 0.270721333476842 |         5 |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------

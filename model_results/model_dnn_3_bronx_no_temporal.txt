@@ -1,0 +1,593 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.096255555550401  0.087778873536118  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.093174890054255  0.093114268678105  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.088202696543808  0.088116570388335  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.096669929285306  0.096675566203911  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.093879280601695  0.090658951237783  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.093879280601695
+Median RMSE for "Mean Model": 0.09065895123778316
+
+Test for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.066652421121469  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.076786893782916  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.069680896938698  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.070279978252578  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.065860599819051  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.06968089693869797
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.093879280601695 |  0.090658951237783 | Bronx County |       5 | 0.069680896938698 |         5 |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.095246070479201  0.095251638741480  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.097214334171626  0.096142946680485  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3           67.189620436649349  0.087286235205272  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.088116658057061  0.087971732661694  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.095423693451220  0.093192460917426  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.09542369345121958
+Median RMSE for "Mean Model": 0.09319246091742571
+
+Test for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.072630884872284  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.068276940835428  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.070068396209035  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.069901094230665  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.066153893307085  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.06990109423066496
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.095423693451220 |  0.093192460917426 | Bronx County |       5 | 0.069901094230665 |         5 |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.085077511440571  0.083738668671274  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.097173789297398  0.091812962299866  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.095515452118806  0.095444651033332  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.093588859047519  0.093222370083737  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.088314929749748  0.088247525425507  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.0935888590475192
+Median RMSE for "Mean Model": 0.0918129622998663
+
+Test for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.078152337003044  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.065660641504768  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.070130810910283  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.068600282686729  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.073067333901666  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.07013081091028328
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.093588859047519 |  0.091812962299866 | Bronx County |       5 | 0.070130810910283 |         5 |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1           66.978654442867807  0.087116317458280  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.090510348303024  0.089858209834667  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.087380164906783  0.087410136152931  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.098478647035803  0.098487218655161  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.086678381776925  0.086650744464613  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.09051034830302433
+Median RMSE for "Mean Model": 0.08741013615293133
+
+Test for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.087201654563089  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.069300273838338  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.071926449338273  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.071206912423489  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.072266831811958  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.07192644933827308
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.090510348303024 |  0.087410136152931 | Bronx County |       5 | 0.071926449338273 |         5 |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.092626104022546  0.091620059409022  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            1.549533593708255  0.090243425728761  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.088671339488043  0.088899891095971  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.090905533736521  0.091215333133640  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.173701535625056  0.090231616873937  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.09262610402254601
+Median RMSE for "Mean Model": 0.09024342572876108
+
+Test for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.065000367195967  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.071459359589196  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.072343599641023  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.067699802421308  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.075014620135995  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.07145935958919569
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.092626104022546 |  0.090243425728761 | Bronx County |       5 | 0.071459359589196 |         5 |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.094032930331933  0.093880184233036  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.094610038434297  0.094604407580704  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.095898909913979  0.095962198828241  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.125538315375701  0.088661032411814  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5           14.057607282428089  0.090927525665244  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.09589890991397901
+Median RMSE for "Mean Model": 0.09388018423303615
+
+Test for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.074432394388390  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.072101023358783  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.071301121261162  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.123591492055354  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.060660321184052  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.07210102335878327
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.095898909913979 |  0.093880184233036 | Bronx County |       5 | 0.072101023358783 |         5 |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1          105.528210248174304  0.085294536867013  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.084783398923829  0.084791022438768  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.965856023600993  0.090380009447806  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.090469704902809  0.089972188804458  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.173321667044132  0.088899647103357  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.1733216670441317
+Median RMSE for "Mean Model": 0.08889964710335654
+
+Test for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.083894359969663  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.072418066471521  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.376472182351071  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.077884558983554  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.106292330146547  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.08389435996966316
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.173321667044132 |  0.088899647103357 | Bronx County |       5 | 0.083894359969663 |         5 |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.228689045124061  0.085666277113776  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.154494749158616  0.092078016317087  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            6.059251197966876  0.088708292834930  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.100658218752204  0.091156343058828  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.104770411707817  0.088039030887923  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.15449474915861558
+Median RMSE for "Mean Model": 0.08870829283493041
+
+Test for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.223047940142619  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.159739414242717  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.134497252810877  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.066705555760387  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.059302959704769  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.13449725281087702
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.154494749158616 |  0.088708292834930 | Bronx County |       5 | 0.134497252810877 |         5 |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.142916298264461  0.085697624549183  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.121557338563317  0.091624452016314  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.219059104670344  0.088120721429721  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.195444584563242  0.089198654578462  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.112762048225605  0.089567499316891  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.14291629826446095
+Median RMSE for "Mean Model": 0.0891986545784621
+
+Test for these predictors: 'Bronx County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.120268192590951  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.103730002967843  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.158245971608022  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.075172661878684  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.098980561380536  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.10373000296784317
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.142916298264461 |  0.089198654578462 | Bronx County |       5 | 0.103730002967843 |         5 |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------

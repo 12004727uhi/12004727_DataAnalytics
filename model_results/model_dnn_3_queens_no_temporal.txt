@@ -1,0 +1,593 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.129034351676445  0.128148042861370  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.133401680233742  0.133364246970732  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.136098159207108  0.135895025712064  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.152945729485953  0.132919712124079  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.133199362110619  0.133302316067288  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.13340168023374205
+Median RMSE for "Mean Model": 0.1333023160672884
+
+Test for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.137387229855708  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.128176304268452  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.123110761228016  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.123238386253420  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.129208074629620  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.12817630426845153
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.133401680233742 |  0.133302316067288 | Queens County |       5 | 0.128176304268452 |         5 |
+|    |                   |                    | temp          |         |                   |           |
+|    |                   |                    | dewp          |         |                   |           |
+|    |                   |                    | slp           |         |                   |           |
+|    |                   |                    | visib         |         |                   |           |
+|    |                   |                    | wdsp          |         |                   |           |
+|    |                   |                    | gust          |         |                   |           |
+|    |                   |                    | max           |         |                   |           |
+|    |                   |                    | min           |         |                   |           |
+|    |                   |                    | prcp          |         |                   |           |
+|    |                   |                    | sndp          |         |                   |           |
+|    |                   |                    | fog           |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1           11.561396935134164  0.133179832771854  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.130675954849177  0.130628114034162  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.132285511330923  0.132208417783741  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.129698834407839  0.129693682187579  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.148066418906523  0.134274418434674  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.1322855113309233
+Median RMSE for "Mean Model": 0.13220841778374057
+
+Test for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.128013836585048  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.124828912948554  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.119771118939333  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.126735281156025  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.127481979484598  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.1267352811560252
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.132285511330923 |  0.132208417783741 | Queens County |       5 | 0.126735281156025 |         5 |
+|    |                   |                    | temp          |         |                   |           |
+|    |                   |                    | dewp          |         |                   |           |
+|    |                   |                    | slp           |         |                   |           |
+|    |                   |                    | visib         |         |                   |           |
+|    |                   |                    | wdsp          |         |                   |           |
+|    |                   |                    | gust          |         |                   |           |
+|    |                   |                    | max           |         |                   |           |
+|    |                   |                    | min           |         |                   |           |
+|    |                   |                    | prcp          |         |                   |           |
+|    |                   |                    | sndp          |         |                   |           |
+|    |                   |                    | fog           |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.125722654356015  0.125376291402944  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.127047666056830  0.127084793291897  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.127708639731049  0.127743797200778  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.132653808668945  0.132864129366494  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.140351255208691  0.134562406868755  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.1277086397310488
+Median RMSE for "Mean Model": 0.12774379720077755
+
+Test for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.120595111506934  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.125363486814098  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.126046033677301  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.122547817226566  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.155632768375545  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.12536348681409787
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.127708639731049 |  0.127743797200778 | Queens County |       5 | 0.125363486814098 |         5 |
+|    |                   |                    | temp          |         |                   |           |
+|    |                   |                    | dewp          |         |                   |           |
+|    |                   |                    | slp           |         |                   |           |
+|    |                   |                    | visib         |         |                   |           |
+|    |                   |                    | wdsp          |         |                   |           |
+|    |                   |                    | gust          |         |                   |           |
+|    |                   |                    | max           |         |                   |           |
+|    |                   |                    | min           |         |                   |           |
+|    |                   |                    | prcp          |         |                   |           |
+|    |                   |                    | sndp          |         |                   |           |
+|    |                   |                    | fog           |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.128941417773928  0.131024306177251  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.126308837108057  0.126375271883841  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.129199505879916  0.129227901484663  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.128838627405016  0.126592034089415  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.126397320852353  0.129271946526777  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.12883862740501592
+Median RMSE for "Mean Model": 0.12922790148466304
+
+Test for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.129941209600381  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.125588153105513  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.127638063004752  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.123918028875271  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.134582087504899  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.12763806300475172
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.128838627405016 |  0.129227901484663 | Queens County |       5 | 0.127638063004752 |         5 |
+|    |                   |                    | temp          |         |                   |           |
+|    |                   |                    | dewp          |         |                   |           |
+|    |                   |                    | slp           |         |                   |           |
+|    |                   |                    | visib         |         |                   |           |
+|    |                   |                    | wdsp          |         |                   |           |
+|    |                   |                    | gust          |         |                   |           |
+|    |                   |                    | max           |         |                   |           |
+|    |                   |                    | min           |         |                   |           |
+|    |                   |                    | prcp          |         |                   |           |
+|    |                   |                    | sndp          |         |                   |           |
+|    |                   |                    | fog           |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.148331714144230  0.130866244643460  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.128124500223654  0.127788817849842  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.144639410811083  0.131010091088397  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.270453510811501  0.131773600177055  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.127482662651322  0.130287371119759  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.14463941081108334
+Median RMSE for "Mean Model": 0.13086624464346044
+
+Test for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.138338685041464  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.121377436845834  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.107375719589476  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.190668388302533  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.127431934715438  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.12743193471543765
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.144639410811083 |  0.130866244643460 | Queens County |       5 | 0.127431934715438 |         5 |
+|    |                   |                    | temp          |         |                   |           |
+|    |                   |                    | dewp          |         |                   |           |
+|    |                   |                    | slp           |         |                   |           |
+|    |                   |                    | visib         |         |                   |           |
+|    |                   |                    | wdsp          |         |                   |           |
+|    |                   |                    | gust          |         |                   |           |
+|    |                   |                    | max           |         |                   |           |
+|    |                   |                    | min           |         |                   |           |
+|    |                   |                    | prcp          |         |                   |           |
+|    |                   |                    | sndp          |         |                   |           |
+|    |                   |                    | fog           |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.128448192723533  0.128782784408017  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.154001655246978  0.137167529668805  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.142028984333546  0.135974611547451  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.590135904290154  0.127868683449334  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.131381166470140  0.132021712770557  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.1420289843335459
+Median RMSE for "Mean Model": 0.13202171277055672
+
+Test for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.120565337658300  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.112591300755709  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.126838243667428  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.138203322582561  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.123927931865913  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.12392793186591271
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.142028984333546 |  0.132021712770557 | Queens County |       5 | 0.123927931865913 |         5 |
+|    |                   |                    | temp          |         |                   |           |
+|    |                   |                    | dewp          |         |                   |           |
+|    |                   |                    | slp           |         |                   |           |
+|    |                   |                    | visib         |         |                   |           |
+|    |                   |                    | wdsp          |         |                   |           |
+|    |                   |                    | gust          |         |                   |           |
+|    |                   |                    | max           |         |                   |           |
+|    |                   |                    | min           |         |                   |           |
+|    |                   |                    | prcp          |         |                   |           |
+|    |                   |                    | sndp          |         |                   |           |
+|    |                   |                    | fog           |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.245483444730589  0.126830481124546  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2           25.352565239027154  0.129748150507722  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.479292505440923  0.128949119875090  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4           29.665371838294217  0.132507981239770  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.125425471602572  0.126476484060224  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.47929250544092267
+Median RMSE for "Mean Model": 0.12894911987509033
+
+Test for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.337362292016670  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.200852173072727  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.313960010278319  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.126760905024729  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.125085662804399  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.20085217307272651
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.479292505440923 |  0.128949119875090 | Queens County |       5 | 0.200852173072727 |         5 |
+|    |                   |                    | temp          |         |                   |           |
+|    |                   |                    | dewp          |         |                   |           |
+|    |                   |                    | slp           |         |                   |           |
+|    |                   |                    | visib         |         |                   |           |
+|    |                   |                    | wdsp          |         |                   |           |
+|    |                   |                    | gust          |         |                   |           |
+|    |                   |                    | max           |         |                   |           |
+|    |                   |                    | min           |         |                   |           |
+|    |                   |                    | prcp          |         |                   |           |
+|    |                   |                    | sndp          |         |                   |           |
+|    |                   |                    | fog           |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.136349458231678  0.133402854354029  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.986213512232776  0.121740375331371  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.161860346995149  0.126042410845471  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.166540583085038  0.129668691759787  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.165221274810515  0.128589997582526  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.1652212748105155
+Median RMSE for "Mean Model": 0.12858999758252637
+
+Test for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.151008117225380  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.743084381439955  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.153821784770251  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.188722429210700  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.194041428283632  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.18872242921069998
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.165221274810515 |  0.128589997582526 | Queens County |       5 | 0.188722429210700 |         5 |
+|    |                   |                    | temp          |         |                   |           |
+|    |                   |                    | dewp          |         |                   |           |
+|    |                   |                    | slp           |         |                   |           |
+|    |                   |                    | visib         |         |                   |           |
+|    |                   |                    | wdsp          |         |                   |           |
+|    |                   |                    | gust          |         |                   |           |
+|    |                   |                    | max           |         |                   |           |
+|    |                   |                    | min           |         |                   |           |
+|    |                   |                    | prcp          |         |                   |           |
+|    |                   |                    | sndp          |         |                   |           |
+|    |                   |                    | fog           |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.181702569915342  0.133180627414002  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.897782662605865  0.132425567866777  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.482599927559052  0.131865798016393  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.148443014959413  0.128404990801307  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.212393418210000  0.129489718512895  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.2123934182099999
+Median RMSE for "Mean Model": 0.13186579801639334
+
+Test for these predictors: 'Queens County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.198774394218879  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.622887274477939  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.122832009547791  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.125109979234056  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.154755796348283  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.15475579634828263
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.212393418210000 |  0.131865798016393 | Queens County |       5 | 0.154755796348283 |         5 |
+|    |                   |                    | temp          |         |                   |           |
+|    |                   |                    | dewp          |         |                   |           |
+|    |                   |                    | slp           |         |                   |           |
+|    |                   |                    | visib         |         |                   |           |
+|    |                   |                    | wdsp          |         |                   |           |
+|    |                   |                    | gust          |         |                   |           |
+|    |                   |                    | max           |         |                   |           |
+|    |                   |                    | min           |         |                   |           |
+|    |                   |                    | prcp          |         |                   |           |
+|    |                   |                    | sndp          |         |                   |           |
+|    |                   |                    | fog           |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------

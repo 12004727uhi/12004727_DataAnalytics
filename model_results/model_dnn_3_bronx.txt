@@ -1,0 +1,791 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.091628985628507  0.095091175126274  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.089872375897939  0.089896404300043  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.089111164781497  0.088703848556558  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.093218043316331  0.092776106715227  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.089702280358685  0.089373638648475  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for "DNN Regression Model": 0.0898723758979388
+Median RMSE for "Mean Model": 0.08989640430004266
+
+Test for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1  0.056999483212441  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2  0.071628416975480  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3  0.075968754431899  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4  0.069441456810498  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5  0.069766021111634  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for Test Data: 0.06976602111163376
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.089872375897939 |  0.089896404300043 | Bronx County |       5 | 0.069766021111634 |         5 |
+|    |                   |                    | Fri          |         |                   |           |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.094499381446656  0.095277792261646  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.086900993997399  0.086302243569032  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.090497132051217  0.090490574547658  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.087064934534644  0.087097779418135  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.091564147499084  0.091623279264776  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for "DNN Regression Model": 0.09049713205121723
+Median RMSE for "Mean Model": 0.09049057454765772
+
+Test for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1  0.074797505692472  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2  0.068372745441097  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3  0.071997425712723  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4  0.071517404775344  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5  0.071473043463601  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for Test Data: 0.07151740477534371
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.090497132051217 |  0.090490574547658 | Bronx County |       5 | 0.071517404775344 |         5 |
+|    |                   |                    | Fri          |         |                   |           |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.092165999474334  0.086399436274993  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.083174558163079  0.083172449269253  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.084637169362540  0.084648337821229  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.090303131520277  0.086515131098968  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.088200958578615  0.088159912232803  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for "DNN Regression Model": 0.0882009585786151
+Median RMSE for "Mean Model": 0.08639943627499333
+
+Test for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1  0.087979941733030  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2  0.070176693508525  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3  0.071309327087731  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4  0.065488506114148  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5  0.070913587792545  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for Test Data: 0.07091358779254528
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.088200958578615 |  0.086399436274993 | Bronx County |       5 | 0.070913587792545 |         5 |
+|    |                   |                    | Fri          |         |                   |           |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.091512132487097  0.091462465408788  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.091051403424327  0.091026645683719  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            1.649715890119945  0.091151553400837  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.091442063881400  0.091481275512275  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            2.078465438349756  0.086875335643433  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for "DNN Regression Model": 0.09151213248709664
+Median RMSE for "Mean Model": 0.09115155340083651
+
+Test for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1  0.072650831574853  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2  0.072113817625481  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3  0.076146147020875  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4  0.072034044866751  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5  0.055330919891874  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for Test Data: 0.07211381762548078
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.091512132487097 |  0.091151553400837 | Bronx County |       5 | 0.072113817625481 |         5 |
+|    |                   |                    | Fri          |         |                   |           |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.094290772630942  0.094290012543076  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.084264098950959  0.090674853164150  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            5.904500417411402  0.090636302674659  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.078399661816153  0.091922661061520  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.098422737513522  0.090731235103265  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for "DNN Regression Model": 0.09429077263094172
+Median RMSE for "Mean Model": 0.09073123510326504
+
+Test for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1  0.071799464184867  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2  0.066890720121375  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3  0.065488019525734  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4  0.061213915931284  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5  0.089637014581268  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for Test Data: 0.0668907201213754
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.094290772630942 |  0.090731235103265 | Bronx County |       5 | 0.066890720121375 |         5 |
+|    |                   |                    | Fri          |         |                   |           |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.134284896543515  0.084635678209208  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            2.331998549273668  0.091840897732353  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.118123984147702  0.092797227042453  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.073284818821333  0.086988955300951  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.091774143777194  0.091828863510686  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for "DNN Regression Model": 0.11812398414770157
+Median RMSE for "Mean Model": 0.0918288635106859
+
+Test for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1  0.074410709421953  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2  0.206887743344489  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3  0.124987638565124  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4  0.061122552140171  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5  0.066373317393929  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for Test Data: 0.07441070942195316
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.118123984147702 |  0.091828863510686 | Bronx County |       5 | 0.074410709421953 |         5 |
+|    |                   |                    | Fri          |         |                   |           |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.081038874767084  0.094622645468050  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.143851737427311  0.089435246432449  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.807509716565829  0.093573180815270  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.093731482264327  0.093720225302028  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5           33.929475527891746  0.090694740331292  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for "DNN Regression Model": 0.14385173742731103
+Median RMSE for "Mean Model": 0.09357318081526987
+
+Test for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1  0.056930396515657  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2  0.143522060569804  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3  0.618847045214549  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4  0.072121099116146  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5  2.128549010811263  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for Test Data: 0.1435220605698042
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.143851737427311 |  0.093573180815270 | Bronx County |       5 | 0.143522060569804 |         5 |
+|    |                   |                    | Fri          |         |                   |           |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1           15.953951545872224  0.093616972041641  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            0.113154126514539  0.096053296524219  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.111898126019059  0.090179787203370  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            6.744305174488306  0.089398100022050  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            0.108219680388255  0.089702786727690  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for "DNN Regression Model": 0.11315412651453899
+Median RMSE for "Mean Model": 0.09017978720336986
+
+Test for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1  0.661704176565076  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2  0.062622364001966  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3  0.099702296551271  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4  0.911415648436518  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5  0.047339628838745  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for Test Data: 0.09970229655127093
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.113154126514539 |  0.090179787203370 | Bronx County |       5 | 0.099702296551271 |         5 |
+|    |                   |                    | Fri          |         |                   |           |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1            0.459421800463481  0.091853187511316  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2            2.970728134851833  0.089298221642045  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3            0.238040134916857  0.093685669199863  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4            0.672599318157894  0.085002404615540  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5            5.231982200707841  0.088950104046155  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for "DNN Regression Model": 0.6725993181578942
+Median RMSE for "Mean Model": 0.08929822164204511
+
+Test for these predictors: 'Bronx County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ------------------------------------------------------------------------------------------------------------------------------
+    1  0.398059896775197  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    2  0.488116942588788  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    3  0.090282625469754  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    4  0.648960088253491  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+    5  0.092564182175273  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+Median RMSE for Test Data: 0.39805989677519654
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Bronx County [dnn_3_bronx.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_bronx.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_bronx.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.672599318157894 |  0.089298221642045 | Bronx County |       5 | 0.398059896775197 |         5 |
+|    |                   |                    | Fri          |         |                   |           |
+|    |                   |                    | Mon          |         |                   |           |
+|    |                   |                    | Sat          |         |                   |           |
+|    |                   |                    | Sun          |         |                   |           |
+|    |                   |                    | Thu          |         |                   |           |
+|    |                   |                    | Tue          |         |                   |           |
+|    |                   |                    | Wed          |         |                   |           |
+|    |                   |                    | Apr          |         |                   |           |
+|    |                   |                    | Aug          |         |                   |           |
+|    |                   |                    | Dec          |         |                   |           |
+|    |                   |                    | Feb          |         |                   |           |
+|    |                   |                    | Jan          |         |                   |           |
+|    |                   |                    | Jul          |         |                   |           |
+|    |                   |                    | Jun          |         |                   |           |
+|    |                   |                    | Mar          |         |                   |           |
+|    |                   |                    | May          |         |                   |           |
+|    |                   |                    | Nov          |         |                   |           |
+|    |                   |                    | Oct          |         |                   |           |
+|    |                   |                    | Sep          |         |                   |           |
+|    |                   |                    | day_index    |         |                   |           |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | temp         |         |                   |           |
+|    |                   |                    | dewp         |         |                   |           |
+|    |                   |                    | slp          |         |                   |           |
+|    |                   |                    | visib        |         |                   |           |
+|    |                   |                    | wdsp         |         |                   |           |
+|    |                   |                    | gust         |         |                   |           |
+|    |                   |                    | max          |         |                   |           |
+|    |                   |                    | min          |         |                   |           |
+|    |                   |                    | prcp         |         |                   |           |
+|    |                   |                    | sndp         |         |                   |           |
+|    |                   |                    | fog          |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------

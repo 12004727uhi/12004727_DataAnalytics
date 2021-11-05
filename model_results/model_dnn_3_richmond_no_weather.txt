@@ -1,0 +1,692 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.037480326848559  0.037243677360801  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.039021175171493  0.038934783470870  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.037038137535745  0.037041835614681  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.038759309543908  0.038790053162900  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.038271537412304  0.038206710703948  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.03827153741230374
+Median RMSE for "Mean Model": 0.03820671070394833
+
+Test for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.041592246310710  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.041999152821957  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.042823003166630  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.042653416939780  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.043592914185117  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.04265341693978037
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.038271537412304 |  0.038206710703948 | Richmond County |       5 | 0.042653416939780 |         5 |
+|    |                   |                    | Fri             |         |                   |           |
+|    |                   |                    | Mon             |         |                   |           |
+|    |                   |                    | Sat             |         |                   |           |
+|    |                   |                    | Sun             |         |                   |           |
+|    |                   |                    | Thu             |         |                   |           |
+|    |                   |                    | Tue             |         |                   |           |
+|    |                   |                    | Wed             |         |                   |           |
+|    |                   |                    | Apr             |         |                   |           |
+|    |                   |                    | Aug             |         |                   |           |
+|    |                   |                    | Dec             |         |                   |           |
+|    |                   |                    | Feb             |         |                   |           |
+|    |                   |                    | Jan             |         |                   |           |
+|    |                   |                    | Jul             |         |                   |           |
+|    |                   |                    | Jun             |         |                   |           |
+|    |                   |                    | Mar             |         |                   |           |
+|    |                   |                    | May             |         |                   |           |
+|    |                   |                    | Nov             |         |                   |           |
+|    |                   |                    | Oct             |         |                   |           |
+|    |                   |                    | Sep             |         |                   |           |
+|    |                   |                    | day_index       |         |                   |           |
+|    |                   |                    | day_of_year     |         |                   |           |
+|    |                   |                    | year            |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.037612997027274  0.037554050421771  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.038726892581256  0.036338856207884  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.038406660908729  0.038444845696580  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.037951353990480  0.037930347191145  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.039628375581790  0.039644848837427  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.03840666090872937
+Median RMSE for "Mean Model": 0.037930347191144576
+
+Test for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.042346077911175  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.049972727864255  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.042802428017376  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.042639747066698  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.042918434962637  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.042802428017376166
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.038406660908729 |  0.037930347191145 | Richmond County |       5 | 0.042802428017376 |         5 |
+|    |                   |                    | Fri             |         |                   |           |
+|    |                   |                    | Mon             |         |                   |           |
+|    |                   |                    | Sat             |         |                   |           |
+|    |                   |                    | Sun             |         |                   |           |
+|    |                   |                    | Thu             |         |                   |           |
+|    |                   |                    | Tue             |         |                   |           |
+|    |                   |                    | Wed             |         |                   |           |
+|    |                   |                    | Apr             |         |                   |           |
+|    |                   |                    | Aug             |         |                   |           |
+|    |                   |                    | Dec             |         |                   |           |
+|    |                   |                    | Feb             |         |                   |           |
+|    |                   |                    | Jan             |         |                   |           |
+|    |                   |                    | Jul             |         |                   |           |
+|    |                   |                    | Jun             |         |                   |           |
+|    |                   |                    | Mar             |         |                   |           |
+|    |                   |                    | May             |         |                   |           |
+|    |                   |                    | Nov             |         |                   |           |
+|    |                   |                    | Oct             |         |                   |           |
+|    |                   |                    | Sep             |         |                   |           |
+|    |                   |                    | day_index       |         |                   |           |
+|    |                   |                    | day_of_year     |         |                   |           |
+|    |                   |                    | year            |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.037265160785708  0.036624026801544  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.040416502305675  0.036495619954645  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.038190689213079  0.037246691784683  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.037678298504918  0.038070257514821  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.037971997647198  0.039158993964465  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.03797199764719769
+Median RMSE for "Mean Model": 0.037246691784683476
+
+Test for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.040856520183297  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.045742446550195  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.047077205612366  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.040448390488863  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.037737548109313  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.04085652018329729
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.037971997647198 |  0.037246691784683 | Richmond County |       5 | 0.040856520183297 |         5 |
+|    |                   |                    | Fri             |         |                   |           |
+|    |                   |                    | Mon             |         |                   |           |
+|    |                   |                    | Sat             |         |                   |           |
+|    |                   |                    | Sun             |         |                   |           |
+|    |                   |                    | Thu             |         |                   |           |
+|    |                   |                    | Tue             |         |                   |           |
+|    |                   |                    | Wed             |         |                   |           |
+|    |                   |                    | Apr             |         |                   |           |
+|    |                   |                    | Aug             |         |                   |           |
+|    |                   |                    | Dec             |         |                   |           |
+|    |                   |                    | Feb             |         |                   |           |
+|    |                   |                    | Jan             |         |                   |           |
+|    |                   |                    | Jul             |         |                   |           |
+|    |                   |                    | Jun             |         |                   |           |
+|    |                   |                    | Mar             |         |                   |           |
+|    |                   |                    | May             |         |                   |           |
+|    |                   |                    | Nov             |         |                   |           |
+|    |                   |                    | Oct             |         |                   |           |
+|    |                   |                    | Sep             |         |                   |           |
+|    |                   |                    | day_index       |         |                   |           |
+|    |                   |                    | day_of_year     |         |                   |           |
+|    |                   |                    | year            |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.083267331130669  0.037716355418550  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.055970416133274  0.038333196603031  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.047737667847616  0.036822430357772  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.038708053847488  0.038699613420668  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.101457811806588  0.038809266988796  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.055970416133274484
+Median RMSE for "Mean Model": 0.03833319660303063
+
+Test for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.076857417928229  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.061077220275683  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.055042401499811  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.043092542412203  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.093468276756845  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.06107722027568264
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.055970416133274 |  0.038333196603031 | Richmond County |       5 | 0.061077220275683 |         5 |
+|    |                   |                    | Fri             |         |                   |           |
+|    |                   |                    | Mon             |         |                   |           |
+|    |                   |                    | Sat             |         |                   |           |
+|    |                   |                    | Sun             |         |                   |           |
+|    |                   |                    | Thu             |         |                   |           |
+|    |                   |                    | Tue             |         |                   |           |
+|    |                   |                    | Wed             |         |                   |           |
+|    |                   |                    | Apr             |         |                   |           |
+|    |                   |                    | Aug             |         |                   |           |
+|    |                   |                    | Dec             |         |                   |           |
+|    |                   |                    | Feb             |         |                   |           |
+|    |                   |                    | Jan             |         |                   |           |
+|    |                   |                    | Jul             |         |                   |           |
+|    |                   |                    | Jun             |         |                   |           |
+|    |                   |                    | Mar             |         |                   |           |
+|    |                   |                    | May             |         |                   |           |
+|    |                   |                    | Nov             |         |                   |           |
+|    |                   |                    | Oct             |         |                   |           |
+|    |                   |                    | Sep             |         |                   |           |
+|    |                   |                    | day_index       |         |                   |           |
+|    |                   |                    | day_of_year     |         |                   |           |
+|    |                   |                    | year            |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.055577994321011  0.038091534611802  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.037552614461044  0.037553802973190  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.072345275431003  0.039361576898481  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.040739639930358  0.039249541728884  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            1.276461243362084  0.037597216302304  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.055577994321010536
+Median RMSE for "Mean Model": 0.03809153461180207
+
+Test for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.049478260546816  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.042975593568843  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.048218925272988  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.049405733320568  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  1.028358035010529  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.04940573332056777
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.055577994321011 |  0.038091534611802 | Richmond County |       5 | 0.049405733320568 |         5 |
+|    |                   |                    | Fri             |         |                   |           |
+|    |                   |                    | Mon             |         |                   |           |
+|    |                   |                    | Sat             |         |                   |           |
+|    |                   |                    | Sun             |         |                   |           |
+|    |                   |                    | Thu             |         |                   |           |
+|    |                   |                    | Tue             |         |                   |           |
+|    |                   |                    | Wed             |         |                   |           |
+|    |                   |                    | Apr             |         |                   |           |
+|    |                   |                    | Aug             |         |                   |           |
+|    |                   |                    | Dec             |         |                   |           |
+|    |                   |                    | Feb             |         |                   |           |
+|    |                   |                    | Jan             |         |                   |           |
+|    |                   |                    | Jul             |         |                   |           |
+|    |                   |                    | Jun             |         |                   |           |
+|    |                   |                    | Mar             |         |                   |           |
+|    |                   |                    | May             |         |                   |           |
+|    |                   |                    | Nov             |         |                   |           |
+|    |                   |                    | Oct             |         |                   |           |
+|    |                   |                    | Sep             |         |                   |           |
+|    |                   |                    | day_index       |         |                   |           |
+|    |                   |                    | day_of_year     |         |                   |           |
+|    |                   |                    | year            |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.063969723581676  0.038245798430805  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.071447164493671  0.042094313637956  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.045013332663783  0.038579917875314  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.161161103244144  0.041673463021580  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.054748200386291  0.037957070816661  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.0639697235816756
+Median RMSE for "Mean Model": 0.03857991787531361
+
+Test for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.074081342925316  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.066010790819314  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.047965680173517  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.141390527998671  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.058608677733541  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.0660107908193141
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.063969723581676 |  0.038579917875314 | Richmond County |       5 | 0.066010790819314 |         5 |
+|    |                   |                    | Fri             |         |                   |           |
+|    |                   |                    | Mon             |         |                   |           |
+|    |                   |                    | Sat             |         |                   |           |
+|    |                   |                    | Sun             |         |                   |           |
+|    |                   |                    | Thu             |         |                   |           |
+|    |                   |                    | Tue             |         |                   |           |
+|    |                   |                    | Wed             |         |                   |           |
+|    |                   |                    | Apr             |         |                   |           |
+|    |                   |                    | Aug             |         |                   |           |
+|    |                   |                    | Dec             |         |                   |           |
+|    |                   |                    | Feb             |         |                   |           |
+|    |                   |                    | Jan             |         |                   |           |
+|    |                   |                    | Jul             |         |                   |           |
+|    |                   |                    | Jun             |         |                   |           |
+|    |                   |                    | Mar             |         |                   |           |
+|    |                   |                    | May             |         |                   |           |
+|    |                   |                    | Nov             |         |                   |           |
+|    |                   |                    | Oct             |         |                   |           |
+|    |                   |                    | Sep             |         |                   |           |
+|    |                   |                    | day_index       |         |                   |           |
+|    |                   |                    | day_of_year     |         |                   |           |
+|    |                   |                    | year            |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.039514255717958  0.038000702151352  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.053769051371277  0.037722808891870  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.039410000823413  0.039407608535763  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.341415464047870  0.037678986315393  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.082095470636810  0.041300273623473  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.05376905137127741
+Median RMSE for "Mean Model": 0.03800070215135201
+
+Test for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.044955357972871  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.070712165419420  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.042737371747222  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.358916858384109  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.075245525943091  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.07071216541941996
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.053769051371277 |  0.038000702151352 | Richmond County |       5 | 0.070712165419420 |         5 |
+|    |                   |                    | Fri             |         |                   |           |
+|    |                   |                    | Mon             |         |                   |           |
+|    |                   |                    | Sat             |         |                   |           |
+|    |                   |                    | Sun             |         |                   |           |
+|    |                   |                    | Thu             |         |                   |           |
+|    |                   |                    | Tue             |         |                   |           |
+|    |                   |                    | Wed             |         |                   |           |
+|    |                   |                    | Apr             |         |                   |           |
+|    |                   |                    | Aug             |         |                   |           |
+|    |                   |                    | Dec             |         |                   |           |
+|    |                   |                    | Feb             |         |                   |           |
+|    |                   |                    | Jan             |         |                   |           |
+|    |                   |                    | Jul             |         |                   |           |
+|    |                   |                    | Jun             |         |                   |           |
+|    |                   |                    | Mar             |         |                   |           |
+|    |                   |                    | May             |         |                   |           |
+|    |                   |                    | Nov             |         |                   |           |
+|    |                   |                    | Oct             |         |                   |           |
+|    |                   |                    | Sep             |         |                   |           |
+|    |                   |                    | day_index       |         |                   |           |
+|    |                   |                    | day_of_year     |         |                   |           |
+|    |                   |                    | year            |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.081321088683116  0.037793157085950  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.077555002878225  0.036590221403567  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.344240132059041  0.038814120223337  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.053071138692506  0.037037567684047  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.644290321464740  0.038000181415075  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.08132108868311577
+Median RMSE for "Mean Model": 0.037793157085950026
+
+Test for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.075757817975558  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.084908922767624  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.413669921623180  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.059569482443789  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.561132069325856  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.0849089227676236
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.081321088683116 |  0.037793157085950 | Richmond County |       5 | 0.084908922767624 |         5 |
+|    |                   |                    | Fri             |         |                   |           |
+|    |                   |                    | Mon             |         |                   |           |
+|    |                   |                    | Sat             |         |                   |           |
+|    |                   |                    | Sun             |         |                   |           |
+|    |                   |                    | Thu             |         |                   |           |
+|    |                   |                    | Tue             |         |                   |           |
+|    |                   |                    | Wed             |         |                   |           |
+|    |                   |                    | Apr             |         |                   |           |
+|    |                   |                    | Aug             |         |                   |           |
+|    |                   |                    | Dec             |         |                   |           |
+|    |                   |                    | Feb             |         |                   |           |
+|    |                   |                    | Jan             |         |                   |           |
+|    |                   |                    | Jul             |         |                   |           |
+|    |                   |                    | Jun             |         |                   |           |
+|    |                   |                    | Mar             |         |                   |           |
+|    |                   |                    | May             |         |                   |           |
+|    |                   |                    | Nov             |         |                   |           |
+|    |                   |                    | Oct             |         |                   |           |
+|    |                   |                    | Sep             |         |                   |           |
+|    |                   |                    | day_index       |         |                   |           |
+|    |                   |                    | day_of_year     |         |                   |           |
+|    |                   |                    | year            |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.332102832990936  0.036563875519440  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.069732937973971  0.038764743366738  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.067351992782174  0.036427377578110  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.086686763817868  0.040200039184072  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.089990231203019  0.036962670154938  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.08668676381786755
+Median RMSE for "Mean Model": 0.03696267015493816
+
+Test for these predictors: 'Richmond County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.322319797117654  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.057176859840373  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.056593496020282  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.049800724739511  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.064213125712411  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.05717685984037263
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.086686763817868 |  0.036962670154938 | Richmond County |       5 | 0.057176859840373 |         5 |
+|    |                   |                    | Fri             |         |                   |           |
+|    |                   |                    | Mon             |         |                   |           |
+|    |                   |                    | Sat             |         |                   |           |
+|    |                   |                    | Sun             |         |                   |           |
+|    |                   |                    | Thu             |         |                   |           |
+|    |                   |                    | Tue             |         |                   |           |
+|    |                   |                    | Wed             |         |                   |           |
+|    |                   |                    | Apr             |         |                   |           |
+|    |                   |                    | Aug             |         |                   |           |
+|    |                   |                    | Dec             |         |                   |           |
+|    |                   |                    | Feb             |         |                   |           |
+|    |                   |                    | Jan             |         |                   |           |
+|    |                   |                    | Jul             |         |                   |           |
+|    |                   |                    | Jun             |         |                   |           |
+|    |                   |                    | Mar             |         |                   |           |
+|    |                   |                    | May             |         |                   |           |
+|    |                   |                    | Nov             |         |                   |           |
+|    |                   |                    | Oct             |         |                   |           |
+|    |                   |                    | Sep             |         |                   |           |
+|    |                   |                    | day_index       |         |                   |           |
+|    |                   |                    | day_of_year     |         |                   |           |
+|    |                   |                    | year            |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------

@@ -1,0 +1,530 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------
+    1            0.185227086715256  0.184382291834881  [0, 1, 2, 3, 4]
+    2            0.195772810670657  0.195580508428132  [0, 1, 2, 3, 4]
+    3            0.183799897734242  0.182392790024699  [0, 1, 2, 3, 4]
+    4            0.184024184765528  0.183781234988495  [0, 1, 2, 3, 4]
+    5            0.19094856270622   0.191112259551067  [0, 1, 2, 3, 4]
+Median RMSE for "DNN Regression Model": 0.18522708671525598
+Median RMSE for "Mean Model": 0.1843822918348805
+
+Test for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------
+    1  0.157960813561869  [0, 1, 2, 3, 4]
+    2  0.158000711006421  [0, 1, 2, 3, 4]
+    3  0.161489887333179  [0, 1, 2, 3, 4]
+    4  0.158383865262245  [0, 1, 2, 3, 4]
+    5  0.159792564501174  [0, 1, 2, 3, 4]
+Median RMSE for Test Data: 0.15838386526224477
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.185227086715256 |  0.184382291834881 | day_index    |       5 | 0.158383865262245 |         5 |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | day          |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | mo           |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------
+    1            0.191081884075204  0.19107520554373   [0, 1, 2, 3, 4]
+    2            0.186501056227794  0.186433777415497  [0, 1, 2, 3, 4]
+    3            0.182985366368573  0.188782231807805  [0, 1, 2, 3, 4]
+    4            0.191377526542779  0.191168845202176  [0, 1, 2, 3, 4]
+    5            0.185809197523881  0.185995522327066  [0, 1, 2, 3, 4]
+Median RMSE for "DNN Regression Model": 0.18650105622779437
+Median RMSE for "Mean Model": 0.18878223180780473
+
+Test for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------
+    1  0.15913453359902   [0, 1, 2, 3, 4]
+    2  0.159484937184293  [0, 1, 2, 3, 4]
+    3  0.162848759848723  [0, 1, 2, 3, 4]
+    4  0.159772089826214  [0, 1, 2, 3, 4]
+    5  0.158698396753954  [0, 1, 2, 3, 4]
+Median RMSE for Test Data: 0.1594849371842932
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.186501056227794 |  0.188782231807805 | day_index    |       5 | 0.159484937184293 |         5 |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | day          |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | mo           |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------
+    1            0.185051043980892  0.184973097392962  [0, 1, 2, 3, 4]
+    2            0.191110153175902  0.19236745371792   [0, 1, 2, 3, 4]
+    3            0.18414179824942   0.189598256950275  [0, 1, 2, 3, 4]
+    4            0.182224371106723  0.182235274232231  [0, 1, 2, 3, 4]
+    5            0.192710747301586  0.191945007130631  [0, 1, 2, 3, 4]
+Median RMSE for "DNN Regression Model": 0.18505104398089225
+Median RMSE for "Mean Model": 0.1895982569502752
+
+Test for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------
+    1  0.158556095646478  [0, 1, 2, 3, 4]
+    2  0.14736945735187   [0, 1, 2, 3, 4]
+    3  0.161486194661736  [0, 1, 2, 3, 4]
+    4  0.158690890218734  [0, 1, 2, 3, 4]
+    5  0.157986868767385  [0, 1, 2, 3, 4]
+Median RMSE for Test Data: 0.15855609564647805
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.185051043980892 |  0.189598256950275 | day_index    |       5 | 0.158556095646478 |         5 |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | day          |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | mo           |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------
+    1            0.185921472164279  0.185875101664127  [0, 1, 2, 3, 4]
+    2            0.211941508775613  0.187856294490152  [0, 1, 2, 3, 4]
+    3            0.251990675713597  0.190899095359593  [0, 1, 2, 3, 4]
+    4            0.225455555508965  0.185185094913183  [0, 1, 2, 3, 4]
+    5            0.18340361629232   0.189226663844226  [0, 1, 2, 3, 4]
+Median RMSE for "DNN Regression Model": 0.21194150877561305
+Median RMSE for "Mean Model": 0.18785629449015157
+
+Test for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------
+    1  0.158549732506301  [0, 1, 2, 3, 4]
+    2  0.164222543783028  [0, 1, 2, 3, 4]
+    3  0.183936196467007  [0, 1, 2, 3, 4]
+    4  0.223485046843925  [0, 1, 2, 3, 4]
+    5  0.184970293125945  [0, 1, 2, 3, 4]
+Median RMSE for Test Data: 0.18393619646700682
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.211941508775613 |  0.187856294490152 | day_index    |       5 | 0.183936196467007 |         5 |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | day          |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | mo           |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------
+    1            0.198859121995376  0.193167915142182  [0, 1, 2, 3, 4]
+    2            0.207738996617327  0.186146017584562  [0, 1, 2, 3, 4]
+    3            0.188815911824968  0.188808880013671  [0, 1, 2, 3, 4]
+    4            0.192428128685767  0.194830533845983  [0, 1, 2, 3, 4]
+    5            0.185598887666816  0.187415869734929  [0, 1, 2, 3, 4]
+Median RMSE for "DNN Regression Model": 0.1924281286857672
+Median RMSE for "Mean Model": 0.18880888001367094
+
+Test for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------
+    1  0.177516023736893  [0, 1, 2, 3, 4]
+    2  0.215044600061292  [0, 1, 2, 3, 4]
+    3  0.158798693743744  [0, 1, 2, 3, 4]
+    4  0.160614396234624  [0, 1, 2, 3, 4]
+    5  0.160342238402861  [0, 1, 2, 3, 4]
+Median RMSE for Test Data: 0.16061439623462448
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.192428128685767 |  0.188808880013671 | day_index    |       5 | 0.160614396234624 |         5 |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | day          |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | mo           |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------
+    1            0.182886791755227  0.186664742053976  [0, 1, 2, 3, 4]
+    2            0.210753122264636  0.186110902949297  [0, 1, 2, 3, 4]
+    3            0.182096259280456  0.182086174929304  [0, 1, 2, 3, 4]
+    4            0.182292387063744  0.188754936871902  [0, 1, 2, 3, 4]
+    5            0.230807338508578  0.189014510834485  [0, 1, 2, 3, 4]
+Median RMSE for "DNN Regression Model": 0.18288679175522732
+Median RMSE for "Mean Model": 0.18666474205397582
+
+Test for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------
+    1  0.185271674602958  [0, 1, 2, 3, 4]
+    2  0.166386351758134  [0, 1, 2, 3, 4]
+    3  0.158783144893059  [0, 1, 2, 3, 4]
+    4  0.184207009843455  [0, 1, 2, 3, 4]
+    5  0.240765277205912  [0, 1, 2, 3, 4]
+Median RMSE for Test Data: 0.18420700984345537
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.182886791755227 |  0.186664742053976 | day_index    |       5 | 0.184207009843455 |         5 |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | day          |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | mo           |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------
+    1            0.187694673919964  0.1903843730146    [0, 1, 2, 3, 4]
+    2            0.197541209651167  0.191533957241739  [0, 1, 2, 3, 4]
+    3            0.455132989106963  0.188560027361889  [0, 1, 2, 3, 4]
+    4            0.199688318951006  0.192209810504509  [0, 1, 2, 3, 4]
+    5            0.244588329155847  0.190638509430035  [0, 1, 2, 3, 4]
+Median RMSE for "DNN Regression Model": 0.19968831895100617
+Median RMSE for "Mean Model": 0.19063850943003494
+
+Test for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------
+    1  0.160882154840978  [0, 1, 2, 3, 4]
+    2  0.173049495164285  [0, 1, 2, 3, 4]
+    3  0.474713173751962  [0, 1, 2, 3, 4]
+    4  0.189795771867904  [0, 1, 2, 3, 4]
+    5  0.225619278803937  [0, 1, 2, 3, 4]
+Median RMSE for Test Data: 0.18979577186790403
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.199688318951006 |  0.190638509430035 | day_index    |       5 | 0.189795771867904 |         5 |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | day          |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | mo           |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------
+    1            0.39817710592909   0.184838649516032  [0, 1, 2, 3, 4]
+    2            0.594730049226122  0.17861000176688   [0, 1, 2, 3, 4]
+    3            0.234812468811366  0.182467005818132  [0, 1, 2, 3, 4]
+    4            0.223481010978527  0.189122295904189  [0, 1, 2, 3, 4]
+    5            0.575598599930026  0.183856332917165  [0, 1, 2, 3, 4]
+Median RMSE for "DNN Regression Model": 0.3981771059290903
+Median RMSE for "Mean Model": 0.1838563329171652
+
+Test for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------
+    1  0.415055292632091  [0, 1, 2, 3, 4]
+    2  0.648159963140208  [0, 1, 2, 3, 4]
+    3  0.134039914777448  [0, 1, 2, 3, 4]
+    4  0.145241241480287  [0, 1, 2, 3, 4]
+    5  0.603554115041187  [0, 1, 2, 3, 4]
+Median RMSE for Test Data: 0.41505529263209096
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |           Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |             RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+==================+====================+==============+=========+===================+===========+
+|  0 | 0.39817710592909 |  0.183856332917165 | day_index    |       5 | 0.415055292632091 |         5 |
+|    |                  |                    | day_of_year  |         |                   |           |
+|    |                  |                    | day          |         |                   |           |
+|    |                  |                    | year         |         |                   |           |
+|    |                  |                    | mo           |         |                   |           |
++----+------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------
+    1            0.456399836711027  0.185963021355556  [0, 1, 2, 3, 4]
+    2            0.382301948184235  0.191207847777222  [0, 1, 2, 3, 4]
+    3            0.256315368545248  0.187421870980081  [0, 1, 2, 3, 4]
+    4            0.413988309356782  0.188548904023869  [0, 1, 2, 3, 4]
+    5            0.23592900719533   0.190681349915402  [0, 1, 2, 3, 4]
+Median RMSE for "DNN Regression Model": 0.38230194818423485
+Median RMSE for "Mean Model": 0.1885489040238691
+
+Test for these predictors: 'day_index', 'day_of_year', 'day', 'year', 'mo'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------
+    1  0.489402703994182  [0, 1, 2, 3, 4]
+    2  0.424129778034541  [0, 1, 2, 3, 4]
+    3  0.233195609357853  [0, 1, 2, 3, 4]
+    4  0.461523824155387  [0, 1, 2, 3, 4]
+    5  0.192687234314623  [0, 1, 2, 3, 4]
+Median RMSE for Test Data: 0.4241297780345411
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Not One-Hot Encoded [dnn_1.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_1.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_1.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model        |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors   |    Runs |              RMSE |      Runs |
++====+===================+====================+==============+=========+===================+===========+
+|  0 | 0.382301948184235 |  0.188548904023869 | day_index    |       5 | 0.424129778034541 |         5 |
+|    |                   |                    | day_of_year  |         |                   |           |
+|    |                   |                    | day          |         |                   |           |
+|    |                   |                    | year         |         |                   |           |
+|    |                   |                    | mo           |         |                   |           |
++----+-------------------+--------------------+--------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------

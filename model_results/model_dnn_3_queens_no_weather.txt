@@ -1,0 +1,692 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.137864003039236  0.131558385169594  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.133838354342565  0.130178473304369  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.128491973484832  0.133927878292523  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.130720859009643  0.130845158748970  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.135010703128491  0.133439969472232  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.13383835434256536
+Median RMSE for "Mean Model": 0.131558385169594
+
+Test for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.106170442796365  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.108589145766809  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.143411549547319  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.125638529365800  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.108165459549443  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.10858914576680942
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.133838354342565 |  0.131558385169594 | Queens County |       5 | 0.108589145766809 |         5 |
+|    |                   |                    | Fri           |         |                   |           |
+|    |                   |                    | Mon           |         |                   |           |
+|    |                   |                    | Sat           |         |                   |           |
+|    |                   |                    | Sun           |         |                   |           |
+|    |                   |                    | Thu           |         |                   |           |
+|    |                   |                    | Tue           |         |                   |           |
+|    |                   |                    | Wed           |         |                   |           |
+|    |                   |                    | Apr           |         |                   |           |
+|    |                   |                    | Aug           |         |                   |           |
+|    |                   |                    | Dec           |         |                   |           |
+|    |                   |                    | Feb           |         |                   |           |
+|    |                   |                    | Jan           |         |                   |           |
+|    |                   |                    | Jul           |         |                   |           |
+|    |                   |                    | Jun           |         |                   |           |
+|    |                   |                    | Mar           |         |                   |           |
+|    |                   |                    | May           |         |                   |           |
+|    |                   |                    | Nov           |         |                   |           |
+|    |                   |                    | Oct           |         |                   |           |
+|    |                   |                    | Sep           |         |                   |           |
+|    |                   |                    | day_index     |         |                   |           |
+|    |                   |                    | day_of_year   |         |                   |           |
+|    |                   |                    | year          |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.126111534603859  0.126120914963973  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.137262430522255  0.137298190459560  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.132052138968850  0.132103376539783  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.130844209292261  0.130743962565031  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.128708696507011  0.134302312563693  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.13084420929226065
+Median RMSE for "Mean Model": 0.13210337653978269
+
+Test for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.126910516072784  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.122293421017848  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.127351041378827  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.130871512910370  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.152168465598910  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.12735104137882658
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.130844209292261 |  0.132103376539783 | Queens County |       5 | 0.127351041378827 |         5 |
+|    |                   |                    | Fri           |         |                   |           |
+|    |                   |                    | Mon           |         |                   |           |
+|    |                   |                    | Sat           |         |                   |           |
+|    |                   |                    | Sun           |         |                   |           |
+|    |                   |                    | Thu           |         |                   |           |
+|    |                   |                    | Tue           |         |                   |           |
+|    |                   |                    | Wed           |         |                   |           |
+|    |                   |                    | Apr           |         |                   |           |
+|    |                   |                    | Aug           |         |                   |           |
+|    |                   |                    | Dec           |         |                   |           |
+|    |                   |                    | Feb           |         |                   |           |
+|    |                   |                    | Jan           |         |                   |           |
+|    |                   |                    | Jul           |         |                   |           |
+|    |                   |                    | Jun           |         |                   |           |
+|    |                   |                    | Mar           |         |                   |           |
+|    |                   |                    | May           |         |                   |           |
+|    |                   |                    | Nov           |         |                   |           |
+|    |                   |                    | Oct           |         |                   |           |
+|    |                   |                    | Sep           |         |                   |           |
+|    |                   |                    | day_index     |         |                   |           |
+|    |                   |                    | day_of_year   |         |                   |           |
+|    |                   |                    | year          |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.135187144404576  0.134734130843580  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.130641946830209  0.130471508169440  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.129032630466184  0.129016883242351  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.129935341337727  0.129898653470797  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.131720232551050  0.131768019146153  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.13064194683020863
+Median RMSE for "Mean Model": 0.13047150816943953
+
+Test for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.113892692474684  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.123172356839045  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.127420137713055  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.121433520412915  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.130403038890873  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.1231723568390449
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.130641946830209 |  0.130471508169440 | Queens County |       5 | 0.123172356839045 |         5 |
+|    |                   |                    | Fri           |         |                   |           |
+|    |                   |                    | Mon           |         |                   |           |
+|    |                   |                    | Sat           |         |                   |           |
+|    |                   |                    | Sun           |         |                   |           |
+|    |                   |                    | Thu           |         |                   |           |
+|    |                   |                    | Tue           |         |                   |           |
+|    |                   |                    | Wed           |         |                   |           |
+|    |                   |                    | Apr           |         |                   |           |
+|    |                   |                    | Aug           |         |                   |           |
+|    |                   |                    | Dec           |         |                   |           |
+|    |                   |                    | Feb           |         |                   |           |
+|    |                   |                    | Jan           |         |                   |           |
+|    |                   |                    | Jul           |         |                   |           |
+|    |                   |                    | Jun           |         |                   |           |
+|    |                   |                    | Mar           |         |                   |           |
+|    |                   |                    | May           |         |                   |           |
+|    |                   |                    | Nov           |         |                   |           |
+|    |                   |                    | Oct           |         |                   |           |
+|    |                   |                    | Sep           |         |                   |           |
+|    |                   |                    | day_index     |         |                   |           |
+|    |                   |                    | day_of_year   |         |                   |           |
+|    |                   |                    | year          |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.120227974577207  0.126513863241731  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.132345410807830  0.132315637476393  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.125868346832984  0.133944970508673  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.121601791702913  0.121711494577972  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.130250185631127  0.130314152480121  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.12586834683298403
+Median RMSE for "Mean Model": 0.13031415248012124
+
+Test for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.135831970455924  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.124992067355806  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.123302279630550  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.126159307027290  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.126346451582858  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.12615930702729025
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.125868346832984 |  0.130314152480121 | Queens County |       5 | 0.126159307027290 |         5 |
+|    |                   |                    | Fri           |         |                   |           |
+|    |                   |                    | Mon           |         |                   |           |
+|    |                   |                    | Sat           |         |                   |           |
+|    |                   |                    | Sun           |         |                   |           |
+|    |                   |                    | Thu           |         |                   |           |
+|    |                   |                    | Tue           |         |                   |           |
+|    |                   |                    | Wed           |         |                   |           |
+|    |                   |                    | Apr           |         |                   |           |
+|    |                   |                    | Aug           |         |                   |           |
+|    |                   |                    | Dec           |         |                   |           |
+|    |                   |                    | Feb           |         |                   |           |
+|    |                   |                    | Jan           |         |                   |           |
+|    |                   |                    | Jul           |         |                   |           |
+|    |                   |                    | Jun           |         |                   |           |
+|    |                   |                    | Mar           |         |                   |           |
+|    |                   |                    | May           |         |                   |           |
+|    |                   |                    | Nov           |         |                   |           |
+|    |                   |                    | Oct           |         |                   |           |
+|    |                   |                    | Sep           |         |                   |           |
+|    |                   |                    | day_index     |         |                   |           |
+|    |                   |                    | day_of_year   |         |                   |           |
+|    |                   |                    | year          |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.110367802993437  0.131172922219184  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.399048935546325  0.139350060581267  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.121817549163567  0.129658189876337  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.131340220599456  0.131340050953737  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.153409081514850  0.137005915142344  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.1313402205994559
+Median RMSE for "Mean Model": 0.13134005095373716
+
+Test for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.124560956868865  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.337507284024293  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.137140040418846  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.126184230900361  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.142004513319689  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.13714004041884556
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.131340220599456 |  0.131340050953737 | Queens County |       5 | 0.137140040418846 |         5 |
+|    |                   |                    | Fri           |         |                   |           |
+|    |                   |                    | Mon           |         |                   |           |
+|    |                   |                    | Sat           |         |                   |           |
+|    |                   |                    | Sun           |         |                   |           |
+|    |                   |                    | Thu           |         |                   |           |
+|    |                   |                    | Tue           |         |                   |           |
+|    |                   |                    | Wed           |         |                   |           |
+|    |                   |                    | Apr           |         |                   |           |
+|    |                   |                    | Aug           |         |                   |           |
+|    |                   |                    | Dec           |         |                   |           |
+|    |                   |                    | Feb           |         |                   |           |
+|    |                   |                    | Jan           |         |                   |           |
+|    |                   |                    | Jul           |         |                   |           |
+|    |                   |                    | Jun           |         |                   |           |
+|    |                   |                    | Mar           |         |                   |           |
+|    |                   |                    | May           |         |                   |           |
+|    |                   |                    | Nov           |         |                   |           |
+|    |                   |                    | Oct           |         |                   |           |
+|    |                   |                    | Sep           |         |                   |           |
+|    |                   |                    | day_index     |         |                   |           |
+|    |                   |                    | day_of_year   |         |                   |           |
+|    |                   |                    | year          |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.120872387625891  0.132962343529815  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.131181265408823  0.131737190463229  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.126298827548670  0.126304511654007  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.132426238305408  0.132288212436818  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.130903998745780  0.130914087079254  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.13090399874578007
+Median RMSE for "Mean Model": 0.13173719046322876
+
+Test for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.139429259575241  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.161664975377205  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.125525444846483  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.123567665585829  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.125737291755363  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.12573729175536277
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.130903998745780 |  0.131737190463229 | Queens County |       5 | 0.125737291755363 |         5 |
+|    |                   |                    | Fri           |         |                   |           |
+|    |                   |                    | Mon           |         |                   |           |
+|    |                   |                    | Sat           |         |                   |           |
+|    |                   |                    | Sun           |         |                   |           |
+|    |                   |                    | Thu           |         |                   |           |
+|    |                   |                    | Tue           |         |                   |           |
+|    |                   |                    | Wed           |         |                   |           |
+|    |                   |                    | Apr           |         |                   |           |
+|    |                   |                    | Aug           |         |                   |           |
+|    |                   |                    | Dec           |         |                   |           |
+|    |                   |                    | Feb           |         |                   |           |
+|    |                   |                    | Jan           |         |                   |           |
+|    |                   |                    | Jul           |         |                   |           |
+|    |                   |                    | Jun           |         |                   |           |
+|    |                   |                    | Mar           |         |                   |           |
+|    |                   |                    | May           |         |                   |           |
+|    |                   |                    | Nov           |         |                   |           |
+|    |                   |                    | Oct           |         |                   |           |
+|    |                   |                    | Sep           |         |                   |           |
+|    |                   |                    | day_index     |         |                   |           |
+|    |                   |                    | day_of_year   |         |                   |           |
+|    |                   |                    | year          |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.124522050533331  0.130212732531348  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.107021033870046  0.129709291712408  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.118812394905235  0.128499953315115  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.107905789679071  0.133530297836157  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.141302586508945  0.130318187915763  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.11881239490523501
+Median RMSE for "Mean Model": 0.1302127325313482
+
+Test for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.125453984198898  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.137758583699800  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.131692347110379  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.150261758562302  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.206921938040940  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.13775858369980035
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.118812394905235 |  0.130212732531348 | Queens County |       5 | 0.137758583699800 |         5 |
+|    |                   |                    | Fri           |         |                   |           |
+|    |                   |                    | Mon           |         |                   |           |
+|    |                   |                    | Sat           |         |                   |           |
+|    |                   |                    | Sun           |         |                   |           |
+|    |                   |                    | Thu           |         |                   |           |
+|    |                   |                    | Tue           |         |                   |           |
+|    |                   |                    | Wed           |         |                   |           |
+|    |                   |                    | Apr           |         |                   |           |
+|    |                   |                    | Aug           |         |                   |           |
+|    |                   |                    | Dec           |         |                   |           |
+|    |                   |                    | Feb           |         |                   |           |
+|    |                   |                    | Jan           |         |                   |           |
+|    |                   |                    | Jul           |         |                   |           |
+|    |                   |                    | Jun           |         |                   |           |
+|    |                   |                    | Mar           |         |                   |           |
+|    |                   |                    | May           |         |                   |           |
+|    |                   |                    | Nov           |         |                   |           |
+|    |                   |                    | Oct           |         |                   |           |
+|    |                   |                    | Sep           |         |                   |           |
+|    |                   |                    | day_index     |         |                   |           |
+|    |                   |                    | day_of_year   |         |                   |           |
+|    |                   |                    | year          |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            0.122447118626687  0.133307928052724  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.417168959899126  0.138048149150185  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.728035418504685  0.132584805387698  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.115004579042818  0.129569731112289  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.249899731793281  0.139787126219953  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.2498997317932807
+Median RMSE for "Mean Model": 0.1333079280527238
+
+Test for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  0.129930007672018  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.418724014070959  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.770411999263731  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.143507489772024  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.171422616804455  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.1714226168044547
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.249899731793281 |  0.133307928052724 | Queens County |       5 | 0.171422616804455 |         5 |
+|    |                   |                    | Fri           |         |                   |           |
+|    |                   |                    | Mon           |         |                   |           |
+|    |                   |                    | Sat           |         |                   |           |
+|    |                   |                    | Sun           |         |                   |           |
+|    |                   |                    | Thu           |         |                   |           |
+|    |                   |                    | Tue           |         |                   |           |
+|    |                   |                    | Wed           |         |                   |           |
+|    |                   |                    | Apr           |         |                   |           |
+|    |                   |                    | Aug           |         |                   |           |
+|    |                   |                    | Dec           |         |                   |           |
+|    |                   |                    | Feb           |         |                   |           |
+|    |                   |                    | Jan           |         |                   |           |
+|    |                   |                    | Jul           |         |                   |           |
+|    |                   |                    | Jun           |         |                   |           |
+|    |                   |                    | Mar           |         |                   |           |
+|    |                   |                    | May           |         |                   |           |
+|    |                   |                    | Nov           |         |                   |           |
+|    |                   |                    | Oct           |         |                   |           |
+|    |                   |                    | Sep           |         |                   |           |
+|    |                   |                    | day_index     |         |                   |           |
+|    |                   |                    | day_of_year   |         |                   |           |
+|    |                   |                    | year          |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  ----------------------------------------------------------------------------------
+    1            1.292870085715632  0.129952545060201  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2            0.155288852173664  0.129646887800999  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3            0.853670843595397  0.126384856058411  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4            0.290041926030526  0.129259236772605  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5            0.415981900563151  0.130375085774120  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for "DNN Regression Model": 0.41598190056315093
+Median RMSE for "Mean Model": 0.12964688780099864
+
+Test for these predictors: 'Queens County', 'Fri', 'Mon', 'Sat', 'Sun', 'Thu', 'Tue', 'Wed', 'Apr', 'Aug', 'Dec', 'Feb', 'Jan', 'Jul', 'Jun', 'Mar', 'May', 'Nov', 'Oct', 'Sep', 'day_index', 'day_of_year', 'year'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  ----------------------------------------------------------------------------------
+    1  1.284598867697054  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    2  0.102056368324125  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    3  0.834248376038674  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    4  0.290015930408198  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+    5  0.415442608218067  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+Median RMSE for Test Data: 0.41544260821806683
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Queens County [dnn_3_queens.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_queens.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_queens.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model         |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors    |    Runs |              RMSE |      Runs |
++====+===================+====================+===============+=========+===================+===========+
+|  0 | 0.415981900563151 |  0.129646887800999 | Queens County |       5 | 0.415442608218067 |         5 |
+|    |                   |                    | Fri           |         |                   |           |
+|    |                   |                    | Mon           |         |                   |           |
+|    |                   |                    | Sat           |         |                   |           |
+|    |                   |                    | Sun           |         |                   |           |
+|    |                   |                    | Thu           |         |                   |           |
+|    |                   |                    | Tue           |         |                   |           |
+|    |                   |                    | Wed           |         |                   |           |
+|    |                   |                    | Apr           |         |                   |           |
+|    |                   |                    | Aug           |         |                   |           |
+|    |                   |                    | Dec           |         |                   |           |
+|    |                   |                    | Feb           |         |                   |           |
+|    |                   |                    | Jan           |         |                   |           |
+|    |                   |                    | Jul           |         |                   |           |
+|    |                   |                    | Jun           |         |                   |           |
+|    |                   |                    | Mar           |         |                   |           |
+|    |                   |                    | May           |         |                   |           |
+|    |                   |                    | Nov           |         |                   |           |
+|    |                   |                    | Oct           |         |                   |           |
+|    |                   |                    | Sep           |         |                   |           |
+|    |                   |                    | day_index     |         |                   |           |
+|    |                   |                    | day_of_year   |         |                   |           |
+|    |                   |                    | year          |         |                   |           |
++----+-------------------+--------------------+---------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------

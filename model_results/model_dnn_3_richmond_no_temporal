@@ -1,0 +1,553 @@
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.039954753004118  0.039516505700030  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.038257111831392  0.038273170774860  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.038465842850118  0.038517612757217  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.038323080355967  0.037996098856338  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.036977110479413  0.037060496052634  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.03832308035596683
+Median RMSE for "Mean Model": 0.038273170774860484
+
+Test for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.044944207155811  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.043124049211151  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.042679803093630  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.041076029564273  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.043963876653115  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.04312404921115113
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.038323080355967 |  0.038273170774860 | Richmond County |       5 | 0.043124049211151 |         5 |
+|    |                   |                    | temp            |         |                   |           |
+|    |                   |                    | dewp            |         |                   |           |
+|    |                   |                    | slp             |         |                   |           |
+|    |                   |                    | visib           |         |                   |           |
+|    |                   |                    | wdsp            |         |                   |           |
+|    |                   |                    | gust            |         |                   |           |
+|    |                   |                    | max             |         |                   |           |
+|    |                   |                    | min             |         |                   |           |
+|    |                   |                    | prcp            |         |                   |           |
+|    |                   |                    | sndp            |         |                   |           |
+|    |                   |                    | fog             |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.038569164930989  0.038223325472141  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2           12.408186154263575  0.036255845685269  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.036121149582530  0.035884274717992  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.038607157500243  0.038607874057471  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.037315952009004  0.037277745858074  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.038569164930988956
+Median RMSE for "Mean Model": 0.03727774585807371
+
+Test for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.046080949132097  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.045438415361022  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.045088812810457  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.042622365057973  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.044699966738557  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.04508881281045734
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.038569164930989 |  0.037277745858074 | Richmond County |       5 | 0.045088812810457 |         5 |
+|    |                   |                    | temp            |         |                   |           |
+|    |                   |                    | dewp            |         |                   |           |
+|    |                   |                    | slp             |         |                   |           |
+|    |                   |                    | visib           |         |                   |           |
+|    |                   |                    | wdsp            |         |                   |           |
+|    |                   |                    | gust            |         |                   |           |
+|    |                   |                    | max             |         |                   |           |
+|    |                   |                    | min             |         |                   |           |
+|    |                   |                    | prcp            |         |                   |           |
+|    |                   |                    | sndp            |         |                   |           |
+|    |                   |                    | fog             |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.038329963901125  0.038329969852154  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2          479.377177614451909  0.040284276891320  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.036866617968460  0.036850429053742  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.039688224380396  0.038344187911057  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.037538332057167  0.037535667771985  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.03832996390112457
+Median RMSE for "Mean Model": 0.03832996985215406
+
+Test for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.042915071562315  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.043526134204122  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.044228129947526  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.046314306067450  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.042813761104823  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.0435261342041216
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.1
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.038329963901125 |  0.038329969852154 | Richmond County |       5 | 0.043526134204122 |         5 |
+|    |                   |                    | temp            |         |                   |           |
+|    |                   |                    | dewp            |         |                   |           |
+|    |                   |                    | slp             |         |                   |           |
+|    |                   |                    | visib           |         |                   |           |
+|    |                   |                    | wdsp            |         |                   |           |
+|    |                   |                    | gust            |         |                   |           |
+|    |                   |                    | max             |         |                   |           |
+|    |                   |                    | min             |         |                   |           |
+|    |                   |                    | prcp            |         |                   |           |
+|    |                   |                    | sndp            |         |                   |           |
+|    |                   |                    | fog             |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median DNN Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [10, 9, 7]
+
++----+--------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |             Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |               RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+====================+====================+=================+=========+===================+===========+
+|  0 | 11.158861249943353 |  0.038693794319168 | Richmond County |       5 | 0.043196784566538 |         5 |
+|    |                    |                    | temp            |         |                   |           |
+|    |                    |                    | dewp            |         |                   |           |
+|    |                    |                    | slp             |         |                   |           |
+|    |                    |                    | visib           |         |                   |           |
+|    |                    |                    | wdsp            |         |                   |           |
+|    |                    |                    | gust            |         |                   |           |
+|    |                    |                    | max             |         |                   |           |
+|    |                    |                    | min             |         |                   |           |
+|    |                    |                    | prcp            |         |                   |           |
+|    |                    |                    | sndp            |         |                   |           |
+|    |                    |                    | fog             |         |                   |           |
++----+--------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.054652488135854  0.040181657555643  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.039394583133642  0.037882582231329  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.148614176835793  0.039590797695218  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.049698476697791  0.038021043981529  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.037145062870816  0.037166374636081  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.04969847669779109
+Median RMSE for "Mean Model": 0.03802104398152864
+
+Test for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.062506981796256  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.043852343500053  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.047193861024872  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.062004907463866  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.042884123549576  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.04719386102487188
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.049698476697791 |  0.038021043981529 | Richmond County |       5 | 0.047193861024872 |         5 |
+|    |                   |                    | temp            |         |                   |           |
+|    |                   |                    | dewp            |         |                   |           |
+|    |                   |                    | slp             |         |                   |           |
+|    |                   |                    | visib           |         |                   |           |
+|    |                   |                    | wdsp            |         |                   |           |
+|    |                   |                    | gust            |         |                   |           |
+|    |                   |                    | max             |         |                   |           |
+|    |                   |                    | min             |         |                   |           |
+|    |                   |                    | prcp            |         |                   |           |
+|    |                   |                    | sndp            |         |                   |           |
+|    |                   |                    | fog             |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.044605683736782  0.040568687286131  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.049682061692316  0.036392057257761  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.047128353030588  0.038728719980104  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.038841488144702  0.038842338118105  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.041199998209599  0.040218783985377  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.04460568373678227
+Median RMSE for "Mean Model": 0.03884233811810481
+
+Test for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.051075451821684  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.057875008576266  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.048567952659137  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.043096321042599  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.042816439984416  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.04856795265913707
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.01
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.044605683736782 |  0.038842338118105 | Richmond County |       5 | 0.048567952659137 |         5 |
+|    |                   |                    | temp            |         |                   |           |
+|    |                   |                    | dewp            |         |                   |           |
+|    |                   |                    | slp             |         |                   |           |
+|    |                   |                    | visib           |         |                   |           |
+|    |                   |                    | wdsp            |         |                   |           |
+|    |                   |                    | gust            |         |                   |           |
+|    |                   |                    | max             |         |                   |           |
+|    |                   |                    | min             |         |                   |           |
+|    |                   |                    | prcp            |         |                   |           |
+|    |                   |                    | sndp            |         |                   |           |
+|    |                   |                    | fog             |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.174565641120794  0.040152654326189  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2            0.153379097749517  0.038285705250490  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.057221578826558  0.037505899345688  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.034997857465788  0.034986562264014  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            0.249412979521379  0.037981070421913  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.15337909774951658
+Median RMSE for "Mean Model": 0.03798107042191266
+
+Test for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.171606357624667  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.167367392297817  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.090755262705230  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.043411776339093  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.330810048545688  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.16736739229781658
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [10, 9, 7]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.153379097749517 |  0.037981070421913 | Richmond County |       5 | 0.167367392297817 |         5 |
+|    |                   |                    | temp            |         |                   |           |
+|    |                   |                    | dewp            |         |                   |           |
+|    |                   |                    | slp             |         |                   |           |
+|    |                   |                    | visib           |         |                   |           |
+|    |                   |                    | wdsp            |         |                   |           |
+|    |                   |                    | gust            |         |                   |           |
+|    |                   |                    | max             |         |                   |           |
+|    |                   |                    | min             |         |                   |           |
+|    |                   |                    | prcp            |         |                   |           |
+|    |                   |                    | sndp            |         |                   |           |
+|    |                   |                    | fog             |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+Median DNN Regressor RMSE was value was over 1.0! Tables will not be drawn.
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [20, 18, 14]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 1.967801748485716 |  0.039857783005615 | Richmond County |       5 | 0.139518027364832 |         5 |
+|    |                   |                    | temp            |         |                   |           |
+|    |                   |                    | dewp            |         |                   |           |
+|    |                   |                    | slp             |         |                   |           |
+|    |                   |                    | visib           |         |                   |           |
+|    |                   |                    | wdsp            |         |                   |           |
+|    |                   |                    | gust            |         |                   |           |
+|    |                   |                    | max             |         |                   |           |
+|    |                   |                    | min             |         |                   |           |
+|    |                   |                    | prcp            |         |                   |           |
+|    |                   |                    | sndp            |         |                   |           |
+|    |                   |                    | fog             |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
+
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+------------------------------------------------------------------------------
+
+Model for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Model for these targets: 'NUM_COLLISIONS'
+
+  Run    DNN Regression Model RMSE    Mean Model RMSE  Predictors Columns
+-----  ---------------------------  -----------------  --------------------------------------
+    1            0.272627004294401  0.037891767781151  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2           33.363786065779060  0.037027235784947  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3            0.438484785798109  0.038934180011782  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4            0.354728476538333  0.038161718006259  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5            8.736643798419591  0.039440662056768  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for "DNN Regression Model": 0.4384847857981089
+Median RMSE for "Mean Model": 0.03816171800625907
+
+Test for these predictors: 'Richmond County', 'temp', 'dewp', 'slp', 'visib', 'wdsp', 'gust', 'max', 'min', 'prcp', 'sndp', 'fog'
+Test for these targets: 'NUM_COLLISIONS'
+
+  Run       Testing RMSE  Predictors Columns
+-----  -----------------  --------------------------------------
+    1  0.333897193835493  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    2  0.206780751145842  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    3  0.055796169393848  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    4  0.364699276749260  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    5  0.401394411748175  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Median RMSE for Test Data: 0.3338971938354928
+
+-------
+
+
+----------------------------------------------------------------
+Results Table of Median RMSE Results for DNN Regression Models
+----------------------------------------------------------------
+Tensor Flow DNN Regression Output
+Model dataset title: 2013 to 2019 - Richmond County [dnn_3_richmond.csv]
+Model dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/dnn_3_richmond.csv
+Model test dataset CSV: https://raw.githubusercontent.com/12004727uhi/12004727_DataAnalytics/master/sample_dnn_3_richmond.csv
+Model Learning Rate: 0.001
+Model Hidden Layers: [40, 36, 28]
+
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+|    |            Median |             Median | Model           |   Model |    Median Testing |   Testing |
+|    |              RMSE |   'Mean Model'RMSE | Predictors      |    Runs |              RMSE |      Runs |
++====+===================+====================+=================+=========+===================+===========+
+|  0 | 0.438484785798109 |  0.038161718006259 | Richmond County |       5 | 0.333897193835493 |         5 |
+|    |                   |                    | temp            |         |                   |           |
+|    |                   |                    | dewp            |         |                   |           |
+|    |                   |                    | slp             |         |                   |           |
+|    |                   |                    | visib           |         |                   |           |
+|    |                   |                    | wdsp            |         |                   |           |
+|    |                   |                    | gust            |         |                   |           |
+|    |                   |                    | max             |         |                   |           |
+|    |                   |                    | min             |         |                   |           |
+|    |                   |                    | prcp            |         |                   |           |
+|    |                   |                    | sndp            |         |                   |           |
+|    |                   |                    | fog             |         |                   |           |
++----+-------------------+--------------------+-----------------+---------+-------------------+-----------+
+
+------------------------------------------------------------------------------
